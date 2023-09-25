@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[ROD2-3]'
+  m_EditorClassIdentifier: 
+  day: 2
+  character: {fileID: 11400000, guid: 1eaf9835a5c668c44b05decb81854533, type: 2}
+  characterArt: 0
+  phone: 0
+  shopSelection: 0
+  internalThought: 0
+  physicalInteraction: 0
+  sounds:
+  - {fileID: 8300000, guid: b016c11b3a547c84f80446eb56a66837, type: 3}
+  line: "We\u2019ll be done by tonight. Then we leave tomorrow morning in time for
+    our space jump outta here."
+  next:
+  - choiceDependent: 0
+    previousChoice: 
+    button: 
+    narrativeItem: {fileID: 11400000, guid: d1a9dcde20610f0409d61f5269db33a9, type: 2}
+    shortenedLine: 
+  background: {fileID: 21300000, guid: 221d49fa40882ae4fafcc1a89af4a447, type: 3}
+  time: 

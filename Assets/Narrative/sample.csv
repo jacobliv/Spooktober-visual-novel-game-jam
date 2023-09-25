@@ -1,0 +1,13 @@
+ID,Next,Shortened Line/Correct choice,Phone,Shop Selection,Internal Thought,Physical Interaction,Sounds,Character,CharacterArt,Line
+[T8],[T9],,TRUE,FALSE,FALSE,FALSE,Pocket_Swoosh_2,Dmi,None, Sorry i didnt get to you yet. I was getting robbed. 
+[T9],[T10],,TRUE,FALSE,FALSE,FALSE,Text_4_vibrate,Cassiopeia,None, WHAT? 
+[T10],[T11],,TRUE,FALSE,FALSE,FALSE,,Dmi,None, chill, they didnt take anything. They were two beastmen but they didnt seem to be following their own plan. 
+[T11],[T12],,TRUE,FALSE,FALSE,FALSE,,Dmi,None, I didnt care much it's not like it's my gas station. i Think i hurt their feelings. 
+[T12],[T13],,TRUE,FALSE,FALSE,FALSE,,Dmi,None, u could say they were all bark and no bite. 
+[T13],[T14],,TRUE,FALSE,FALSE,FALSE,Text_4_vibrate,Cassiopeia,None, did u just…ugh. 
+[T14],[T15],,TRUE,FALSE,FALSE,FALSE,Text_4_vibrate,Cassiopeia,None, im going to ignore that for my own sanity. 
+[T15],[D2D-17],,TRUE,FALSE,FALSE,FALSE,Text_4_vibrate,Cassiopeia,None, like holy stars im so glad nothing happened. I dont even understand why u have to work there so close to doomsday… 
+[D2D-17],[D2D-18],,FALSE,FALSE,TRUE,FALSE,,None,None,I could tell where she was getting at. A day before the supernova and I still had no means of getting any tickets for a space jump. 
+[D2D-18],[T16],,FALSE,FALSE,FALSE,TRUE,,None,None,I drum my fingers on the desk and think of my next reply. 
+[T16],[T17],,TRUE,FALSE,FALSE,FALSE,,Dmi,None, Weird question, but what if we just couldn’t talk anymore? 
+[T17],[TDP8-1][TDN8-1],[Just curious…][You ask me dumb questions all the time.],TRUE,FALSE,FALSE,FALSE,Text_4_vibrate,Cassiopeia,None, what type of question is that 🙁 

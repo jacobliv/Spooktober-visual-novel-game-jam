@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accfdf869d55ca34fb7a8a114cff9043, type: 3}
+  m_Name: ColorPalette
+  m_EditorClassIdentifier: 
+  primaryColors:
+  - name: Purple
+    color: {r: 0.71158934, g: 0, b: 1, a: 1}
+  - name: Green
+    color: {r: 0.6876759, g: 0.9339623, b: 0.54187435, a: 1}
+  secondaryColors:
+  - name: Pink
+    color: {r: 1, g: 0, b: 0.635695, a: 1}
+  hoverColors: []
+  lightTextColor:
+    name: Yellow
+    color: {r: 0.8301887, g: 0.82287836, b: 0.49733, a: 1}
+  darkTextColor:
+    name: Blob
+    color: {r: 0, g: 0, b: 0, a: 0}
+  backgroundColor:
+    name: 
+    color: {r: 0, g: 0, b: 0, a: 0}
+  accentColor:
+    name: 
+    color: {r: 0, g: 0, b: 0, a: 0}

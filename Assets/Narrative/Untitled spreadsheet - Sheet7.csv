@@ -1,0 +1,149 @@
+[D3D-1],[D3D-2],,FALSE,FALSE,TRUE,FALSE,,,None,Doomsday. 
+[D3D-2],[D3D-3],,FALSE,FALSE,TRUE,FALSE,,,None,Feels a lot quieter than how I’d imagined it. 
+[D3D-3],[D3D-4],,FALSE,FALSE,TRUE,FALSE,,,None,"Well, most people evacuated… it makes sense it's this quiet. "
+[D3D-4],[D3D-4b],,FALSE,FALSE,TRUE,FALSE,,,None,"There’s no Flubber, no Rob, just me. "
+[D3D-4b],[T18],,FALSE,FALSE,FALSE,TRUE,Text_2,,None,-phone chimes- 
+[T18],[T19],,TRUE,FALSE,FALSE,FALSE,Pocket_Swoosh_2,Cassiopeia,None," Dmi, did you get my message about where to meet me at the Space Port? You haven’t been answering me since last night. "
+[T19],[T20],,TRUE,FALSE,FALSE,FALSE,,Dmi,None," Sorry, just been so busy. You know how it is. "
+[T20],[D3D-5],,TRUE,FALSE,FALSE,FALSE,Text_4_vibrate,Cassiopeia,None," What’s wrong with you? I would think this is a pretty big time to answer your messages! I mean, we got the last space jumps of the day! "
+[D3D-5],[D3D-6],,FALSE,FALSE,TRUE,FALSE,,,None,For once I feel tears threaten to fall from my face as I stare at my phone. 
+[D3D-6],[T21],,FALSE,FALSE,FALSE,TRUE,,,None,I wipe my face. Why am I such a loser? I don’t wanna weigh her down. I’m doing her a favor by not telling her! 
+[T21],[DD3-1a],,TRUE,FALSE,FALSE,FALSE,,Cassiopeia,None, Dmi? 
+[DD3-1a],[DD3-1],,FALSE,FALSE,FALSE,TRUE,Smoke_Detector_Beep_2,,None,-smoke alarm chirps- 
+[DD3-1],[D3D-7],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, Really? Today of all days? 
+[D3D-7],[D3D-8],,FALSE,FALSE,FALSE,FALSE,,,None,You’d think after all this time smoke alarms wouldn’t work the same way as they did hundreds of years ago. 
+[D3D-8],[AD1a],,FALSE,FALSE,FALSE,TRUE,,,None,"I tune it out as a busy myself with my normal routine. Cleaning, waiting, more cleaning, and more waiting. "
+[AD1a],[AD1],,FALSE,FALSE,FALSE,TRUE,Door_Chime-Door_Open,,None,-door opens and chimes- 
+[AD1],[D3D-9],,FALSE,FALSE,FALSE,FALSE,ALYANA1,Aiyana,Aiyana," Oh, wow. You’re actually open. "
+[D3D-9],[D3D-10],,FALSE,FALSE,FALSE,TRUE,,,Aiyana,My head whips up from where I was brooming from the already pristine floors. 
+[D3D-10],[TDP10-5],,FALSE,FALSE,FALSE,TRUE,,,Aiyana,Xey holds a phone in xeir hand. 
+[DD3-2],[D3D-11],,FALSE,FALSE,FALSE,FALSE,,Dmi,Aiyana," Oh, hey. Uh, what are you doing here? "
+[D3D-11],[D3D-12],,FALSE,FALSE,FALSE,TRUE,,,Aiyana,The person walks towards the counter. I walk behind it just as I usually would. 
+[D3D-12],[AD2],,FALSE,FALSE,FALSE,TRUE,Smoke_Detector_Beep_2,,Aiyana,Xey pause as xey look up at the chirping smoke alarm. I watch the gears turn as xey decide to ignore it. 
+[AD2],[DD3-3],,FALSE,FALSE,FALSE,FALSE,ALYANA2,Aiyana,Aiyana," I wanted to see if I can get a snack or something. My phone said this place was open. I wanted to grab something before going back home, to Earth. "
+[DD3-3],[D3D-13],,FALSE,FALSE,FALSE,FALSE,,Dmi,Aiyana, Earth? 
+[D3D-13],[AD3],,FALSE,FALSE,TRUE,FALSE,,,Aiyana,:/ you’re a jerk sometimes. u know that? 
+[AD3],[AD4],,FALSE,FALSE,FALSE,FALSE,ALYANA3,Aiyana,Aiyana," Yeah, some people actually still live there. "
+[AD4],[D3D-14],,FALSE,FALSE,FALSE,FALSE,ALYANA1,Aiyana,Aiyana, and by some people I mean me. 
+[D3D-14],[DD3-4],,FALSE,FALSE,FALSE,TRUE,,,Aiyana,I chuckle. 
+[DD3-4],[AD5],,FALSE,FALSE,FALSE,FALSE,,Dmi,Aiyana," Well, what are you looking for? I can help you pick out something. "
+[AD5],[AD6],,FALSE,FALSE,FALSE,FALSE,ALYANA3,Aiyana,Aiyana," Well, to be honest…I don’t really care. What do you think is good? "
+[AD6],[AD6b],,FALSE,FALSE,FALSE,FALSE,Alyana_Short,Aiyana,Aiyana, I’ll take anything. 
+[AD6b],[TDP10-1],,FALSE,TRUE,FALSE,TRUE,,,Aiyana,Please pick an item from the shop 
+[TDP10-1],[TDP10-2],,FALSE,FALSE,FALSE,FALSE,ALYANA1,Aiyana,Aiyana," Hmm, don’t think I’ve tried this before. "
+[TDP10-2],[TDP10-3],,FALSE,FALSE,FALSE,FALSE,Alyana_Short,Aiyana,Aiyana, How many luncos is it? 
+[TDP10-3],[TDP10-4],,FALSE,FALSE,FALSE,FALSE,,Dmi,Aiyana, I’d be crazy to make this company richer by charging you. 
+[TDP10-4],[TDP10-4a],,FALSE,FALSE,FALSE,FALSE,Alyana_Short,Aiyana,Aiyana, Just checking. 
+[TDP10-4a],[TDP10-5],,FALSE,FALSE,FALSE,FALSE,ALYANA1,Aiyana,Aiyana," So, what possessed you to clock in when you could be at home, or better yet, at the Space Port on your way out of here? "
+[TDP10-5],[TDP10-6],,FALSE,FALSE,FALSE,FALSE,,Dmi,Aiyana, Just a coward who thinks working at a gas station is more comfortable than confronting my problems head-on. 
+[TDP10-6],[TDP10-7],,FALSE,FALSE,FALSE,FALSE,,Dmi,Aiyana, What about you? 
+[TDP10-7],[TDP10-8],,FALSE,FALSE,FALSE,TRUE,,,Aiyana,Xey let out a bitter laugh. 
+[TDP10-8],[TDP10-9],,FALSE,FALSE,FALSE,FALSE,Alyana_Short,Aiyana,Aiyana, I stayed behind. 
+[TDP10-9],[TDP10-10],,FALSE,FALSE,FALSE,FALSE,ALYANA2,Aiyana,Aiyana," You might think it's stupid, but I want to stay with the Earth in its final moments. "
+[TDP10-10],[TDP10-11],,FALSE,FALSE,FALSE,FALSE,ALYANA1,Aiyana,Aiyana," Everyone left it behind, and I just don’t want to do the same. I did too much for that floating rock in space. I tried my best. "
+[TDP10-11],[TDP10-12],,FALSE,FALSE,FALSE,FALSE,,Dmi,Aiyana, You’re just going to get sent to hell with it? 
+[TDP10-12],[TDP10-13],,FALSE,FALSE,FALSE,FALSE,ALYANA2,Aiyana,Aiyana, That does make it sound cooler when you say it like that. 
+[TDP10-13],[TDP10-14],,FALSE,FALSE,FALSE,FALSE,,Dmi,Aiyana, I don’t really think it's stupid. 
+[TDP10-14],[TDP10-15],,FALSE,FALSE,FALSE,FALSE,,Dmi,Aiyana, What's your name? Might as well ask while we’re here. 
+[TDP10-15],[TDP10-16],,FALSE,FALSE,FALSE,FALSE,ALYANA3,Aiyana,Aiyana, It's Aiyana. Nothing special to it. 
+[TDP10-16],[TDP10-17],,FALSE,FALSE,FALSE,TRUE,,,Aiyana,Xey look at my name tag. I see as xeir eyes look back down to double check. 
+[TDP10-17],[TDP10-18],,FALSE,FALSE,FALSE,FALSE,Alyana_Short,Aiyana,Aiyana," Thanks for the free stuff, Dmi. "
+[TDP10-18],[TDP10-19],,FALSE,FALSE,FALSE,FALSE,,Dmi,Aiyana, It's no problem. Just enjoy it. Thanks for being my last customer. 
+[TDP10-19],[TDP10-20],,FALSE,FALSE,FALSE,FALSE,ALYANA1,Aiyana,Aiyana," For what it's worth, I think they deserve to know. There isn’t much time left. "
+[TDP10-20],[TDP10-21],,FALSE,FALSE,FALSE,FALSE,ALYANA3,Aiyana,Aiyana, I don’t think anyone should go out with regrets. 
+[TDP10-21],[TDP10-22],,FALSE,FALSE,FALSE,TRUE,,,Aiyana,Xey go over to the door. 
+[TDP10-22],[TDP10-22b],,FALSE,FALSE,FALSE,FALSE,ALYANA2,Aiyana,Aiyana," Also take out the batteries in that smoke alarm. You don’t have to be in hell already, jeez. "
+[TDP10-22b],[D3D-15a],,FALSE,FALSE,FALSE,TRUE,Door_Chime-Door_Close,,None,-door opens and closes with a chime- 
+[D3D-15a],[D3D-15],,FALSE,FALSE,FALSE,TRUE,,,None,I grab my broom and give the smoke alarm a solid SMACK. 
+[D3D-15],[D3D-16],,FALSE,FALSE,FALSE,TRUE,,,None,The thing falls to the ground. Aiyana was right about how annoying the noise is when you’re not ignoring it. 
+[D3D-16],[D3D-16b],,FALSE,FALSE,FALSE,TRUE,,,None,Time passes. 
+[D3D-16b],[PON-1],,FALSE,FALSE,FALSE,TRUE,Text_2,,None,-phone chimes- 
+[PON-1],[PON-2],,FALSE,FALSE,TRUE,FALSE,,,None,It's Cassiopeia. 
+[PON-2],[PON-3],,FALSE,FALSE,FALSE,TRUE,,,None,I pick up my phone but put it back down. 
+[PON-3],[PON-4],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, Sorry Cassie. Just focus on getting out of here. 
+[PON-4],[PON-5],,FALSE,FALSE,TRUE,FALSE,,,None,A sinking feeling forms in my stomach as I realize she stopped because its time for her to make her space jump. 
+[PON-5],[PON-6],,FALSE,FALSE,TRUE,FALSE,,,None,She gave up. 
+[PON-6],[PON-7],,FALSE,FALSE,TRUE,FALSE,,,None,I thought I could handle this. 
+[PON-7],[PON-8],,FALSE,FALSE,TRUE,FALSE,,,None,I thought I would be fine. 
+[PON-8],[PON-9],,FALSE,FALSE,TRUE,FALSE,,,None,Maybe it would have been better to just tell her. She must have cared if she wanted to speak to me so badly. 
+[PON-9],[PON-10],,FALSE,FALSE,FALSE,TRUE,,,None,I pull up a chair next to the window and take a seat. 
+[PON-10],[PON-11],,FALSE,FALSE,TRUE,FALSE,,,None,"Cosmic Fuel, the place to fill to your heart’s content… "
+[PON-11],[PON-12],,FALSE,FALSE,TRUE,FALSE,,,None,"Now, it is the place where my heart feels the most empty. "
+[PON-12],,,FALSE,FALSE,TRUE,FALSE,,,None,I’m an idiot. 
+[POP-1],[POP-2],,FALSE,FALSE,TRUE,FALSE,,,None,It's time to stop beating around the bush. 
+[POP-2],[POP-3],,TRUE,FALSE,FALSE,FALSE,Text_4_vibrate,Cassiopeia,None," Dmi, you’re actually scaring me. Why aren’t you answering? "
+[POP-3],[POP-4],,TRUE,FALSE,FALSE,FALSE,,Dmi,None, I can’t go to the Space Port. 
+[POP-4],[POP-5],,FALSE,FALSE,FALSE,TRUE,,,None,Silence. 
+[POP-5],[POP-6],,TRUE,FALSE,FALSE,FALSE,Text_4_vibrate,Cassiopeia,None, Are u at home? 
+[POP-6],[POP-7],,TRUE,FALSE,FALSE,FALSE,,Dmi,None, No. 
+[POP-7],[POP-8],,FALSE,FALSE,FALSE,TRUE,,,None,Silence. 
+[POP-8],[POP-9],,TRUE,FALSE,FALSE,FALSE,Text_4_vibrate,Cassiopeia,None, Give me a few minutes. 
+[POP-9],[POP-10],,TRUE,FALSE,FALSE,FALSE,,Dmi,None, What 
+[POP-10],[POP-11],,FALSE,FALSE,FALSE,TRUE,,,None,Cassiopeia stops replying. 
+[POP-11],[POP-12],,FALSE,FALSE,FALSE,TRUE,,,None,I stare at my phone before typing a few more replies. 
+[POP-12],[POP-13],,FALSE,FALSE,TRUE,FALSE,,,None,Nothing. 
+[POP-13],[POP-14],,FALSE,FALSE,TRUE,FALSE,,,None,Is she mad at me? I know this has gotta take the prize for one of the worst things to ever tell someone. 
+[POP-14],[POP-15],,FALSE,FALSE,TRUE,FALSE,,,None,Crap. 
+[POP-15],[POP-16],,FALSE,FALSE,TRUE,FALSE,,,None,"I should have just come clean earlier. Of course, she’s not going to take this well. WHO WOULD? "
+[POP-16],[POP-16b],,FALSE,FALSE,TRUE,FALSE,,,None,"I place my face in my hands and groan. For some reason, the entire universe has been shooting me signs to just come clean and here I am, a few hours from Doomsday and I just-- "
+[POP-16b],[POP-17],,FALSE,FALSE,FALSE,TRUE,Door_Chime-Door_Open,,None,-door opens and chimes- 
+[POP-17],[POP-18],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, Huh? 
+[POP-18],[POP-19],,FALSE,FALSE,FALSE,TRUE,,,None,Every atom in my body freezes as I look at the panting figure standing in the doorway. 
+[POP-19],[POP-20],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, C-Cassiopeia…? 
+[POP-20],[POP-21],,FALSE,FALSE,FALSE,FALSE,CASS1,Cassiopeia,None, You don’t know how hard it was for me to get here in the time I had left. 
+[POP-21],[POP-22],,FALSE,FALSE,FALSE,TRUE,,,None,She punches me immediately. 
+[POP-22],[POP-23],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, Ow! Cassie! 
+[POP-23],[POP-24],,FALSE,FALSE,FALSE,TRUE,,,None,She punches me again. 
+[POP-24],[POP-25],,FALSE,FALSE,FALSE,FALSE,CASS2,Cassiopeia,None, Don’t “Ow” me! YOU WOULD PICK NOW OUT OF ALL TIMES TO TELL ME YOU WEREN’T ABLE TO GET CLEARED FOR A SPACE JUMP? 
+[POP-25],[POP-26],,FALSE,FALSE,FALSE,TRUE,,,None,"She’s fuming, understandably so. "
+[POP-26],[POP-27],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, I’m sorry! I didn’t want you to worry about me! 
+[POP-27],[POP-28],,FALSE,FALSE,FALSE,FALSE,,Dmi,None," Also, things just weren’t the best. I…didn’t see how things would get better even if I found a way to go. "
+[POP-28],[POP-29],,FALSE,FALSE,FALSE,TRUE,,,None,Cassiopeia relaxes. 
+[POP-29],[POP-30],,FALSE,FALSE,FALSE,FALSE,Cassie_Short,Cassiopeia,None, Is anyone else here? 
+[POP-30],[POP-31],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, It's just me. 
+[POP-31],[POP-32],,FALSE,FALSE,FALSE,FALSE,CASS4,Cassiopeia,None, Do you guys sell Chai here? 
+[POP-32],[POP-33],,FALSE,FALSE,FALSE,TRUE,,,None,Chai has always been Cassiopeia’s choice for an end-of-the-world drink. We’ve had too many late-night “What-if?” conversations for me to not remember. 
+[POP-33],[POP-33],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, I’ll get that for you. 
+[POP-33],[POP-34],,FALSE,FALSE,FALSE,FALSE,Cassie_Short,Cassiopeia,None, Thanks Dmi. 
+[POP-34],[POP-35],,FALSE,FALSE,FALSE,TRUE,,,None,I change the settings of the hot drink machine to Chai and watch as the warm drink pours into the cup. 
+[POP-35],[POP-35],,FALSE,FALSE,TRUE,FALSE,,,None,Am I hallucinating? I don’t even remember the last place I’ve seen Cassiopeia in person. 
+[POP-35],[POP-36],,FALSE,FALSE,FALSE,TRUE,,,None,I place the cup down on the counter in front of me and push it toward her. 
+[POP-36],[POP-37],,FALSE,FALSE,FALSE,FALSE,Cassie_Short,Cassiopeia,None," Dmi, come. "
+[POP-37],[POP-38],,FALSE,FALSE,FALSE,TRUE,,,None,She moves over to the window with her Chai in hand. I grab my chair and an extra from behind the counter and drag them over to her. 
+[POP-38],[POP-38b],,FALSE,FALSE,FALSE,TRUE,,,None,She takes a long sip of her drink before sitting down. 
+[POP-38b],[POP-39],,FALSE,FALSE,FALSE,TRUE,Smoke_Detector_Beep_2,,None,-smoke alarm chirps- 
+[POP-39],[POP-40],,FALSE,FALSE,FALSE,TRUE,,,None,Cassiopeia searches for the sound. I grab a nearby broom. 
+[POP-40],[POP-41],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, Give me a second. 
+[POP-41],[POP-42],,FALSE,FALSE,FALSE,TRUE,,,None,I land a solid SMACK at the smoke alarm and watch as it falls to pieces. 
+[POP-42],[POP-43],,FALSE,FALSE,FALSE,TRUE,,,None,Cassiopeia doesn’t say a word as I bring myself next to her. 
+[POP-43],[POP-44],,FALSE,FALSE,FALSE,FALSE,Cassie_Short,Cassiopeia,None, As I was saying… 
+[POP-44],[POP-45],,FALSE,FALSE,FALSE,FALSE,CASS4,Cassiopeia,None, Did you ever think about what happens after the supernova if you never told me? 
+[POP-45],[POP-46],,FALSE,FALSE,FALSE,FALSE,,Dmi,None," You’d carry on without me. Probably. Cassie, you’re not even going to make it back in time! "
+[POP-46],[POP-47],,FALSE,FALSE,FALSE,TRUE,,,None,Cassiopeia doesn’t answer. She takes another sip of her cheap gas station Chai. 
+[POP-47],[POP-48],,FALSE,FALSE,FALSE,FALSE,CASS3,Cassiopeia,None," Nice try. Dmi, you’re one of the most important people to me. "
+[POP-48],[POP-49],,FALSE,FALSE,FALSE,FALSE,CASS1,Cassiopeia,None, I’m here because I want to be here with you! 
+[POP-49],[POP-50],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, Cass-- 
+[POP-50],[POP-51],,FALSE,FALSE,FALSE,FALSE,CASS2,Cassiopeia,None, You have been giving me the slip for days and I knew something was up! 
+[POP-51],[POP-52],,FALSE,FALSE,FALSE,TRUE,,,None,Tears well up in my eyes. I can’t help it. 
+[POP-52],[POP-53],,FALSE,FALSE,FALSE,FALSE,Cassie_Short,Cassiopeia,None, Dmi? Come on… 
+[POP-53],[POP-54],,FALSE,FALSE,FALSE,TRUE,,,None,She takes me into her arms before she wipes at my tears. She holds my face in her hands. I can’t pinpoint the emotion I see in her face. 
+[POP-54],[POP-55],,FALSE,FALSE,TRUE,FALSE,,,None,Was it pity? 
+[POP-55],[POP-56],,FALSE,FALSE,FALSE,FALSE,CASS1,Cassiopeia,None, I want to be here with you. Don’t cry. 
+[POP-56],[POP-57],,FALSE,FALSE,TRUE,FALSE,,,None,…love? Was that it? 
+[POP-57],[POP-58],,FALSE,FALSE,FALSE,FALSE,,Dmi,None," I wish we had more time. I wish we could have done more things together, or had a chance to just live in another galaxy. Or at least you should be able to leave-- "
+[POP-58],[POP-59],,FALSE,FALSE,FALSE,TRUE,,,None,Cassiopeia wipes at my tears some more. I see her own tears threaten to fall. 
+[POP-59],[POP-60],,FALSE,FALSE,FALSE,FALSE,CASS3,Cassiopeia,None, I don’t want to leave without you. 
+[POP-60],[POP-60b],,FALSE,FALSE,FALSE,TRUE,,,None,I wipe at my own tears. 
+[POP-60b],[TPOP-1],,FALSE,FALSE,FALSE,TRUE,Text_2,,None,Phone chimes 
+[TPOP-1],[POP-61],,TRUE,FALSE,FALSE,FALSE,,DEIMOS MOON WARNING,None, SUPERNOVA IMMINENT. EVACUATE IMMEDIATELY. 
+[POP-61],[POP-62],,FALSE,FALSE,FALSE,FALSE,,Dmi,None, A little late for that isn’t it? 
+[POP-62],[POP-63],,FALSE,FALSE,FALSE,TRUE,,,None,I scoot my chair closer to Cassiopeia. She’s a beacon in this time where I thought I would be alone. 
+[POP-63],[POP-64],,FALSE,FALSE,FALSE,TRUE,,,None,I didn’t think I would be ready for this. I still don’t think I am. 
+[POP-64],[POP-65],,FALSE,FALSE,FALSE,TRUE,,,None,Cassiopeia takes my hand and smiles as she gives it a squeeze. 
+[POP-65],[POP-66],,FALSE,FALSE,TRUE,FALSE,,,None,Okay… 
+[POP-66],[POP-67],,FALSE,FALSE,TRUE,FALSE,,,None,Alright… 
+[POP-67],[POP-68],,FALSE,FALSE,FALSE,FALSE,,Dmi,None," Thank you, Cassie. "
+[POP-68],[POP-69],,FALSE,FALSE,FALSE,TRUE,,,None,"She chuckles, somehow she’s still smug even now. "
+[POP-69],[POP-70],,FALSE,FALSE,FALSE,FALSE,Cassie_Short,Cassiopeia,None," I love you too, Dmi. "
+[POP-70],[POP-71],,FALSE,FALSE,FALSE,TRUE,,,None,I return her laugh as our world goes white. 
+[POP-71],,,FALSE,FALSE,TRUE,FALSE,,,None,I was never really alone. 

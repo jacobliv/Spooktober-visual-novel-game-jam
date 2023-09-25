@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[DD2-12]'
+  m_EditorClassIdentifier: 
+  day: 2
+  character: {fileID: 11400000, guid: 0719a1f04fb06c2458b1975e5fa7f7b4, type: 2}
+  characterArt: 7
+  phone: 0
+  shopSelection: 0
+  internalThought: 0
+  physicalInteraction: 0
+  sounds: []
+  line: "Is there something in particular you\u2019re looking for or\u2026? "
+  next:
+  - choiceDependent: 0
+    previousChoice: 
+    button: 
+    narrativeItem: {fileID: 11400000, guid: 68de3e039ec62dc4abaa0934f22ed771, type: 2}
+    shortenedLine: 
+  background: {fileID: 21300000, guid: 221d49fa40882ae4fafcc1a89af4a447, type: 3}
+  time: 

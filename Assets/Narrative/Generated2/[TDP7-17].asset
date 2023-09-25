@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[TDP7-17]'
+  m_EditorClassIdentifier: 
+  day: 2
+  character: {fileID: 0}
+  characterArt: 8
+  phone: 0
+  shopSelection: 0
+  internalThought: 0
+  physicalInteraction: 1
+  sounds: []
+  line: Romulus sets a pile of luncos on the counter.
+  next:
+  - choiceDependent: 0
+    previousChoice: 
+    button: 
+    narrativeItem: {fileID: 11400000, guid: 1bcb620f5ec67ce4fa0c074d9eb8640a, type: 2}
+    shortenedLine: 
+  background: {fileID: 21300000, guid: 221d49fa40882ae4fafcc1a89af4a447, type: 3}
+  time: 

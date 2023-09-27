@@ -57,11 +57,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: Lexend-Medium SDF
+  m_Name: Lexend-Medium SDF No Outline
   m_EditorClassIdentifier: 
-  hashCode: -1661521825
+  hashCode: 1261474750
   material: {fileID: 5813580538727674848}
-  materialHashCode: -442713313
+  materialHashCode: 1854462430
   m_Version: 1.1.0
   m_SourceFontFileGUID: 401bbb1658818a3498ad5d820e8a2057
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 401bbb1658818a3498ad5d820e8a2057, type: 3}
@@ -2143,7 +2143,7 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0.313
+    - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
     - _ScaleRatioA: 0.9

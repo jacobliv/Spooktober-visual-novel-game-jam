@@ -7,29 +7,46 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "Narrative", menuName = "Narrative/Narrative Item")]
 public class NarrationItem : ScriptableObject {
     public string id;
+    [TextArea,Tooltip("Text that is spoken by the character")]
+    public string line;
     [Tooltip("Day the narration occurs")]
     public Day                 day;
     [Tooltip("Character who is speaking")]
     public Character character;
 
     public CharacterEnum characterArt;
-
-    public bool internalThought;
-    public bool physicalInteraction;
-
-    [Tooltip("Sounds that play in order from the beginning of the narration")]
-    public List<AudioClip> sounds;
-    [TextArea,Tooltip("Text that is spoken by the character")]
-    public string line;
-    [Tooltip("Next Narrative item. 1 or more")]
-    public List<NextNarrative> next;
-
+    public DialogueType  dialogueType;
     [Tooltip("Image to be displayed behind the characters")]
     public Sprite background;
+    [Tooltip("Next Narrative item 1")]
+    public NextNarrative next1;
+    
+    [Tooltip("Next Narrative item 2 - for use for multiple choices")]
+    public NextNarrative next2;
+    [Tooltip("Sounds that play in order from the beginning of the narration")]
+    public List<AudioClip> sounds;
+    public AudioClip music;
+
+
+
+}
+
+public enum DialogueType {
+    Internal,
+    Physical,
+    Dialogue
 }
 
 public enum CharacterEnum {
-    // CharacterNames
+    Omar,
+    Iggy_Bumdeez,
+    Spooky_Grimmother,
+    Leah_Coner,
+    Mason_Vorcheese,
+    Ms_Gin,
+    Edie_Fruguer,
+    Grumpy_Old_Man,
+    Akilla_Karrington,
     None
 }
 

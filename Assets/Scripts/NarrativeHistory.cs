@@ -13,13 +13,15 @@ public class NarrativeHistory : MonoBehaviour {
     public List<NarrationItem> linearHistory   = new();
     public int                 positiveActions = 0;
 
-    public void AddNarrativeHistory(NarrationItem currentNarrativeItem,int option) {
-        if(currentNarrativeItem.next.Count<2) return;
-        positiveActions+=currentNarrativeItem.next[option].positive;
+    public void AddNarrativeHistory(NarrationItem currentNarrativeItem,NextNarrative next) {
+        linearHistory.Add(currentNarrativeItem);
+
+        if(currentNarrativeItem.next2 == null) return;
+        positiveActions+=next.positive;
         choices += 1;
         Character character = currentNarrativeItem.character;
-        positiveValue[currentNarrativeItem.next[option].narrativeItem.name] = currentNarrativeItem.next[option].positive;
-        narrativeHistory[character!=null ?character.name: "Narrator"]=new CharacterHistory().AddHistory(currentNarrativeItem.next[option].shortenedLine);
+        positiveValue[next.narrativeItem.id] = next.positive;
+        narrativeHistory[character!=null ?character.name: "Narrator"]=new CharacterHistory().AddHistory(next.shortenedLine);
 
     }
 

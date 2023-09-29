@@ -22,6 +22,9 @@ public class NarrativeManager : MonoBehaviour {
     public NarrationItem    startingNarrativeItem;
     public NarrationItem    currentNarrativeItem;
     public GameObject       creditsCanvas;
+    public CharacterArtList characterArtList;
+    public BackgroundArt    backgroundArt;
+    public SoundList        soundList;
     #endregion
 
     #region Audio
@@ -79,8 +82,8 @@ public class NarrativeManager : MonoBehaviour {
         NextNarrative next = option == 0 ? currentNarrativeItem.next1 : currentNarrativeItem.next2;
         SaveChoice(next);
         Debug.Log(currentNarrativeItem+"    "+historyManager);
-        
-        historyManager.Add(currentNarrativeItem.name,(currentNarrativeItem.character !=null?currentNarrativeItem.character.name:""),currentNarrativeItem.line);
+        // TODO READD THISS
+        // historyManager.Add(currentNarrativeItem.name,(currentNarrativeItem.character !=null?currentNarrativeItem.character.name:""),currentNarrativeItem.line);
         currentNarrativeItem = next.narrativeItem;
     }
     
@@ -134,7 +137,7 @@ public class NarrativeManager : MonoBehaviour {
 
 
         // update background
-        background.sprite = currentNarrativeItem.background;
+        background.sprite = backgroundArt.backgroundArt.Find(a=>a.art.Equals(currentNarrativeItem.background)).sprite;
         _audioCoroutine=StartCoroutine(PlayAudioClips());
 
         
@@ -142,7 +145,6 @@ public class NarrativeManager : MonoBehaviour {
     }
     private void UpdateSpokenText() {
         SetupText();
-        background.sprite = currentNarrativeItem.background;
 
         // FIXME Look into this a bit more
         if (currentNarrativeItem.next2 != null) {
@@ -163,9 +165,10 @@ public class NarrativeManager : MonoBehaviour {
         }
         dialogueUI.lineText.text = currentNarrativeItem.line;
         dialogueUI.animateIn.AnimateText();
-        dialogueUI.characterName.text = currentNarrativeItem.character != null
-            ? $"{currentNarrativeItem.character.name}: {currentNarrativeItem.character.title}"
-            : "";
+        // TODO READD THIS
+        // dialogueUI.characterName.text = currentNarrativeItem.character != null
+        //     ? $"{currentNarrativeItem.character.name}: {currentNarrativeItem.character.title}"
+        //     : "";
     }
 
     private void SetSpokenTextDefaults() {
@@ -176,15 +179,15 @@ public class NarrativeManager : MonoBehaviour {
     }
 
     private IEnumerator PlayAudioClips() {
-        foreach (AudioClip clip in currentNarrativeItem.sounds) {
-            audioSource.clip = clip;
+        foreach (Sounds clip in currentNarrativeItem.sounds) {
+            audioSource.clip = soundList.sounds.Find(s=>s.sound.Equals(clip)).audioClip;
             audioSource.Play();
             yield return new WaitWhile(() => audioSource.isPlaying);
         }
     }
 
     public void SetupCharacter() {
-        if (currentNarrativeItem.characterArt == CharacterEnum.None) {
+        if (currentNarrativeItem.characterArt == Art.NA) {
             characterCanvas.SetActive(false);
 
         }

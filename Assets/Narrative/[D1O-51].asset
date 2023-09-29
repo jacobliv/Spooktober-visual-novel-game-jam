@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D1O-51]'
+  m_EditorClassIdentifier: 
+  id: '[D1O-51]'
+  line: "I\u2019m not dodging, I\u2019m not dodging. I\u2019m still trying to figure
+    out what happened to me. The last few weeks are kind of a blur, and definitely
+    not in a fun way."
+  day: 1
+  character: 0
+  characterArt: 1
+  dialogueType: 2
+  background: 35
+  next1:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    positive: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    positive: 0
+  sounds: 
+  music: 0
+  ambience: 16

@@ -19,9 +19,11 @@ public class NarrativeHistory : MonoBehaviour {
         if(currentNarrativeItem.next2 == null) return;
         positiveActions+=next.positive;
         choices += 1;
-        Character character = currentNarrativeItem.character;
+        // TODO ADD BACK IN
+        // Character character = currentNarrativeItem.character;
         positiveValue[next.narrativeItem.id] = next.positive;
-        narrativeHistory[character!=null ?character.name: "Narrator"]=new CharacterHistory().AddHistory(next.shortenedLine);
+        // TODO ADD BACK IN
+        // narrativeHistory[character!=null ?character.name: "Narrator"]=new CharacterHistory().AddHistory(next.shortenedLine);
 
     }
 

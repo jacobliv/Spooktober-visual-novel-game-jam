@@ -12,21 +12,21 @@ public class NarrationItem : ScriptableObject {
     [Tooltip("Day the narration occurs")]
     public Day                 day;
     [Tooltip("Character who is speaking")]
-    public Character character;
+    public CharacterEnum character;
 
-    public CharacterEnum characterArt;
+    public Art characterArt;
     public DialogueType  dialogueType;
     [Tooltip("Image to be displayed behind the characters")]
-    public Sprite background;
+    public Art background;
     [Tooltip("Next Narrative item 1")]
     public NextNarrative next1;
     
     [Tooltip("Next Narrative item 2 - for use for multiple choices")]
     public NextNarrative next2;
     [Tooltip("Sounds that play in order from the beginning of the narration")]
-    public List<AudioClip> sounds;
-    public AudioClip music;
-
+    public List<Sounds> sounds;
+    public Sounds music;
+    public Sounds ambience;
 
 
 }
@@ -47,6 +47,7 @@ public enum CharacterEnum {
     Edie_Fruguer,
     Grumpy_Old_Man,
     Akilla_Karrington,
+    Unknown,
     None
 }
 

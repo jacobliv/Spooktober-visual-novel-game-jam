@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D1O-96]'
+  m_EditorClassIdentifier: 
+  id: '[D1O-96]'
+  line: "Maybe the initials on the blanket are the same as someone on the registry.
+    If I find the right person then I can just say I\u2019m returning the blanket
+    and they\u2019ll let me in. Best case scenario they can tell me about how I died."
+  day: 1
+  character: 0
+  characterArt: 33
+  dialogueType: 2
+  background: 40
+  next1:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    positive: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    positive: 0
+  sounds: 
+  music: 0
+  ambience: 15

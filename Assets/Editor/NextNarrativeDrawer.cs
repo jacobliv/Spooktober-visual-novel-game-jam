@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-[CustomPropertyDrawer(typeof(NextNarrative))]
+// [CustomPropertyDrawer(typeof(NextNarrative))]
 public class NextNarrativeDrawer : PropertyDrawer
 {
     private ButtonManager buttonManager;

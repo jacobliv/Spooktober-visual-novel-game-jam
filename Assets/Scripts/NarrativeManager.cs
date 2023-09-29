@@ -57,7 +57,7 @@ public class NarrativeManager : MonoBehaviour {
 
     public void AdvanceNarrative(int option = 0) {
         StopPreviousItem();
-        if (currentNarrativeItem.next.Count == 0) {
+        if (currentNarrativeItem.next1 == null && currentNarrativeItem.next2 == null) {
             creditsCanvas.SetActive(true);
             return;
         }
@@ -72,20 +72,20 @@ public class NarrativeManager : MonoBehaviour {
 
     private void MoveNarrativeForward(int option) {
         if (option == -1) return;
-        if (currentNarrativeItem.next.Count - 1 < option || currentNarrativeItem.next[option].narrativeItem == null) {
+        if ((option==1 && currentNarrativeItem.next2==null) || currentNarrativeItem.next1.narrativeItem == null) {
             Debug.LogWarning($"Current narrative doesn't have a next at index {option}");
         }
 
-        SaveChoice(option);
+        NextNarrative next = option == 0 ? currentNarrativeItem.next1 : currentNarrativeItem.next2;
+        SaveChoice(next);
         Debug.Log(currentNarrativeItem+"    "+historyManager);
         
         historyManager.Add(currentNarrativeItem.name,(currentNarrativeItem.character !=null?currentNarrativeItem.character.name:""),currentNarrativeItem.line);
-        currentNarrativeItem = currentNarrativeItem.next[option].narrativeItem;
+        currentNarrativeItem = next.narrativeItem;
     }
     
-    private void SaveChoice(int option) {
-        _narrativeHistory.linearHistory.Add(currentNarrativeItem);
-        _narrativeHistory.AddNarrativeHistory(currentNarrativeItem,option);
+    private void SaveChoice(NextNarrative next) {
+        _narrativeHistory.AddNarrativeHistory(currentNarrativeItem,next);
     }
 
     public void GoBack() {
@@ -102,13 +102,11 @@ public class NarrativeManager : MonoBehaviour {
     
 
     private void PrepareNarrativeArea() {
-        if(currentNarrativeItem.next.Count <1) return;
+        if(currentNarrativeItem.next1 == null && currentNarrativeItem.next2 == null) return;
         characterImage.sprite = null;
         characterImage.color=Color.clear;
 
         SetSpokenTextDefaults();
-
-        
     }
 
     private void StopPreviousItem() {
@@ -147,20 +145,20 @@ public class NarrativeManager : MonoBehaviour {
         background.sprite = currentNarrativeItem.background;
 
         // FIXME Look into this a bit more
-        if (currentNarrativeItem.next.Count > 1) {
+        if (currentNarrativeItem.next2 != null) {
             dialogueUI.multiDialogueChoicePanel.SetActive(true);
             dialogueUI.dialogueNavigationButtonPanel.SetActive(false);
-            dialogueUI.multiDialogueChoice1.text = currentNarrativeItem.next[0].shortenedLine;
-            dialogueUI.multiDialogueChoice2.text = currentNarrativeItem.next[1].shortenedLine;
+            dialogueUI.multiDialogueChoice1.text = currentNarrativeItem.next1.shortenedLine;
+            dialogueUI.multiDialogueChoice2.text = currentNarrativeItem.next2.shortenedLine;
         } 
 
     }
 
     private void SetupText() {
-        if (currentNarrativeItem.internalThought) {
+        if (currentNarrativeItem.dialogueType.Equals(DialogueType.Internal)) {
             dialogueUI.lineText.fontStyle = FontStyles.Italic;
         }
-        if (currentNarrativeItem.physicalInteraction) {
+        if (currentNarrativeItem.dialogueType.Equals(DialogueType.Physical)) {
             dialogueUI.lineText.fontStyle = FontStyles.Bold;
         }
         dialogueUI.lineText.text = currentNarrativeItem.line;

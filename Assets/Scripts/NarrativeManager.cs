@@ -24,8 +24,8 @@ public class NarrativeManager : MonoBehaviour {
     public GameObject               creditsCanvas;
     public CharacterArtList         characterArtList;
     public CharacterList            characterList;
-    public SoundList                soundList;
     #endregion
+
     #region Background
 
     [Header("Background")] 
@@ -36,7 +36,9 @@ public class NarrativeManager : MonoBehaviour {
     #region Audio
     [Header("Audio")]
     public  AudioSource audioSource;
-    private Coroutine   _audioCoroutine;
+    private Coroutine _sfxCoroutine;
+    public  SoundList soundList;
+
     #endregion
     
     #region Multi Choice Dialogue
@@ -121,8 +123,8 @@ public class NarrativeManager : MonoBehaviour {
     }
 
     private void StopPreviousItem() {
-        if(_audioCoroutine != null) {
-            StopCoroutine(_audioCoroutine);
+        if(_sfxCoroutine != null) {
+            StopCoroutine(_sfxCoroutine);
         }        
         if(audioSource != null) {
             audioSource.Stop();
@@ -143,8 +145,7 @@ public class NarrativeManager : MonoBehaviour {
         UpdateSpokenText(); 
         SetupCharacter();
 
-        _audioCoroutine=StartCoroutine(PlayAudioClips());
-
+        _sfxCoroutine=StartCoroutine(PlaySFXAudioClips());
         
         
     }
@@ -177,9 +178,9 @@ public class NarrativeManager : MonoBehaviour {
         if (currentNarrativeItem.dialogueType.Equals(DialogueType.Internal)) {
             dialogueUI.lineText.fontStyle = FontStyles.Italic;
         }
-        if (currentNarrativeItem.dialogueType.Equals(DialogueType.Physical)) {
-            dialogueUI.lineText.fontStyle = FontStyles.Bold;
-        }
+        // if (currentNarrativeItem.dialogueType.Equals(DialogueType.Physical)) {
+        //     dialogueUI.lineText.fontStyle = FontStyles.Bold;
+        // }
         dialogueUI.lineText.text = currentNarrativeItem.line;
         dialogueUI.animateIn.AnimateText();
         dialogueUI.characterName.text = currentNarrativeItem.character != null
@@ -194,7 +195,7 @@ public class NarrativeManager : MonoBehaviour {
         dialogueUI.lineText.fontStyle = FontStyles.Normal;
     }
 
-    private IEnumerator PlayAudioClips() {
+    private IEnumerator PlaySFXAudioClips() {
         foreach (Sounds clip in currentNarrativeItem.sounds) {
             audioSource.clip = soundList.sounds.Find(s=>s.sound.Equals(clip)).audioClip;
             audioSource.Play();

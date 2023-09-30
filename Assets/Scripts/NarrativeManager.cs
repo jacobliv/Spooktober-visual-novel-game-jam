@@ -23,10 +23,16 @@ public class NarrativeManager : MonoBehaviour {
     public NarrationItem    currentNarrativeItem;
     public GameObject       creditsCanvas;
     public CharacterArtList characterArtList;
+    public CharacterList    characterList;
     public BackgroundArt    backgroundArt;
     public SoundList        soundList;
     #endregion
+    #region Background
 
+    [Header("Background")] 
+    public GameObject pizzaPlace;
+    public GameObject currentBackground;
+    #endregion
     #region Audio
     [Header("Audio")]
     public  AudioSource audioSource;
@@ -147,7 +153,9 @@ public class NarrativeManager : MonoBehaviour {
     private void UpdateOnScreenCharacters() {
         // update whoever is showing on screen
         // update whoever is active in current background/scene for shading
-        // 
+        // update character expressions
+        currentBackground.GetComponent<CharacterPositionManager>().ManagePositions(currentNarrativeItem,characterArtList);
+        currentBackground.GetComponent<ActiveCharacterShading>().MakeActive(currentNarrativeItem);
     }
 
     private void UpdateSpokenText() {
@@ -194,10 +202,10 @@ public class NarrativeManager : MonoBehaviour {
     }
 
     public void SetupCharacter() {
-        if (currentNarrativeItem.characterArt == Art.NA) {
-            characterCanvas.SetActive(false);
-
-        }
+        // if (currentNarrativeItem.characterArt == Art.NA) {
+        //     characterCanvas.SetActive(false);
+        //
+        // }
 
         // var sprite = characters.Find((c)=>c.name.Equals("Rob")).sprite;
         // switch (currentNarrativeItem.characterArt) {

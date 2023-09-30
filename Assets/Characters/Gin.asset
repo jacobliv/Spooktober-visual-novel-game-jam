@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 642761121b396534db36f8cbd6a754c4, type: 3}
-  m_Name: Remus
+  m_Name: Gin
   m_EditorClassIdentifier: 
-  name: Remus
-  title: Dimwitted Brother
-  sprite: {fileID: 21300000, guid: d9250926b67854449a49345e368fcd9e, type: 3}
+  name: Ms. Gin
+  character: 5

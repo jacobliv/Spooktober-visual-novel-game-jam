@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 642761121b396534db36f8cbd6a754c4, type: 3}
-  m_Name: Dmi
+  m_Name: Akilla
   m_EditorClassIdentifier: 
-  name: Dmi
-  title: Dead Inside Employee (You)
-  sprite: {fileID: 21300000, guid: 16ce49ae8ed4a824989bebeb04693f4a, type: 3}
+  name: Akilla Karrington
+  character: 8

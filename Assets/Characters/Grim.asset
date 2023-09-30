@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 642761121b396534db36f8cbd6a754c4, type: 3}
-  m_Name: Cassiopeia
+  m_Name: Grim
   m_EditorClassIdentifier: 
-  name: Cassiopeia
-  title: The Only One Who Matters
-  sprite: {fileID: 21300000, guid: 2951e8deefb7ea44095c22acd97b099e, type: 3}
+  name: Spooky Grimmother
+  character: 2

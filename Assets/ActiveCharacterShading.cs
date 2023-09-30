@@ -9,13 +9,15 @@ public class ActiveCharacterShading : MonoBehaviour {
     public List<GameObject> backgroundCharacter;
     public Color            shadeColor;
     
-    public void MakeActive(Character character) {
-        if(activeCharacter.name.Equals(character.name)) return;
-        if (activeCharacter!=null && !activeCharacter.name.Equals(character.name)) {
+    // public void AddCharacter()
+    
+    public void MakeActive(NarrationItem) {
+        if(activeCharacter.name.Equals(character.character.ToString())) return;
+        if (activeCharacter!=null && !activeCharacter.name.Equals(character.character.ToString())) {
             backgroundCharacter.Add(activeCharacter);
         }
 
-        int index = backgroundCharacter.FindIndex(0,cha=>cha.name.Equals(character.name));
+        int index = backgroundCharacter.FindIndex(0,cha=>cha.name.Equals(character.character.ToString()));
         activeCharacter = backgroundCharacter[index];
         backgroundCharacter.RemoveAt(index);
         Shading();

@@ -85,15 +85,15 @@ public class AutoNarrativeItem : MonoBehaviour {
                     instance.day = Day.Three;
                     break;
             }
-            if (fields[3].Equals("???")) {
-                instance.character = CharacterEnum.Unknown;
-            }
-            else {
-                instance.character = (CharacterEnum)Enum.Parse(typeof(CharacterEnum), fields[3]);
-            }
-            if (!fields[4].Equals("N/A")) {
-                instance.characterArt = (Art)Enum.Parse(typeof(Art), fields[4]);
-            }
+            // if (fields[3].Equals("???")) {
+            //     instance.character.character = CharacterEnum.Unknown;
+            // }
+            // else {
+            //     instance.character = (CharacterEnum)Enum.Parse(typeof(CharacterEnum), fields[3]);
+            // }
+            // if (!fields[4].Equals("N/A")) {
+            //     instance.characterArt = (Art)Enum.Parse(typeof(Art), fields[4]);
+            // }
 
             instance.dialogueType = (DialogueType)Enum.Parse(typeof(DialogueType),fields[5]);
             

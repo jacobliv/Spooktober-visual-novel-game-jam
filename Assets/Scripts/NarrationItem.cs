@@ -12,9 +12,12 @@ public class NarrationItem : ScriptableObject {
     [Tooltip("Day the narration occurs")]
     public Day                 day;
     [Tooltip("Character who is speaking")]
-    public CharacterEnum character;
+    public Character character;
 
-    public Art characterArt;
+    public Art characterArt1;
+    public Art characterArt2;
+    public Art characterArt3;
+
     public DialogueType  dialogueType;
     [Tooltip("Image to be displayed behind the characters")]
     public Art background;
@@ -48,7 +51,8 @@ public enum CharacterEnum {
     Grumpy_Old_Man,
     Akilla_Karrington,
     Unknown,
-    None
+    None,
+    Alarmed_Man
 }
 
 [Serializable]

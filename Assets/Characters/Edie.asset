@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 642761121b396534db36f8cbd6a754c4, type: 3}
-  m_Name: "K\u2019Kili"
+  m_Name: Edie
   m_EditorClassIdentifier: 
-  name: K'Kili the Destroyer
-  title: Ex-Con Turned Housewife
-  sprite: {fileID: 21300000, guid: e9515ef6d41f58e4ebdefbd602ff29b4, type: 3}
+  name: Edie Fruguer
+  character: 6

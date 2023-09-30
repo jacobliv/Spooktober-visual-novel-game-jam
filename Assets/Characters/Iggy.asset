@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 642761121b396534db36f8cbd6a754c4, type: 3}
-  m_Name: Sample Character
+  m_Name: Iggy
   m_EditorClassIdentifier: 
-  name: Aurora Stardust
-  title: Galactic Navigator
-  images: []
+  name: Iggy Bumdeez
+  character: 1

@@ -36,8 +36,9 @@ public class NarrativeManager : MonoBehaviour {
     #region Audio
     [Header("Audio")]
     public  AudioSource audioSource;
-    private Coroutine _sfxCoroutine;
-    public  SoundList soundList;
+    private Coroutine              _sfxCoroutine;
+    public  SoundList              soundList;
+    public  ControlBackgroundMusic controlBackgroundMusic;
 
     #endregion
     
@@ -146,8 +147,9 @@ public class NarrativeManager : MonoBehaviour {
         SetupCharacter();
 
         _sfxCoroutine=StartCoroutine(PlaySFXAudioClips());
-        
-        
+        controlBackgroundMusic.ChangeSong(currentNarrativeItem.music);
+        controlBackgroundMusic.ChangeAmbient(currentNarrativeItem.ambience);
+
     }
 
     private void UpdateOnScreenCharacters() {

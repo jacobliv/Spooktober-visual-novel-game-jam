@@ -7,40 +7,25 @@ public class ControlBackgroundMusic : MonoBehaviour {
     public AudioSource musicSource;
     public AudioSource ambientSource;
 
-    public List<AudioClip> ambientSounds;
-    public List<AudioClip> music;
+    public List<Sound> ambientSounds;
+    public List<Sound> music;
 
     public void ChangeSong(Sounds song) {
-        
+        Sound sound = music.Find(m=>m.sound.Equals(song));
+        if(musicSource.clip!=null && musicSource.clip.name.Equals(sound.audioClip.name) || sound == null) return;
+        ChangeSound(sound.audioClip,musicSource);
     }
     
-    // public void ChangeAmbient(Sounds ambience) {
-    //     ambientSounds.Find(amb=>amb)
-    // }
+    public void ChangeAmbient(Sounds ambience) {
+        Sound ambienceSound = ambientSounds.Find(m=>m.sound.Equals(ambience));
+        if(ambientSource.clip!=null && ambientSource.clip.name.Equals(ambienceSound.audioClip.name)|| ambienceSound == null) return;
+        ChangeSound(ambienceSound.audioClip,ambientSource);
+    }
     
-    public void ChangeSong(Songs song) {
-        // AudioClip currentClip;
-        // switch (song) {
-        //     case Songs.SupernovaAlt:
-        //         currentClip = supernovaAlt;
-        //
-        //         break;
-        //     case Songs.Supernova:
-        //         currentClip = supernova;
-        //
-        //         break;
-        //     case Songs.BracingForImpact:
-        //         currentClip = bracingForImpact;
-        //
-        //         break;
-        //     default:
-        //         throw new ArgumentOutOfRangeException(nameof(song), song, null);
-        // }
-        // if(source.clip.name.Equals(currentClip.name)) return;
-        //
-        // source.Stop();
-        // source.clip = currentClip;
-        // source.Play();
+    public void ChangeSound(AudioClip song,AudioSource source) {
+        source.Stop();
+        source.clip = song;
+        source.Play();
     }
     
     

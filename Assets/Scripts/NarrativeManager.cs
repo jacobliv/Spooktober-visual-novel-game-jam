@@ -114,7 +114,7 @@ public class NarrativeManager : MonoBehaviour {
         if(currentNarrativeItem.next1 == null && currentNarrativeItem.next2 == null) return;
         characterImage.sprite = null;
         characterImage.color=Color.clear;
-
+        currentBackground = pizzaPlace;
         SetSpokenTextDefaults();
     }
 

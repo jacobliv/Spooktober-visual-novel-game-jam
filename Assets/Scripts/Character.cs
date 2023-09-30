@@ -9,5 +9,6 @@ public class Character : ScriptableObject {
     [Tooltip("Name of character")]
     public new string      name;
     public CharacterEnum character;
+    public List<Art>     arts;
 }
 

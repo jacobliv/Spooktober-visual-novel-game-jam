@@ -1695,6 +1695,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 232026713}
     - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
+      propertyPath: soundList
+      value: 
+      objectReference: {fileID: 11400000, guid: ed29f7f9e3f8bf043b9449d62894c782, type: 2}
+    - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
       propertyPath: backButton
       value: 
       objectReference: {fileID: 6904895701947770665}
@@ -1710,6 +1714,10 @@ PrefabInstance:
       propertyPath: nextButton
       value: 
       objectReference: {fileID: 7046486667478116640}
+    - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
+      propertyPath: pizzaPlace
+      value: 
+      objectReference: {fileID: 2608616030319612728}
     - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
       propertyPath: _dialogueUI
       value: 
@@ -1755,9 +1763,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
+      propertyPath: backgroundArt
+      value: 
+      objectReference: {fileID: 11400000, guid: 668c4d7667d1f6348bbf85b6ffad4711, type: 2}
+    - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
       propertyPath: buttonManager
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
+      propertyPath: characterList
+      value: 
+      objectReference: {fileID: 11400000, guid: ffc7001e163c24d40801d692d2b642c9, type: 2}
     - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
       propertyPath: creditsCanvas
       value: 
@@ -1811,6 +1827,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
+      propertyPath: characterArtList
+      value: 
+      objectReference: {fileID: 11400000, guid: bc6aa60e05ce3b646b5e0117f272df44, type: 2}
+    - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
       propertyPath: phoneChoice1Text
       value: 
       objectReference: {fileID: 0}
@@ -1861,7 +1881,7 @@ PrefabInstance:
     - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
       propertyPath: startingNarrativeItem
       value: 
-      objectReference: {fileID: 11400000, guid: 2d330affe6c2e6846b26c3a08a511cd7, type: 2}
+      objectReference: {fileID: 11400000, guid: 0b1f19feda3f0d744bdd4724bc72e5e5, type: 2}
     - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
       propertyPath: ControlBackgroundMusic
       value: 
@@ -17834,6 +17854,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 599699718}
     m_Modifications:
+    - target: {fileID: 79192068035956567, guid: 023f9ee9f92b02d4e94d9977643dec34, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 2608616030236426940, guid: 023f9ee9f92b02d4e94d9977643dec34, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -17922,8 +17946,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pizza Place
       objectReference: {fileID: 0}
+    - target: {fileID: 8683164656944531519, guid: 023f9ee9f92b02d4e94d9977643dec34, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 023f9ee9f92b02d4e94d9977643dec34, type: 3}
+--- !u!1 &2608616030319612728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2608616030236426941, guid: 023f9ee9f92b02d4e94d9977643dec34, type: 3}
+  m_PrefabInstance: {fileID: 2608616030319612727}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2759699266741457722
 MonoBehaviour:
   m_ObjectHideFlags: 0

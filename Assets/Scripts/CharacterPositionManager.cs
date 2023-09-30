@@ -37,7 +37,13 @@ public class CharacterPositionManager : MonoBehaviour {
     public void SetChild( CharacterArtList characterArtList, Art characterArt, Transform parent) {
         GameObject o = new GameObject(characterArt.ToString());
         RectTransform rectTransform = o.AddComponent<RectTransform>();
-        rectTransform.sizeDelta = new Vector2(840,1080);
+        if (characterArt.ToString().Contains("SG_")) {
+            rectTransform.sizeDelta = new Vector2(1200,1080);
+        }
+        else {
+            rectTransform.sizeDelta = new Vector2(840,1080);
+        }
+            
         
         rectTransform.SetParent(parent, false);
         Image imageComponent = o.AddComponent<Image>();

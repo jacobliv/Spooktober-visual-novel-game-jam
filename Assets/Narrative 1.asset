@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
-  m_Name: Narrative
+  m_Name: Narrative 1
   m_EditorClassIdentifier: 
   id: 1
   line: My line Test
   day: 1
-  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
   characterArt1: 1
-  characterArt2: 19
+  characterArt2: 7
   characterArt3: 19
-  dialogueType: 2
-  background: 37
+  dialogueType: 0
+  background: 39
   next1:
-    narrativeItem: {fileID: 11400000, guid: 6c69376bed8dd1049932639ed5fbd91d, type: 2}
+    narrativeItem: {fileID: 11400000, guid: a9c9518b59c16244c94b49e012e240c7, type: 2}
     shortenedLine: 
     positive: 0
   next2:

@@ -15,23 +15,23 @@ public class NarrativeManager : MonoBehaviour {
     #region General
     [Header("General")]
     public  Image         background; 
-    public Image            characterImage;
-    public GameObject       characterCanvas;
-    public GameObject       mainBackgroundCanvas;
-    public List<GameObject> otherCanvases;
-    public NarrationItem    startingNarrativeItem;
-    public NarrationItem    currentNarrativeItem;
-    public GameObject       creditsCanvas;
-    public CharacterArtList characterArtList;
-    public CharacterList    characterList;
-    public BackgroundArt    backgroundArt;
-    public SoundList        soundList;
+    public Image                    characterImage;
+    public GameObject               characterCanvas;
+    public GameObject               mainBackgroundCanvas;
+    public List<GameObject>         otherCanvases;
+    public NarrationItem            startingNarrativeItem;
+    public NarrationItem            currentNarrativeItem;
+    public GameObject               creditsCanvas;
+    public CharacterArtList         characterArtList;
+    public CharacterList            characterList;
+    public SoundList                soundList;
     #endregion
     #region Background
 
     [Header("Background")] 
-    public GameObject pizzaPlace;
     public GameObject currentBackground;
+    public List<BackgroundArtValue> backgroundArt;
+
     #endregion
     #region Audio
     [Header("Audio")]
@@ -66,7 +66,7 @@ public class NarrativeManager : MonoBehaviour {
 
     public void AdvanceNarrative(int option = 0) {
         StopPreviousItem();
-        if (currentNarrativeItem.next1 == null && currentNarrativeItem.next2 == null) {
+        if (currentNarrativeItem.next1.narrativeItem == null && currentNarrativeItem.next2.narrativeItem == null) {
             creditsCanvas.SetActive(true);
             return;
         }
@@ -87,9 +87,7 @@ public class NarrativeManager : MonoBehaviour {
 
         NextNarrative next = option == 0 ? currentNarrativeItem.next1 : currentNarrativeItem.next2;
         SaveChoice(next);
-        Debug.Log(currentNarrativeItem+"    "+historyManager);
-        // TODO READD THISS
-        // historyManager.Add(currentNarrativeItem.name,(currentNarrativeItem.character !=null?currentNarrativeItem.character.name:""),currentNarrativeItem.line);
+        historyManager.Add(currentNarrativeItem.name,(currentNarrativeItem.character !=null?currentNarrativeItem.character.name:""),currentNarrativeItem.line);
         currentNarrativeItem = next.narrativeItem;
     }
     
@@ -114,7 +112,11 @@ public class NarrativeManager : MonoBehaviour {
         if(currentNarrativeItem.next1 == null && currentNarrativeItem.next2 == null) return;
         characterImage.sprite = null;
         characterImage.color=Color.clear;
-        currentBackground = pizzaPlace;
+        if(currentBackground!=null) {
+            currentBackground.SetActive(false);
+        }
+        currentBackground = backgroundArt.Find(ba=>ba.art.Equals(currentNarrativeItem.background)).gameObject;
+        currentBackground.SetActive(true);
         SetSpokenTextDefaults();
     }
 
@@ -141,9 +143,6 @@ public class NarrativeManager : MonoBehaviour {
         UpdateSpokenText(); 
         SetupCharacter();
 
-
-        // update background TODO Fix this
-        // background.sprite = backgroundArt.backgroundArt.Find(a=>a.art.Equals(currentNarrativeItem.background)).sprite;
         _audioCoroutine=StartCoroutine(PlayAudioClips());
 
         
@@ -154,15 +153,18 @@ public class NarrativeManager : MonoBehaviour {
         // update whoever is showing on screen
         // update whoever is active in current background/scene for shading
         // update character expressions
-        currentBackground.GetComponent<CharacterPositionManager>().ManagePositions(currentNarrativeItem,characterArtList);
-        currentBackground.GetComponent<ActiveCharacterShading>().MakeActive(currentNarrativeItem);
+        if (currentBackground.TryGetComponent(typeof(CharacterPositionManager), out var positionManager)) {
+            ((CharacterPositionManager)positionManager).ManagePositions(currentNarrativeItem, characterArtList);
+            currentBackground.GetComponent<ActiveCharacterShading>().MakeActive(currentNarrativeItem);
+
+        }
     }
 
     private void UpdateSpokenText() {
         SetupText();
 
         // FIXME Look into this a bit more
-        if (currentNarrativeItem.next2 != null) {
+        if (currentNarrativeItem.next2.narrativeItem != null) {
             dialogueUI.multiDialogueChoicePanel.SetActive(true);
             dialogueUI.dialogueNavigationButtonPanel.SetActive(false);
             dialogueUI.multiDialogueChoice1.text = currentNarrativeItem.next1.shortenedLine;
@@ -180,10 +182,9 @@ public class NarrativeManager : MonoBehaviour {
         }
         dialogueUI.lineText.text = currentNarrativeItem.line;
         dialogueUI.animateIn.AnimateText();
-        // TODO READD THIS
-        // dialogueUI.characterName.text = currentNarrativeItem.character != null
-        //     ? $"{currentNarrativeItem.character.name}: {currentNarrativeItem.character.title}"
-        //     : "";
+        dialogueUI.characterName.text = currentNarrativeItem.character != null
+            ? $"{currentNarrativeItem.character.name}"
+            : "";
     }
 
     private void SetSpokenTextDefaults() {

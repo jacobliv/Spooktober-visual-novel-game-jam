@@ -3,8 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
-public class BackgroundArt : ScriptableObject {
+public class BackgroundArt : MonoBehaviour {
     public List<BackgroundArtValue> backgroundArt;
 }
 

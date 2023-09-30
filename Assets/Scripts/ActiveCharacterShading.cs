@@ -55,8 +55,13 @@ public class ActiveCharacterShading : MonoBehaviour {
     }
 
     private void Darken(Transform parent) {
-        if(parent.childCount ==0) return;
-        parent.transform.GetChild(0).GetComponent<Image>().color=shadeColor;
+        if(parent.childCount == 0) return;
+        if (parent.childCount == 1) {
+            parent.transform.GetChild(0).GetComponent<Image>().color=shadeColor;
+        }
+        else {
+            parent.transform.GetChild(1).GetComponent<Image>().color=shadeColor;
+        }
 
     }
 

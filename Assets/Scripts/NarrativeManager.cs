@@ -130,19 +130,26 @@ public class NarrativeManager : MonoBehaviour {
         } else if (!dialogueUI.backButton.gameObject.activeSelf) {
             dialogueUI.backButton.gameObject.SetActive(true);
         }
-        
+        UpdateOnScreenCharacters();
         // update text area
         UpdateSpokenText(); 
         SetupCharacter();
 
 
-        // update background
-        background.sprite = backgroundArt.backgroundArt.Find(a=>a.art.Equals(currentNarrativeItem.background)).sprite;
+        // update background TODO Fix this
+        // background.sprite = backgroundArt.backgroundArt.Find(a=>a.art.Equals(currentNarrativeItem.background)).sprite;
         _audioCoroutine=StartCoroutine(PlayAudioClips());
 
         
         
     }
+
+    private void UpdateOnScreenCharacters() {
+        // update whoever is showing on screen
+        // update whoever is active in current background/scene for shading
+        // 
+    }
+
     private void UpdateSpokenText() {
         SetupText();
 

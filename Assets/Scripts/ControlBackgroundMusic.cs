@@ -12,13 +12,13 @@ public class ControlBackgroundMusic : MonoBehaviour {
 
     public void ChangeSong(Sounds song) {
         Sound sound = music.Find(m=>m.sound.Equals(song));
-        if(musicSource.clip!=null && musicSource.clip.name.Equals(sound.audioClip.name) || sound == null) return;
+        if(sound == null || (musicSource.clip!=null && musicSource.clip.name.Equals(sound.audioClip.name)) ) return;
         ChangeSound(sound.audioClip,musicSource);
     }
     
     public void ChangeAmbient(Sounds ambience) {
         Sound ambienceSound = ambientSounds.Find(m=>m.sound.Equals(ambience));
-        if(ambientSource.clip!=null && ambientSource.clip.name.Equals(ambienceSound.audioClip.name)|| ambienceSound == null) return;
+        if(ambienceSound == null ||(ambientSource.clip!=null && ambientSource.clip.name.Equals(ambienceSound.audioClip.name))) return;
         ChangeSound(ambienceSound.audioClip,ambientSource);
     }
     

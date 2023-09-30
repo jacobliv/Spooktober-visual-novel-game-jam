@@ -30,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
-  ambience: 0
+  music: 17
+  ambience: 15

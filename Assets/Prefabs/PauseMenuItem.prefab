@@ -307,9 +307,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad7f6ec6ac303d438fa2c9fd070d29a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textHoverColor: {r: 0.54901963, g: 0.27450982, b: 0.9137255, a: 1}
-  imageHoverColor: {r: 0.54901963, g: 0.27450982, b: 0.9137255, a: 1}
+  textHoverColor: {r: 0.11764706, g: 0.84313726, b: 0.047058824, a: 1}
+  imageHoverColor: {r: 0.11764706, g: 0.84313726, b: 0.047058824, a: 1}
   underline: 0
+  bold: 0
   text: {fileID: 8528767958708335762}
   image: {fileID: 1681171042954970731}
   secondImage: {fileID: 0}

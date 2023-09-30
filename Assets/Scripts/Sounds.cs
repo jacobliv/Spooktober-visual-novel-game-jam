@@ -20,4 +20,5 @@ public enum Sounds {
     Default_Track,
     Nighttime_Ambience,
     Electrical_Light_Ambience,
+    None,
 }

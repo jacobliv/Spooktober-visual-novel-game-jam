@@ -70,4 +70,14 @@ MonoBehaviour:
   - art: 28
     sprite: {fileID: 21300000, guid: 018b09cb564e9e249869fa5ad3b7030b, type: 3}
   - art: 29
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: d4df81e085fc3c3489d632807b52ab4e, type: 3}
+  - art: 30
+    sprite: {fileID: 21300000, guid: 31638eb7f6107c840886e4b945f2377e, type: 3}
+  - art: 31
+    sprite: {fileID: 21300000, guid: 1154f13fad3e197458f4059bb616905a, type: 3}
+  - art: 32
+    sprite: {fileID: 21300000, guid: f09d004feef8db542863e84b8a16c665, type: 3}
+  - art: 33
+    sprite: {fileID: 21300000, guid: d781adcd6e0861146a008f3591f4e83d, type: 3}
+  - art: 42
+    sprite: {fileID: 21300000, guid: 13055ba1279af9f4db5f6841d71b66fd, type: 3}

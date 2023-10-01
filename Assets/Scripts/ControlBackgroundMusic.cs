@@ -11,12 +11,26 @@ public class ControlBackgroundMusic : MonoBehaviour {
     public List<Sound> music;
 
     public void ChangeSong(Sounds song) {
+        if(song.Equals(Sounds.None)) {
+            musicSource.Stop();
+            musicSource.clip = null;
+            return;
+        }
         Sound sound = music.Find(m=>m.sound.Equals(song));
-        if(sound == null || (musicSource.clip!=null && musicSource.clip.name.Equals(sound.audioClip.name)) ) return;
-        ChangeSound(sound.audioClip,musicSource);
+        if( sound == null) return;
+        if (musicSource.clip == null || (musicSource.clip != null && !musicSource.clip.name.Equals(sound.audioClip.name))) {
+            ChangeSound(sound.audioClip,musicSource);
+
+        }
+
+        
     }
     
     public void ChangeAmbient(Sounds ambience) {
+        if(ambience.Equals(Sounds.None)) {
+            ambientSource.Stop();
+            return;
+        }
         Sound ambienceSound = ambientSounds.Find(m=>m.sound.Equals(ambience));
         if(ambienceSound == null ||(ambientSource.clip!=null && ambientSource.clip.name.Equals(ambienceSound.audioClip.name))) return;
         ChangeSound(ambienceSound.audioClip,ambientSource);

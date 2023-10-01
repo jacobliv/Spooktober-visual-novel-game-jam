@@ -15,3 +15,25 @@ MonoBehaviour:
   sounds:
   - sound: 0
     audioClip: {fileID: 8300000, guid: 5c53fe43b5f4f8b42b01062f4e9842f9, type: 3}
+  - sound: 1
+    audioClip: {fileID: 0}
+  - sound: 2
+    audioClip: {fileID: 8300000, guid: 4502f4b92f5977942919713dab4db6f6, type: 3}
+  - sound: 3
+    audioClip: {fileID: 0}
+  - sound: 4
+    audioClip: {fileID: 8300000, guid: 5690316cf1b1cf044b30618e0bfabe86, type: 3}
+  - sound: 5
+    audioClip: {fileID: 8300000, guid: 9324d83308b1c594db213773ffd211ef, type: 3}
+  - sound: 6
+    audioClip: {fileID: 0}
+  - sound: 7
+    audioClip: {fileID: 0}
+  - sound: 8
+    audioClip: {fileID: 8300000, guid: 795c51fd38112024db131f2cee98ba5d, type: 3}
+  - sound: 9
+    audioClip: {fileID: 0}
+  - sound: 10
+    audioClip: {fileID: 8300000, guid: 8f6bfc3fcc0aeb64d91df9e5500df2a2, type: 3}
+  - sound: 12
+    audioClip: {fileID: 8300000, guid: f2ba7b3016e2c0a48a22d7e5da10263b, type: 3}

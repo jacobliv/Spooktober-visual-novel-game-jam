@@ -19,9 +19,9 @@ MonoBehaviour:
   day: 1
   character: {fileID: 0}
   unknownCharacter: 0
-  characterArt1: 3
-  characterArt2: 19
-  characterArt3: 9
+  characterArt1: 19
+  characterArt2: 42
+  characterArt3: 19
   dialogueType: 1
   background: 36
   next1:
@@ -33,5 +33,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 14
-  ambience: 15
+  music: 16
+  ambience: 17

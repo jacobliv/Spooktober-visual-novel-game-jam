@@ -14,6 +14,8 @@ public class NarrativeManager : MonoBehaviour {
     
     #region General
     [Header("General")]
+    [SerializeField] public GameObject rigorMortisCanvas;
+
     public  Image         background; 
     public Image                    characterImage;
     public GameObject               characterCanvas;
@@ -113,14 +115,13 @@ public class NarrativeManager : MonoBehaviour {
     
 
     private void PrepareNarrativeArea() {
-        if(currentNarrativeItem.next1 == null && currentNarrativeItem.next2 == null) return;
+        if(currentNarrativeItem.next1.narrativeItem == null && currentNarrativeItem.next2.narrativeItem == null) return;
         characterImage.sprite = null;
         characterImage.color=Color.clear;
         if(currentBackground!=null) {
             currentBackground.SetActive(false);
         }
-        currentBackground = backgroundArt.Find(ba=>ba.art.Equals(currentNarrativeItem.background)).gameObject;
-        currentBackground.SetActive(true);
+
         SetSpokenTextDefaults();
     }
 
@@ -135,13 +136,17 @@ public class NarrativeManager : MonoBehaviour {
 
     private void RunNarrativeItem() {
         if (currentNarrativeItem == null) return;
-       
+        if (currentNarrativeItem.id.Equals("[D1SG-44]")) {
+            rigorMortisCanvas.SetActive(true);
+        }
         
         if(currentNarrativeItem.name.Equals("O1")) {
             dialogueUI.backButton.gameObject.SetActive(false);
         } else if (!dialogueUI.backButton.gameObject.activeSelf) {
             dialogueUI.backButton.gameObject.SetActive(true);
         }
+        currentBackground = backgroundArt.Find(ba=>ba.art.Equals(currentNarrativeItem.background)).gameObject;
+        currentBackground.SetActive(true);
         UpdateOnScreenCharacters();
         // update text area
         UpdateSpokenText(); 
@@ -178,9 +183,9 @@ public class NarrativeManager : MonoBehaviour {
     }
 
     private void SetupText() {
-        if (currentNarrativeItem.dialogueType.Equals(DialogueType.Internal)) {
-            dialogueUI.lineText.fontStyle = FontStyles.Italic;
-        }
+        // if (currentNarrativeItem.dialogueType.Equals(DialogueType.Internal)) {
+        //     dialogueUI.lineText.fontStyle = FontStyles.Italic;
+        // }
         // if (currentNarrativeItem.dialogueType.Equals(DialogueType.Physical)) {
         //     dialogueUI.lineText.fontStyle = FontStyles.Bold;
         // }
@@ -200,7 +205,9 @@ public class NarrativeManager : MonoBehaviour {
 
     private IEnumerator PlaySFXAudioClips() {
         foreach (Sounds clip in currentNarrativeItem.sounds) {
-            audioSource.clip = soundList.sounds.Find(s=>s.sound.Equals(clip)).audioClip;
+            Sound sound = soundList.sounds.Find(s=>s.sound.Equals(clip));
+            if(sound == null) continue;
+            audioSource.clip = sound.audioClip;
             audioSource.Play();
             yield return new WaitWhile(() => audioSource.isPlaying);
         }

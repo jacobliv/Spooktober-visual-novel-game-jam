@@ -52,6 +52,7 @@ public class AutoNarrativeItem : MonoBehaviour {
     
     
     public void LoadDataFromCSV() {
+        
         if (csvFile == null) {
             Debug.LogError("CSV file reference missing!");
             return;
@@ -94,7 +95,6 @@ public class AutoNarrativeItem : MonoBehaviour {
 
                 }
                 else {
-                    Debug.Log(fields[3]);
                     instance.character = characterList.characters.Find(c=> {
                         return c.character.Equals((CharacterEnum)Enum.Parse(typeof(CharacterEnum), fields[3]));
                     });
@@ -111,7 +111,6 @@ public class AutoNarrativeItem : MonoBehaviour {
                     instance.characterArt2 = (Art)Enum.Parse(typeof(Art), fields[5]);
                 }
                 if (fields.Length>6 && !fields[6].Equals("N/A") && fields[6].Trim() !="" ) {
-                    Debug.Log(fields[6]);
                     instance.characterArt3 = (Art)Enum.Parse(typeof(Art), fields[6]);
                 }
                 
@@ -125,12 +124,11 @@ public class AutoNarrativeItem : MonoBehaviour {
                 if(fields.Length>13 && !fields[13].Equals("")) {
                     instance.music = (Sounds)Enum.Parse(typeof(Sounds), fields[13]);
                 }
+                else {
+                    instance.music = Sounds.None;
+                }
 
                 instance.sounds = new List<Sounds>();
-                Debug.Log(instance.id);
-                if (instance.id.Equals("[D2SG-1]")) {
-                    Debug.Log("HERE");
-                }
                 if (fields.Length>14 && fields[14] != "" && fields[14] != "N/A") {
                     instance.sounds.Add((Sounds)Enum.Parse(typeof(Sounds), fields[14]));
                 }
@@ -147,6 +145,8 @@ public class AutoNarrativeItem : MonoBehaviour {
                 if (fields.Length > 18 && fields[18] != "") {
                     instance.ambience = (Sounds)Enum.Parse(typeof(Sounds), fields[18]);
 
+                }else {
+                    instance.ambience = Sounds.None;
                 }
 
                 
@@ -155,6 +155,7 @@ public class AutoNarrativeItem : MonoBehaviour {
             }
             catch (Exception e) {
                 Debug.Log($"Failed on {line}");
+                Debug.LogWarning(e);
             }
         }
         //
@@ -164,11 +165,7 @@ public class AutoNarrativeItem : MonoBehaviour {
                 continue;
             }
             string[] fields = line.Split('\t');
-            if (fields[0].Equals("[D2O-63]")) {
-                Debug.Log("Here");
-            }
 
-            Debug.Log(fields[0]);;
             NarrationItem narrationItem = _narrationItems[fields[0]];
             string firstChoice = fields.Length > 10 ? fields[10] : "";
             if (fields.Length>9 && _narrationItems.ContainsKey(fields[9])) {

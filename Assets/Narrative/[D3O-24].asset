@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: '[D3O-24]'
   m_EditorClassIdentifier: 
   id: '[D3O-24]'
-  line: My legs have a mind of its own as I jump high enough to grab the top of the
-    gate and haul myself over. The leg of my pants gets caught in the spikes at the
-    top but I ignore it. It shreds my pants up but not enough for me to care.
+  line: "I land on the ground and my knees tense up, I am reminded of Spooky Grimmother\u2019s
+    words, but I give them a wack to snap myself out of it."
   day: 3
   character: {fileID: 0}
   unknownCharacter: 0
@@ -33,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
-  ambience: 0
+  music: 19
+  ambience: 19

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: '[D2C3-1]'
   m_EditorClassIdentifier: 
   id: '[D2C3-1]'
-  line: Come on, come on!
+  line: W-Wait. I know this looks bad. I-It fell off the hinges when I knocked! I
+    swear!
   day: 2
   character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
   unknownCharacter: 0
@@ -21,7 +22,7 @@ MonoBehaviour:
   characterArt2: 19
   characterArt3: 19
   dialogueType: 2
-  background: 34
+  background: 37
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
@@ -31,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
-  ambience: 0
+  music: 19
+  ambience: 19

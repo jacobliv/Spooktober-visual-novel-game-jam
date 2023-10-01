@@ -13,6 +13,8 @@ public class ActiveCharacterShading : MonoBehaviour {
     public GameObject twoRight;
     public GameObject oneCenter;
     public Color      shadeColor;
+    private Color      extraDark = new Color(.08f,.08f,.08f);
+
     
     // public void AddCharacter()
     
@@ -25,63 +27,20 @@ public class ActiveCharacterShading : MonoBehaviour {
         if (narrationItem.characterArt1.Equals(Art.NA) && 
             narrationItem.characterArt2.Equals(Art.NA) && 
             narrationItem.characterArt3.Equals(Art.NA)) return;        
-        
-        /* 
-        if (!narrationItem.characterArt1.Equals(Art.NA) &&
-            !narrationItem.characterArt2.Equals(Art.NA) &&
-            !narrationItem.characterArt3.Equals(Art.NA)) {
-            SetChild(characterArtList,narrationItem.characterArt1,threeLeft.transform);
-            SetChild(characterArtList,narrationItem.characterArt2,threeCenter.transform);
-            SetChild(characterArtList,narrationItem.characterArt3,threeRight.transform);
-            return;
-        }
-        if (!narrationItem.characterArt1.Equals(Art.NA) &&
-            !narrationItem.characterArt2.Equals(Art.NA) &&
-            narrationItem.characterArt3.Equals(Art.NA)) {
-            SetChild(characterArtList,narrationItem.characterArt1,twoLeft.transform);
-            SetChild(characterArtList,narrationItem.characterArt2,twoRight.transform);
-            return;
-        }
-        
-        if (!narrationItem.characterArt1.Equals(Art.NA) &&
-            narrationItem.characterArt2.Equals(Art.NA) &&
-            !narrationItem.characterArt3.Equals(Art.NA)) {
-            SetChild(characterArtList,narrationItem.characterArt1,twoLeft.transform);
-            SetChild(characterArtList,narrationItem.characterArt3,twoRight.transform);
-            return;
-        }
-
-        if (!narrationItem.characterArt1.Equals(Art.NA) &&
-            narrationItem.characterArt2.Equals(Art.NA) &&
-            narrationItem.characterArt3.Equals(Art.NA)) {
-            SetChild(characterArtList,narrationItem.characterArt1,oneCenter.transform);
-        
-        } else if (narrationItem.characterArt1.Equals(Art.NA) &&
-                   !narrationItem.characterArt2.Equals(Art.NA) &&
-                   narrationItem.characterArt3.Equals(Art.NA)) {
-            SetChild(characterArtList,narrationItem.characterArt2,oneCenter.transform);
-
-        }else if (narrationItem.characterArt1.Equals(Art.NA) &&
-            narrationItem.characterArt2.Equals(Art.NA) &&
-            !narrationItem.characterArt3.Equals(Art.NA)) {
-            SetChild(characterArtList,narrationItem.characterArt3,oneCenter.transform);
-
-        }*/
-        
-        
+       
         
         
         if (!narrationItem.characterArt1.Equals(Art.NA) &&
         !narrationItem.characterArt2.Equals(Art.NA) &&
         !narrationItem.characterArt3.Equals(Art.NA)) {
             if (!IsCurrentCharacter(narrationItem,threeLeft.transform)) {
-                Darken(threeLeft.transform);
+                Darken(threeLeft.transform, shadeColor);
             }
             if (!IsCurrentCharacter(narrationItem,threeCenter.transform)) {
-                Darken(threeCenter.transform);
+                Darken(threeCenter.transform, shadeColor);
             }
             if (!IsCurrentCharacter(narrationItem,threeRight.transform)) {
-                Darken(threeRight.transform);
+                Darken(threeRight.transform, shadeColor);
             }
 
             return;
@@ -90,10 +49,10 @@ public class ActiveCharacterShading : MonoBehaviour {
             !narrationItem.characterArt2.Equals(Art.NA) &&
             narrationItem.characterArt3.Equals(Art.NA)) {
             if (!IsCurrentCharacter(narrationItem,twoLeft.transform)) {
-                Darken(twoLeft.transform);
+                Darken(twoLeft.transform, shadeColor);
             }
             if (!IsCurrentCharacter(narrationItem,twoRight.transform)) {
-                Darken(twoRight.transform);
+                Darken(twoRight.transform, shadeColor);
             }
         }
         
@@ -101,25 +60,32 @@ public class ActiveCharacterShading : MonoBehaviour {
             narrationItem.characterArt2.Equals(Art.NA) &&
             !narrationItem.characterArt3.Equals(Art.NA)) {
             if (!IsCurrentCharacter(narrationItem,twoLeft.transform)) {
-                Darken(twoLeft.transform);
+                Darken(twoLeft.transform, shadeColor);
             }
             if (!IsCurrentCharacter(narrationItem,twoRight.transform)) {
-                Darken(twoRight.transform);
+                Darken(twoRight.transform, shadeColor);
             }
+        }
+        if(narrationItem.id.Equals("[D2AK-1]")  ||
+           narrationItem.id.Equals("[D2AK-2]") ||
+           narrationItem.id.Equals("[D2AK-3]") ||
+           narrationItem.id.Equals("[D2AK-4]")) {
+            Darken(oneCenter.transform,extraDark);
+
         }
     }
 
     private bool IsCurrentCharacter(NarrationItem narrationItem, Transform parent) {
-        return narrationItem.character.arts.Contains((Art)Enum.Parse(typeof(Art), parent.GetChild(0).name));
+        return narrationItem.character!=null && narrationItem.character.arts.Contains((Art)Enum.Parse(typeof(Art), parent.GetChild(0).name));
     }
 
-    private void Darken(Transform parent) {
+    private void Darken(Transform parent, Color dark) {
         if(parent.childCount == 0) return;
         if (parent.childCount == 1) {
-            parent.transform.GetChild(0).GetComponent<Image>().color=shadeColor;
+            parent.transform.GetChild(0).GetComponent<Image>().color=dark;
         }
         else {
-            parent.transform.GetChild(1).GetComponent<Image>().color=shadeColor;
+            parent.transform.GetChild(1).GetComponent<Image>().color=dark;
         }
 
     }

@@ -18,7 +18,7 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
   unknownCharacter: 0
   characterArt1: 2
-  characterArt2: 19
+  characterArt2: 13
   characterArt3: 20
   dialogueType: 2
   background: 35
@@ -31,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 14
-  ambience: 16
+  music: 16
+  ambience: 18

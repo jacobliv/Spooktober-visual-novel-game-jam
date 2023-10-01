@@ -17,11 +17,11 @@ MonoBehaviour:
   day: 1
   character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
   unknownCharacter: 0
-  characterArt1: 0
+  characterArt1: 6
   characterArt2: 19
   characterArt3: 9
   dialogueType: 2
-  background: 40
+  background: 36
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
@@ -31,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 14
-  ambience: 15
+  music: 16
+  ambience: 17

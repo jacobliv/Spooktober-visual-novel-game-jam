@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: '[D3O-21]'
   m_EditorClassIdentifier: 
   id: '[D3O-21]'
-  line: "The clock is ticking. I might as well do what I\u2019ve always done and
-    make the most of it. My car door damn near breaks as I crash through. "
+  line: Many things happen at once. My airbag goes off and shattered glass sends
+    a thousand cuts along my clothes and skin. An eye pops out, but I push it back
+    in just as quickly. I've never been more happy to be dead already.
   day: 3
   character: {fileID: 0}
   unknownCharacter: 0
-  characterArt1: 6
+  characterArt1: 19
   characterArt2: 19
   characterArt3: 19
   dialogueType: 1
-  background: 36
+  background: 38
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
@@ -31,6 +32,6 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     positive: 0
-  sounds: 02000000
-  music: 0
-  ambience: 0
+  sounds: 
+  music: 19
+  ambience: 19

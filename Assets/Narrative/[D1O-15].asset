@@ -19,7 +19,7 @@ MonoBehaviour:
   unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
-  characterArt3: 19
+  characterArt3: 9
   dialogueType: 1
   background: 36
   next1:
@@ -31,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 14
-  ambience: 15
+  music: 16
+  ambience: 17

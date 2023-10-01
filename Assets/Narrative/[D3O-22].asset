@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: '[D3O-22]'
   m_EditorClassIdentifier: 
   id: '[D3O-22]'
-  line: Many things happen at once. My airbag goes off and shattered glass sends
-    a thousand cuts along my clothes and skin. An eye pops out, but I push it back
-    in just as quickly. I've never been more happy to be dead already.
+  line: I peel away at the bent car door and leave the vehicle.
   day: 3
   character: {fileID: 0}
   unknownCharacter: 0
@@ -33,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
-  ambience: 0
+  music: 19
+  ambience: 19

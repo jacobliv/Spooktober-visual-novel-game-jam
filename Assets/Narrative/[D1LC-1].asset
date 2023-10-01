@@ -21,7 +21,7 @@ MonoBehaviour:
   characterArt2: 19
   characterArt3: 10
   dialogueType: 2
-  background: 40
+  background: 36
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
@@ -30,6 +30,6 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     positive: 0
-  sounds: 
-  music: 14
-  ambience: 15
+  sounds: 04000000
+  music: 16
+  ambience: 17

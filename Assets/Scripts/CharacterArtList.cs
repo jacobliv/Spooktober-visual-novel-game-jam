@@ -54,5 +54,7 @@ Omar_Neutral,
     Akillas_Apartment,
     Black_screen,
     Dead_Omar_CG,
-    Inside_Car
+    Inside_Car,
+    Eat_Brains,
+    OmarMirror_Item
 }

@@ -13,9 +13,6 @@ public class CharacterPositionManager : MonoBehaviour {
 
     public void ManagePositions(NarrationItem narrationItem, CharacterArtList characterArtList) {
         ClearCurrent();
-        if (narrationItem.id.Equals("[D1SG-13]")) {
-            Debug.Log("Here");
-        }
         if (narrationItem.characterArt1.Equals(Art.NA) && 
             narrationItem.characterArt2.Equals(Art.NA) && 
             narrationItem.characterArt3.Equals(Art.NA)) return;
@@ -76,7 +73,10 @@ public class CharacterPositionManager : MonoBehaviour {
         
         rectTransform.SetParent(parent, false);
         Image imageComponent = o.AddComponent<Image>();
-        imageComponent.sprite = characterArtList.characterArt.Find(a=>a.art.Equals(characterArt)).sprite;
+        ArtValue artValue = characterArtList.characterArt.Find(a=>a.art.Equals(characterArt));
+        if (artValue != null) {
+            imageComponent.sprite = artValue.sprite;
+        }
     }
 
     private void ClearCurrent() {

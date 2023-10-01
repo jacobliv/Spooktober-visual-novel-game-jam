@@ -86,7 +86,7 @@ public class AutoNarrativeItem : MonoBehaviour {
                     break;
             }
             if (fields[3].Equals("???")) {
-                // instance.character.character = CharacterEnum.Unknown;
+                instance.unknownCharacter = true ;
             }
             else if (fields[3].Equals("")){
                 // instance.character.character = CharacterEnum.None;

@@ -90,7 +90,8 @@ public class NarrativeManager : MonoBehaviour {
 
         NextNarrative next = option == 0 ? currentNarrativeItem.next1 : currentNarrativeItem.next2;
         SaveChoice(next);
-        historyManager.Add(currentNarrativeItem.name,(currentNarrativeItem.character !=null?currentNarrativeItem.character.name:""),currentNarrativeItem.line);
+        historyManager.Add(currentNarrativeItem.name,(currentNarrativeItem.character !=null?currentNarrativeItem.character.name:
+                               currentNarrativeItem.unknownCharacter?"???":""),currentNarrativeItem.line);
         currentNarrativeItem = next.narrativeItem;
     }
     
@@ -187,7 +188,7 @@ public class NarrativeManager : MonoBehaviour {
         dialogueUI.animateIn.AnimateText();
         dialogueUI.characterName.text = currentNarrativeItem.character != null
             ? $"{currentNarrativeItem.character.name}"
-            : "";
+            : currentNarrativeItem.unknownCharacter?"???":"";
     }
 
     private void SetSpokenTextDefaults() {

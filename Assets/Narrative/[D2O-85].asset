@@ -18,13 +18,14 @@ MonoBehaviour:
     again.
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 6
   characterArt2: 19
   characterArt3: 19
   dialogueType: 0
-  background: 0
+  background: 37
   next1:
-    narrativeItem: {fileID: 0}
+    narrativeItem: {fileID: 11400000, guid: d504aa53ac0164740a0b8ded45d7afd1, type: 2}
     shortenedLine: 
     positive: 0
   next2:

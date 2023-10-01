@@ -13,7 +13,7 @@ public class NarrationItem : ScriptableObject {
     public Day                 day;
     [Tooltip("Character who is speaking")]
     public Character character;
-
+    public bool unknownCharacter;
     public Art characterArt1;
     public Art characterArt2;
     public Art characterArt3;

@@ -22,7 +22,55 @@ public class ActiveCharacterShading : MonoBehaviour {
         // character positioning is based off of art1 art2 art3
         // we need to store all the art phases in the characters so we can check
         
-        if (narrationItem.characterArt1.Equals(Art.NA)) return;
+        if (narrationItem.characterArt1.Equals(Art.NA) && 
+            narrationItem.characterArt2.Equals(Art.NA) && 
+            narrationItem.characterArt3.Equals(Art.NA)) return;        
+        
+        /* 
+        if (!narrationItem.characterArt1.Equals(Art.NA) &&
+            !narrationItem.characterArt2.Equals(Art.NA) &&
+            !narrationItem.characterArt3.Equals(Art.NA)) {
+            SetChild(characterArtList,narrationItem.characterArt1,threeLeft.transform);
+            SetChild(characterArtList,narrationItem.characterArt2,threeCenter.transform);
+            SetChild(characterArtList,narrationItem.characterArt3,threeRight.transform);
+            return;
+        }
+        if (!narrationItem.characterArt1.Equals(Art.NA) &&
+            !narrationItem.characterArt2.Equals(Art.NA) &&
+            narrationItem.characterArt3.Equals(Art.NA)) {
+            SetChild(characterArtList,narrationItem.characterArt1,twoLeft.transform);
+            SetChild(characterArtList,narrationItem.characterArt2,twoRight.transform);
+            return;
+        }
+        
+        if (!narrationItem.characterArt1.Equals(Art.NA) &&
+            narrationItem.characterArt2.Equals(Art.NA) &&
+            !narrationItem.characterArt3.Equals(Art.NA)) {
+            SetChild(characterArtList,narrationItem.characterArt1,twoLeft.transform);
+            SetChild(characterArtList,narrationItem.characterArt3,twoRight.transform);
+            return;
+        }
+
+        if (!narrationItem.characterArt1.Equals(Art.NA) &&
+            narrationItem.characterArt2.Equals(Art.NA) &&
+            narrationItem.characterArt3.Equals(Art.NA)) {
+            SetChild(characterArtList,narrationItem.characterArt1,oneCenter.transform);
+        
+        } else if (narrationItem.characterArt1.Equals(Art.NA) &&
+                   !narrationItem.characterArt2.Equals(Art.NA) &&
+                   narrationItem.characterArt3.Equals(Art.NA)) {
+            SetChild(characterArtList,narrationItem.characterArt2,oneCenter.transform);
+
+        }else if (narrationItem.characterArt1.Equals(Art.NA) &&
+            narrationItem.characterArt2.Equals(Art.NA) &&
+            !narrationItem.characterArt3.Equals(Art.NA)) {
+            SetChild(characterArtList,narrationItem.characterArt3,oneCenter.transform);
+
+        }*/
+        
+        
+        
+        
         if (!narrationItem.characterArt1.Equals(Art.NA) &&
         !narrationItem.characterArt2.Equals(Art.NA) &&
         !narrationItem.characterArt3.Equals(Art.NA)) {
@@ -41,6 +89,17 @@ public class ActiveCharacterShading : MonoBehaviour {
         if (!narrationItem.characterArt1.Equals(Art.NA) &&
             !narrationItem.characterArt2.Equals(Art.NA) &&
             narrationItem.characterArt3.Equals(Art.NA)) {
+            if (!IsCurrentCharacter(narrationItem,twoLeft.transform)) {
+                Darken(twoLeft.transform);
+            }
+            if (!IsCurrentCharacter(narrationItem,twoRight.transform)) {
+                Darken(twoRight.transform);
+            }
+        }
+        
+        if (!narrationItem.characterArt1.Equals(Art.NA) &&
+            narrationItem.characterArt2.Equals(Art.NA) &&
+            !narrationItem.characterArt3.Equals(Art.NA)) {
             if (!IsCurrentCharacter(narrationItem,twoLeft.transform)) {
                 Darken(twoLeft.transform);
             }

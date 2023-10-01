@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1SG-1]'
   line: Duh. Who else could it be, silly?
   day: 1
-  character: 9
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 19
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 2
   background: 36
   next1:

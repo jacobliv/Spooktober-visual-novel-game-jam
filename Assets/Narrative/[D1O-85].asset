@@ -16,9 +16,11 @@ MonoBehaviour:
   line: "I open the pizza box to get a good whiff of the saucy goodness I\u2019m
     usually happy to breathe in."
   day: 1
-  character: 0
-  characterArt: 32
-  dialogueType: 0
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 32
+  characterArt3: 19
+  dialogueType: 1
   background: 40
   next1:
     narrativeItem: {fileID: 0}
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

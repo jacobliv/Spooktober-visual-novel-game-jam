@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1SG-11]'
   line: Wrong question, hun. Have you seen your reflection yet?
   day: 1
-  character: 2
-  characterArt: 9
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 11
   dialogueType: 2
   background: 36
   next1:

@@ -17,8 +17,10 @@ MonoBehaviour:
     I gave them a way to warm up. Who better to give a blanket to than a sleeping
     homeless guy?"
   day: 1
-  character: 3
-  characterArt: 22
+  character: {fileID: 11400000, guid: 7404fbaae69b15a4d9645ff2439c07fd, type: 2}
+  characterArt1: 9
+  characterArt2: 19
+  characterArt3: 22
   dialogueType: 2
   background: 34
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

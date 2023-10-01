@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1LC-1]'
   line: Hello~
   day: 1
-  character: 3
-  characterArt: 0
+  character: {fileID: 11400000, guid: 7404fbaae69b15a4d9645ff2439c07fd, type: 2}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 10
   dialogueType: 2
   background: 40
   next1:
@@ -27,6 +29,6 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     positive: 0
-  sounds: 0a000000
-  music: 0
+  sounds: 
+  music: 14
   ambience: 15

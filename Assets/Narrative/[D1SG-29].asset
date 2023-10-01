@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "Anyway, you\u2019re only a zombie and, if you want to find out who killed
     you, you\u2019re going to stay as a zombie."
   day: 1
-  character: 2
-  characterArt: 8
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 9
   dialogueType: 2
   background: 36
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

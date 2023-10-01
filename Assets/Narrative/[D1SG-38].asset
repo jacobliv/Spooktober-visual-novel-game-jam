@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1SG-38]'
   line: Not exactly, my little numbskull.
   day: 1
-  character: 2
-  characterArt: 11
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 11
   dialogueType: 2
   background: 36
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

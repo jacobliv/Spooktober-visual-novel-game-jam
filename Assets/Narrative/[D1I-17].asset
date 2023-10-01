@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "Iggy crosses his arms and grumbles. I can see the thoughts churning in his
     head, but whether he\u2019ll believe me is still a coin toss."
   day: 1
-  character: 1
-  characterArt: 13
+  character: {fileID: 0}
+  characterArt1: 4
+  characterArt2: 19
+  characterArt3: 14
   dialogueType: 1
   background: 35
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

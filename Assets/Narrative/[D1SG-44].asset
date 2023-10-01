@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "You can tell how far along you are by how hard it\u2019ll be for you to
     move. It\u2019s your body\u2019s way of telling you to ease up."
   day: 1
-  character: 2
-  characterArt: 9
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 9
   dialogueType: 2
   background: 36
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "The one day I actually want to see his face and he\u2019s gone. Just my
     luck\u2026"
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 13
   dialogueType: 2
   background: 35
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

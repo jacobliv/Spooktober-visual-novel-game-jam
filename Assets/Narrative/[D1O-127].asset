@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: '[D1O-127]'
   m_EditorClassIdentifier: 
   id: '[D1O-127]'
-  line: An idea pops into my head. I feel as if I have to thank her for her help
-    in some way.
+  line: <i>An idea pops into my head. I feel as if I have to thank her for her help
+    in some way.</i>
   day: 1
-  character: 0
-  characterArt: 2
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 22
   dialogueType: 0
   background: 34
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

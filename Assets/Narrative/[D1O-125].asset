@@ -16,8 +16,10 @@ MonoBehaviour:
   line: 'From my pocket, the stopwatch on my phone plays the opening notes of Danse
     Macabre. '
   day: 1
-  character: 0
-  characterArt: 2
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 22
   dialogueType: 1
   background: 34
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

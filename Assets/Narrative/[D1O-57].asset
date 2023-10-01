@@ -17,8 +17,10 @@ MonoBehaviour:
     I never knew I had. I\u2019m guessing that I died three weeks ago while I was
     on my shift, but I don\u2019t remember who did it."
   day: 1
-  character: 0
-  characterArt: 5
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  characterArt1: 5
+  characterArt2: 19
+  characterArt3: 13
   dialogueType: 2
   background: 35
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

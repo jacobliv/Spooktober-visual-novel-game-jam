@@ -18,8 +18,10 @@ MonoBehaviour:
     Woodsboro Apartments. My complimentary pizza still rested on the back seat of
     my car as I pulled up to the gate.
   day: 1
-  character: 0
-  characterArt: 32
+  character: {fileID: 0}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 1
   background: 40
   next1:
@@ -31,5 +33,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

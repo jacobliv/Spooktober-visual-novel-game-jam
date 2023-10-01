@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1O-11]'
   line: The Underworld is real?!
   day: 1
-  character: 0
-  characterArt: 2
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 9
   dialogueType: 2
   background: 36
   next1:

@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "You gonna let me go now, or is there more to tell about this seemingly shit
     second chance at life you\u2019ve given me?"
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 7
   dialogueType: 2
   background: 36
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

@@ -17,9 +17,11 @@ MonoBehaviour:
     I was counting down the minutes until I could take my break and head over to
     Woodsboro Apartments.
   day: 1
-  character: 0
-  characterArt: 0
-  dialogueType: 0
+  character: {fileID: 0}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 19
+  dialogueType: 1
   background: 38
   next1:
     narrativeItem: {fileID: 0}
@@ -29,6 +31,6 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     positive: 0
-  sounds: 
-  music: 0
+  sounds: 11000000
+  music: 14
   ambience: 15

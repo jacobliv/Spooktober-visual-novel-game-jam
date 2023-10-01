@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: '[D1O-108]'
   m_EditorClassIdentifier: 
   id: '[D1O-108]'
-  line: Hope he gets that social security problem fixed. I pray the other person
-    happened to have left a blanket out in a parking lot somewhere.
+  line: <i>Hope he gets that social security problem fixed. I pray the other person
+    happened to have left a blanket out in a parking lot somewhere.</i>
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 9
   dialogueType: 0
   background: 40
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

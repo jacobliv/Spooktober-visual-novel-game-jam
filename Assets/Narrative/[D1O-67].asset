@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "I follow him behind the register with a dumb grin on my face. It was like
     I\u2019d never left."
   day: 1
-  character: 0
-  characterArt: 1
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 13
   dialogueType: 1
   background: 35
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

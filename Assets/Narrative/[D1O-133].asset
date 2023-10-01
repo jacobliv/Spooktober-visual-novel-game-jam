@@ -17,8 +17,10 @@ MonoBehaviour:
     other time I probably would have thought of that as a waste, but now isn\u2019t
     the time for thinking."
   day: 1
-  character: 0
-  characterArt: 2
+  character: {fileID: 0}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 1
   background: 34
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D2O-80]'
+  m_EditorClassIdentifier: 
+  id: '[D2O-80]'
+  line: 'My left leg bends and I stumble from the last few steps. A horrific <b>CRACK</b>
+    resounds and I come tumbling down. '
+  day: 2
+  character: {fileID: 0}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 19
+  dialogueType: 1
+  background: 34
+  next1:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    positive: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    positive: 0
+  sounds: 
+  music: 0
+  ambience: 0

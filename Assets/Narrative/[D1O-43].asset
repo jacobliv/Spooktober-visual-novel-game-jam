@@ -18,8 +18,10 @@ MonoBehaviour:
     I smiled when I realized I hadn\u2019t gasped and pulled off from the parking
     lot towards my job: The 13th Pizza"
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 1
   background: 36
   next1:
@@ -31,5 +33,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

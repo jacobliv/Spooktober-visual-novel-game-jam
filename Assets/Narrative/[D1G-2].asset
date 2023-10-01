@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1G-2]'
   line: 'Her laugh is like a warm pie during Christmas. '
   day: 1
-  character: 5
-  characterArt: 20
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 20
   dialogueType: 1
   background: 35
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

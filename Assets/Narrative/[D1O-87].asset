@@ -16,9 +16,11 @@ MonoBehaviour:
   line: "Even the smell of greasy cheap pizza didn\u2019t stir me. If I had an appetite
     for anything it's not for pizza anymore. "
   day: 1
-  character: 0
-  characterArt: 32
-  dialogueType: 0
+  character: {fileID: 0}
+  characterArt1: 4
+  characterArt2: 32
+  characterArt3: 19
+  dialogueType: 1
   background: 40
   next1:
     narrativeItem: {fileID: 0}
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: '[D1O-136]'
   m_EditorClassIdentifier: 
   id: '[D1O-136]'
-  line: I ended up sleeping in my car last night and just drove back to work as soon
-    as I woke up. Figured it was better to not explain my new living situation to
-    my parents and tell them about Spooky Grimmother.
+  line: <i>I ended up sleeping in my car last night and just drove back to work as
+    soon as I woke up. Figured it was better to not explain my new living situation
+    to my parents and tell them about Spooky Grimmother.</i>
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 19
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 0
   background: 38
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

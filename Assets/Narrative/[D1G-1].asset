@@ -17,8 +17,10 @@ MonoBehaviour:
     her pocket walks up to the counter. I\u2019m already smiling before I realize
     who it is."
   day: 1
-  character: 5
-  characterArt: 20
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 20
   dialogueType: 1
   background: 35
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 0100000004000000
-  music: 0
+  music: 14
   ambience: 16

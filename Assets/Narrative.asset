@@ -29,6 +29,6 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     positive: 0
-  sounds: 
+  sounds: 00000000
   music: 17
   ambience: 15

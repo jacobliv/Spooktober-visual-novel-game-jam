@@ -17,8 +17,10 @@ MonoBehaviour:
     her door to show me more things she\u2019s made by hand. Gloves, sweaters, and
     even some skull caps come and go from view before she shrugs."
   day: 1
-  character: 0
-  characterArt: 1
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 22
   dialogueType: 1
   background: 34
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: '[D2O-1]'
   m_EditorClassIdentifier: 
   id: '[D2O-1]'
-  line: So, here I am. Inside my car, parked inside The Woodsboro Apartments, and
-    having Spooky Grimmother smoke over my shoulder. My new and perfectly normal
-    life for the next couple of hours.
+  line: <i>So, here I am. Inside my car, parked inside The Woodsboro Apartments,
+    and having Spooky Grimmother smoke over my shoulder. My new and perfectly normal
+    life for the next couple of hours.</i>
   day: 2
-  character: 0
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 6
+  characterArt2: 19
+  characterArt3: 7
   dialogueType: 0
   background: 40
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

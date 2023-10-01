@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1O-106]'
   line: No answer. I shift uncomfortably.
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 3
+  characterArt2: 19
+  characterArt3: 8
   dialogueType: 1
   background: 40
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

@@ -18,9 +18,11 @@ MonoBehaviour:
     sweet. It\u2019s usually a pizza I\u2019d get to eat on break if I was in the
     mood for one."
   day: 1
-  character: 0
-  characterArt: 30
-  dialogueType: 0
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 30
+  characterArt3: 19
+  dialogueType: 1
   background: 40
   next1:
     narrativeItem: {fileID: 0}
@@ -31,5 +33,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

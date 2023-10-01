@@ -18,8 +18,10 @@ MonoBehaviour:
     comfy. On top of the handmade vibe it has going on, it\u2019s honestly super
     charming."
   day: 1
-  character: 0
-  characterArt: 31
+  character: {fileID: 0}
+  characterArt1: 31
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 1
   background: 36
   next1:
@@ -31,5 +33,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

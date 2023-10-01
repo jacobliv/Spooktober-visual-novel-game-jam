@@ -16,8 +16,10 @@ MonoBehaviour:
   line: We stand there for a moment, smiling in the silence of a first impression,
     before I break it like an idiot by shoving her blanket towards her.
   day: 1
-  character: 0
-  characterArt: 1
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 22
   dialogueType: 1
   background: 34
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

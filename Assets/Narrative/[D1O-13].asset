@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "I put my hand over my heart to catch my breath but all I feel is a cold.
     No pulse. I couldn\u2019t even feel my lungs expand. I wasn\u2019t breathing."
   day: 1
-  character: 0
-  characterArt: 29
+  character: {fileID: 0}
+  characterArt1: 19
+  characterArt2: 29
+  characterArt3: 19
   dialogueType: 1
   background: 36
   next1:

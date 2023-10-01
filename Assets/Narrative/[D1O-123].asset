@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1O-123]'
   line: 'I nodded along as my eyes looked down, lingering on the pizza in my hand. '
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 22
   dialogueType: 1
   background: 34
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

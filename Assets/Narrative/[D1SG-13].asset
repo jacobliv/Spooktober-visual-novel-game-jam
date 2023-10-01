@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1SG-13]'
   line: She wiggles her finger and a hand mirror pops into her palm.
   day: 1
-  character: 2
-  characterArt: 29
+  character: {fileID: 0}
+  characterArt1: 3
+  characterArt2: 29
+  characterArt3: 7
   dialogueType: 1
   background: 36
   next1:

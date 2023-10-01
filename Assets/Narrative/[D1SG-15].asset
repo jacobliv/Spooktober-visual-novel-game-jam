@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: '[D1SG-15]'
   m_EditorClassIdentifier: 
   id: '[D1SG-15]'
-  line: "Honey, you\u2019re a zombie."
+  line: "Honey, you\u2019re a <b>zombie.</b>"
   day: 1
-  character: 2
-  characterArt: 9
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  characterArt1: 3
+  characterArt2: 19
+  characterArt3: 9
   dialogueType: 2
   background: 36
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

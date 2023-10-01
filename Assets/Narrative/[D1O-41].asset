@@ -15,9 +15,11 @@ MonoBehaviour:
   id: '[D1O-41]'
   line: "I nod at her and then towards the driver\u2019s door."
   day: 1
-  character: 0
-  characterArt: 0
-  dialogueType: 2
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 9
+  dialogueType: 1
   background: 36
   next1:
     narrativeItem: {fileID: 0}
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

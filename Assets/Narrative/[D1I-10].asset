@@ -17,8 +17,10 @@ MonoBehaviour:
     probably a million times before, I give him a high five and finish our signature
     handshake with a fist bump."
   day: 1
-  character: 1
-  characterArt: 13
+  character: {fileID: 0}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 13
   dialogueType: 1
   background: 35
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

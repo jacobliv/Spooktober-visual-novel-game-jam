@@ -16,8 +16,10 @@ MonoBehaviour:
   line: Her voice, and the laugh that followed it, tickle my heart and guide a laugh
     of my own from underneath my focus.
   day: 1
-  character: 0
-  characterArt: 5
+  character: {fileID: 0}
+  characterArt1: 5
+  characterArt2: 19
+  characterArt3: 7
   dialogueType: 1
   background: 40
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

@@ -17,8 +17,10 @@ MonoBehaviour:
     he can get a good whiff of me. We both laugh it off as he shoves me away and
     stare at each other as we wear the same smile.
   day: 1
-  character: 0
-  characterArt: 1
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 15
   dialogueType: 1
   background: 35
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

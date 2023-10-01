@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1SG-7]'
   line: "She opens her mouth to answer but stops as if she\u2019s in a freeze frame."
   day: 1
-  character: 2
-  characterArt: 9
+  character: {fileID: 0}
+  characterArt1: 3
+  characterArt2: 19
+  characterArt3: 10
   dialogueType: 1
   background: 36
   next1:

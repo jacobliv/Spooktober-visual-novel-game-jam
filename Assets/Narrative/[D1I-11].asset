@@ -17,8 +17,10 @@ MonoBehaviour:
     I volunteered to cover for you until you came back before Charles could even
     write up the new schedule."
   day: 1
-  character: 1
-  characterArt: 13
+  character: {fileID: 11400000, guid: 104a517f2b19b3b42aae89a176715b29, type: 2}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 13
   dialogueType: 2
   background: 35
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

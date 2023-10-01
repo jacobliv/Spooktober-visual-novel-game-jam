@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1O-6]'
   line: What is that smell?
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  characterArt1: 19
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 2
   background: 38
   next1:

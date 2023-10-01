@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1O-60]'
   line: Ig, I am telling you the truth.
   day: 1
-  character: 0
-  characterArt: 4
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  characterArt1: 4
+  characterArt2: 19
+  characterArt3: 14
   dialogueType: 2
   background: 35
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

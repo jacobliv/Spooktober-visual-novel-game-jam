@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "You know, I can\u2019t even remember at this point. I\u2019ve helped pass
     on so many of the family you\u2019re all starting to blur together."
   day: 1
-  character: 2
-  characterArt: 10
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  characterArt1: 3
+  characterArt2: 19
+  characterArt3: 10
   dialogueType: 2
   background: 36
   next1:

@@ -17,8 +17,10 @@ MonoBehaviour:
     must have wanted a slasher special because of all the pepperonis. The dent on
     it looks suspiciously like the back of my head. '
   day: 1
-  character: 0
-  characterArt: 30
+  character: {fileID: 0}
+  characterArt1: 30
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 1
   background: 36
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

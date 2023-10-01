@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1O-37]'
   line: "I shrug but I can\u2019t hide the pride in my smile. This is gonna be easy!"
   day: 1
-  character: 0
-  characterArt: 1
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 7
   dialogueType: 1
   background: 36
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

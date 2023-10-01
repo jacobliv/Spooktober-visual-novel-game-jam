@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1O-55]'
   line: Our laughs fill the restaurant as we make our way behind the register.
   day: 1
-  character: 0
-  characterArt: 1
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 15
   dialogueType: 1
   background: 35
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

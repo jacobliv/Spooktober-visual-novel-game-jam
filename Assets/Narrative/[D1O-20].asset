@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "It\u2019s like when you bite into one right after taking it out the microwave,
     but then you taste how cold it is in the middle."
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 8
   dialogueType: 2
   background: 36
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

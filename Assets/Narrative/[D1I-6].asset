@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1I-6]'
   line: 'He sniffs the air and twitches his nose to hold back his disgust. '
   day: 1
-  character: 1
-  characterArt: 13
+  character: {fileID: 0}
+  characterArt1: 4
+  characterArt2: 19
+  characterArt3: 13
   dialogueType: 1
   background: 35
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

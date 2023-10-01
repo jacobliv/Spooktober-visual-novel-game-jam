@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "H-Hey! Don\u2019t act like that. Zombification isn\u2019t all bad. Most
     people don\u2019t get the chance to find out who whacked them, but you do!"
   day: 1
-  character: 2
-  characterArt: 12
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  characterArt1: 4
+  characterArt2: 19
+  characterArt3: 12
   dialogueType: 2
   background: 36
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

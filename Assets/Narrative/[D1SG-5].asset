@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "Think of me as a distant auntie. It keeps a few centuries off of me, but
     call me your Spooky Grimmother. It\u2019s all the same to me."
   day: 1
-  character: 2
-  characterArt: 7
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  characterArt1: 3
+  characterArt2: 19
+  characterArt3: 7
   dialogueType: 2
   background: 36
   next1:

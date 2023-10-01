@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1C4-1]'
   line: "A feminine sing-songy voice comes through the intercom\u2019s static."
   day: 1
-  character: 9
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 10
   dialogueType: 1
   background: 40
   next1:
@@ -27,6 +29,6 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     positive: 0
-  sounds: 
-  music: 0
+  sounds: 0a000000
+  music: 14
   ambience: 15

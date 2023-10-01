@@ -17,9 +17,11 @@ MonoBehaviour:
     though my body didn\u2019t need it, I took in a deep breath to steady my hands
     and my nerves."
   day: 1
-  character: 0
-  characterArt: 2
-  dialogueType: 0
+  character: {fileID: 0}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 9
+  dialogueType: 1
   background: 36
   next1:
     narrativeItem: {fileID: 0}
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

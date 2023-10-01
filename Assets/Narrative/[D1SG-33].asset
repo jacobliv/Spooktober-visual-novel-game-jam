@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "Ooh! See! It hasn\u2019t even been a full day and you already got your first
     clue! Good job, hun!"
   day: 1
-  character: 2
-  characterArt: 7
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 7
   dialogueType: 2
   background: 36
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

@@ -13,7 +13,12 @@ public class CharacterPositionManager : MonoBehaviour {
 
     public void ManagePositions(NarrationItem narrationItem, CharacterArtList characterArtList) {
         ClearCurrent();
-        if (narrationItem.characterArt1.Equals(Art.NA)) return;
+        if (narrationItem.id.Equals("[D1SG-13]")) {
+            Debug.Log("Here");
+        }
+        if (narrationItem.characterArt1.Equals(Art.NA) && 
+            narrationItem.characterArt2.Equals(Art.NA) && 
+            narrationItem.characterArt3.Equals(Art.NA)) return;
         if (!narrationItem.characterArt1.Equals(Art.NA) &&
             !narrationItem.characterArt2.Equals(Art.NA) &&
             !narrationItem.characterArt3.Equals(Art.NA)) {
@@ -29,7 +34,31 @@ public class CharacterPositionManager : MonoBehaviour {
             SetChild(characterArtList,narrationItem.characterArt2,twoRight.transform);
             return;
         }
-        SetChild(characterArtList,narrationItem.characterArt1,oneCenter.transform);
+        
+        if (!narrationItem.characterArt1.Equals(Art.NA) &&
+            narrationItem.characterArt2.Equals(Art.NA) &&
+            !narrationItem.characterArt3.Equals(Art.NA)) {
+            SetChild(characterArtList,narrationItem.characterArt1,twoLeft.transform);
+            SetChild(characterArtList,narrationItem.characterArt3,twoRight.transform);
+            return;
+        }
+
+        if (!narrationItem.characterArt1.Equals(Art.NA) &&
+            narrationItem.characterArt2.Equals(Art.NA) &&
+            narrationItem.characterArt3.Equals(Art.NA)) {
+            SetChild(characterArtList,narrationItem.characterArt1,oneCenter.transform);
+        
+        } else if (narrationItem.characterArt1.Equals(Art.NA) &&
+                   !narrationItem.characterArt2.Equals(Art.NA) &&
+                   narrationItem.characterArt3.Equals(Art.NA)) {
+            SetChild(characterArtList,narrationItem.characterArt2,oneCenter.transform);
+
+        }else if (narrationItem.characterArt1.Equals(Art.NA) &&
+            narrationItem.characterArt2.Equals(Art.NA) &&
+            !narrationItem.characterArt3.Equals(Art.NA)) {
+            SetChild(characterArtList,narrationItem.characterArt3,oneCenter.transform);
+
+        }
 
 
     }

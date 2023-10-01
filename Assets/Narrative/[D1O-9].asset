@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1O-9]'
   line: "I bolt to my feet and look around, but I don\u2019t see anyone. "
   day: 1
-  character: 0
-  characterArt: 3
+  character: {fileID: 0}
+  characterArt1: 3
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 1
   background: 36
   next1:

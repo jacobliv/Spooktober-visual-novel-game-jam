@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1I-12]'
   line: You still owe me, though.
   day: 1
-  character: 1
-  characterArt: 15
+  character: {fileID: 11400000, guid: 104a517f2b19b3b42aae89a176715b29, type: 2}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 15
   dialogueType: 2
   background: 35
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

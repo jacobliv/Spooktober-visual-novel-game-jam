@@ -16,8 +16,10 @@ MonoBehaviour:
   line: Sorry, Omar. I just feel like something is different about you. Are you doing
     something different with your hair?
   day: 1
-  character: 5
-  characterArt: 21
+  character: {fileID: 11400000, guid: 82056f7d108610e4b97a4e2f4cc9ea53, type: 2}
+  characterArt1: 5
+  characterArt2: 19
+  characterArt3: 21
   dialogueType: 2
   background: 35
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

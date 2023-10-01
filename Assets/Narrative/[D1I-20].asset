@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "I don\u2019t know if I believe you, but I\u2019ll play along cuz we\u2019re
     bros. Just remember you owe me."
   day: 1
-  character: 1
-  characterArt: 13
+  character: {fileID: 11400000, guid: 104a517f2b19b3b42aae89a176715b29, type: 2}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 13
   dialogueType: 2
   background: 35
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

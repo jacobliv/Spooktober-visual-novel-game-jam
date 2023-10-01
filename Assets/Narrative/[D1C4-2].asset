@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1C4-2]'
   line: 'Like gravel sliding down a chalkboard, a voice pushes past the static. '
   day: 1
-  character: 9
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 12
   dialogueType: 1
   background: 40
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 0a000000
-  music: 0
+  music: 14
   ambience: 15

@@ -15,9 +15,11 @@ MonoBehaviour:
   id: '[D1O-56]'
   line: "It was like I\u2019d never left."
   day: 1
-  character: 0
-  characterArt: 1
-  dialogueType: 0
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 15
+  dialogueType: 1
   background: 35
   next1:
     narrativeItem: {fileID: 0}
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

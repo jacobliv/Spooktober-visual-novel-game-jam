@@ -16,8 +16,10 @@ MonoBehaviour:
   line: I jump out of my skin and let out a harsh breath through my nose to calm
     myself down.
   day: 1
-  character: 0
-  characterArt: 2
+  character: {fileID: 0}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 7
   dialogueType: 1
   background: 40
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

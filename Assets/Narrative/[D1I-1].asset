@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "A high-pitched voice tinged with voice cracks breaks the humming of the
     A/C Charles didn\u2019t fix."
   day: 1
-  character: 9
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 19
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 1
   background: 35
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

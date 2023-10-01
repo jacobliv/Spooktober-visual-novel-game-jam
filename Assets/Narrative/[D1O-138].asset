@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: '[D1O-138]'
   m_EditorClassIdentifier: 
   id: '[D1O-138]'
-  line: The fear that came with the thought only motivated me to find the killer
-    more. No use curling up into a ball like a baby.
+  line: <i>The fear that came with the thought only motivated me to find the killer
+    more. No use curling up into a ball like a baby.</i>
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 19
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 0
   background: 38
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

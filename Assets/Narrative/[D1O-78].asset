@@ -16,8 +16,10 @@ MonoBehaviour:
   line: Just as I slide her over an empty small cup the eighty-five cents in her
     pocket are already on the counter.
   day: 1
-  character: 0
-  characterArt: 1
+  character: {fileID: 0}
+  characterArt1: 1
+  characterArt2: 19
+  characterArt3: 20
   dialogueType: 1
   background: 35
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

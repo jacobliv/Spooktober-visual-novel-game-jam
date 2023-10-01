@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "Ms. Gin stares into my face the way only a mother could give when she\u2019s
     looking to see if there is anything wrong with you."
   day: 1
-  character: 5
-  characterArt: 21
+  character: {fileID: 0}
+  characterArt1: 3
+  characterArt2: 19
+  characterArt3: 21
   dialogueType: 1
   background: 35
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 16

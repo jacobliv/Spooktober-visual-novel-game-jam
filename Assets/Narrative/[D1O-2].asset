@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: '[D1O-2]'
   m_EditorClassIdentifier: 
   id: '[D1O-2]'
-  line: Little did I know, death would be delivered to ME in the most tomatoey way
-    possible.
+  line: <i>Little did I know, death would be delivered to</i> <b>ME</b> <i> in the
+    most tomatoey way possible.</i>
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 19
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 0
-  background: 38
+  background: 39
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 

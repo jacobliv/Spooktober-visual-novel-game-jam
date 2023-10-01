@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: '[D1O-113]'
   m_EditorClassIdentifier: 
   id: '[D1O-113]'
-  line: "Talk about irony\u2026"
+  line: "<i>Talk about irony\u2026</i>"
   day: 1
-  character: 0
-  characterArt: 0
+  character: {fileID: 0}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 22
   dialogueType: 0
   background: 34
   next1:
@@ -28,5 +30,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

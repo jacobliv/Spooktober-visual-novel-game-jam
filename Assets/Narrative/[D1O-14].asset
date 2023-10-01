@@ -17,8 +17,10 @@ MonoBehaviour:
     my cheeks. With one of my nails, I scratch at my face to see if I could feel
     anything. There wasn\u2019t even an ache."
   day: 1
-  character: 0
-  characterArt: 3
+  character: {fileID: 0}
+  characterArt1: 3
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 1
   background: 36
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

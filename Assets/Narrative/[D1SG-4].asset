@@ -15,8 +15,10 @@ MonoBehaviour:
   id: '[D1SG-4]'
   line: As she winks, a puff of smoke shaped like a skull rises from her pipe.
   day: 1
-  character: 2
-  characterArt: 7
+  character: {fileID: 0}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 7
   dialogueType: 1
   background: 36
   next1:

@@ -17,8 +17,10 @@ MonoBehaviour:
     hobo with a knife I guess I can accept that as you actually wanting to buzz you
     in."
   day: 1
-  character: 3
-  characterArt: 1
+  character: {fileID: 11400000, guid: 7404fbaae69b15a4d9645ff2439c07fd, type: 2}
+  characterArt1: 5
+  characterArt2: 19
+  characterArt3: 7
   dialogueType: 2
   background: 40
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

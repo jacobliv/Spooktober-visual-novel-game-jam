@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "The woman\u2019s expression contorts to one of annoyance. She takes a puff
     from her pipe and lets out a sigh filled with exhaustion."
   day: 1
-  character: 2
-  characterArt: 8
+  character: {fileID: 0}
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 8
   dialogueType: 1
   background: 36
   next1:

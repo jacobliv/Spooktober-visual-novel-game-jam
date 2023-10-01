@@ -17,8 +17,10 @@ MonoBehaviour:
     guy and one of the tenants up there. I didn\u2019t see who since it wasn\u2019t
     any of my business, you know?"
   day: 1
-  character: 3
-  characterArt: 23
+  character: {fileID: 11400000, guid: 7404fbaae69b15a4d9645ff2439c07fd, type: 2}
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 23
   dialogueType: 2
   background: 34
   next1:
@@ -30,5 +32,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

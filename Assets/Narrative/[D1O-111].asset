@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "The apartment door swings wide open and I finally put a face to the most
     memorable voice I\u2019d ever heard. "
   day: 1
-  character: 0
-  characterArt: 5
+  character: {fileID: 0}
+  characterArt1: 5
+  characterArt2: 19
+  characterArt3: 19
   dialogueType: 1
   background: 34
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

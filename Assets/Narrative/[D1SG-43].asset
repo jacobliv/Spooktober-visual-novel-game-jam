@@ -16,8 +16,10 @@ MonoBehaviour:
   line: "Let\u2019s just say\u2026 you\u2019re not passing on anywhere without finishing
     your business."
   day: 1
-  character: 2
-  characterArt: 11
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  characterArt1: 11
+  characterArt2: 19
+  characterArt3: 11
   dialogueType: 2
   background: 36
   next1:
@@ -29,5 +31,5 @@ MonoBehaviour:
     shortenedLine: 
     positive: 0
   sounds: 
-  music: 0
+  music: 14
   ambience: 15

@@ -17,7 +17,8 @@ MonoBehaviour:
     your business."
   day: 1
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
-  characterArt1: 11
+  unknownCharacter: 0
+  characterArt1: 0
   characterArt2: 19
   characterArt3: 11
   dialogueType: 2

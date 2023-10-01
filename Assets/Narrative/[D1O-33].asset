@@ -18,9 +18,10 @@ MonoBehaviour:
     to life and then settles into it\u2019s usual sputtering while it's parked."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
-  characterArt3: 19
+  characterArt3: 9
   dialogueType: 1
   background: 36
   next1:

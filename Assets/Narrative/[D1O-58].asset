@@ -18,6 +18,7 @@ MonoBehaviour:
     start the zombie apocalypse that\u2019s due sometime in the 23rd century."
   day: 1
   character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  unknownCharacter: 0
   characterArt1: 5
   characterArt2: 19
   characterArt3: 13

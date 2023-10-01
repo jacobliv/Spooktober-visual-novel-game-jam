@@ -18,6 +18,7 @@ MonoBehaviour:
     hanging from the door, most likely only there for the holidays."
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 19

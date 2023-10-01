@@ -17,6 +17,7 @@ MonoBehaviour:
     from her pipe and lets out a sigh filled with exhaustion."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 8

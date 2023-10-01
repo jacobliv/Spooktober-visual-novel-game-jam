@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "Well, I wouldn\u2019t have brought you back if it was impossible. "
   day: 1
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  unknownCharacter: 0
   characterArt1: 8
   characterArt2: 19
   characterArt3: 8

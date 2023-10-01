@@ -17,6 +17,7 @@ MonoBehaviour:
     my hair to distract myself from the silence and his eyes.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 5
   characterArt2: 19
   characterArt3: 13

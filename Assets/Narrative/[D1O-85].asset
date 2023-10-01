@@ -17,7 +17,8 @@ MonoBehaviour:
     usually happy to breathe in."
   day: 1
   character: {fileID: 0}
-  characterArt1: 1
+  unknownCharacter: 0
+  characterArt1: 19
   characterArt2: 32
   characterArt3: 19
   dialogueType: 1

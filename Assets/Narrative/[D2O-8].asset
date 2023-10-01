@@ -18,6 +18,7 @@ MonoBehaviour:
     head and looks at the building we\u2019re in front of.</i>"
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 7

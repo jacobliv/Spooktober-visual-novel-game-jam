@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "She opens her mouth to answer but stops as if she\u2019s in a freeze frame."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 3
   characterArt2: 19
   characterArt3: 10

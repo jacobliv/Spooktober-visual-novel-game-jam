@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "The man\u2019s eyes widen as he catches my rather alarmed expression."
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 25
   characterArt3: 27

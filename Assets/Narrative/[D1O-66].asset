@@ -17,6 +17,7 @@ MonoBehaviour:
     to pop out of place. Iggy shoved me off so he must not have noticed.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 15

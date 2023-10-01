@@ -18,6 +18,7 @@ MonoBehaviour:
     sounded like and for a split second, I wished I didn\u2019t."
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 6
   characterArt2: 19
   characterArt3: 19

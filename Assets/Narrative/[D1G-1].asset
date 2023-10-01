@@ -18,8 +18,9 @@ MonoBehaviour:
     who it is."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 1
-  characterArt2: 19
+  characterArt2: 13
   characterArt3: 20
   dialogueType: 1
   background: 35

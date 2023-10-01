@@ -18,6 +18,7 @@ MonoBehaviour:
     even some skull caps come and go from view before she shrugs."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 22

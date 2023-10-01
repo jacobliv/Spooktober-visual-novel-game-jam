@@ -17,6 +17,7 @@ MonoBehaviour:
     She cringes at the sight and dusts her hand on her dress.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 6
   characterArt2: 19
   characterArt3: 7

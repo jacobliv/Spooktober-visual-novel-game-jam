@@ -17,6 +17,7 @@ MonoBehaviour:
     a scene on the floor those few weeks back."
   day: 2
   character: {fileID: 11400000, guid: 0b524bbdfb06a9645bc1cf616fa42dd8, type: 2}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 26
   characterArt3: 27

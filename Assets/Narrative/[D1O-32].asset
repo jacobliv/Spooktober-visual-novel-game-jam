@@ -17,9 +17,10 @@ MonoBehaviour:
     my car. It\u2019s a good thing I never lock the doors when I\u2019m doing deliveries."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
-  characterArt3: 19
+  characterArt3: 7
   dialogueType: 1
   background: 36
   next1:

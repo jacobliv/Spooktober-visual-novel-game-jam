@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "I bolt to my feet and look around, but I don\u2019t see anyone. "
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 3
   characterArt2: 19
   characterArt3: 19

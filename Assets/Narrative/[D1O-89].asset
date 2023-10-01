@@ -17,7 +17,8 @@ MonoBehaviour:
     it still feels rather cozy.
   day: 1
   character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
-  characterArt1: 0
+  unknownCharacter: 0
+  characterArt1: 19
   characterArt2: 31
   characterArt3: 19
   dialogueType: 1

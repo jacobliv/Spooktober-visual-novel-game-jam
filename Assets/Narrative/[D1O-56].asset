@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "It was like I\u2019d never left."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 15

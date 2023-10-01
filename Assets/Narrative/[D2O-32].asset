@@ -17,6 +17,7 @@ MonoBehaviour:
     figure leans against the doorframe brandishing a knife with-- is that blood?
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 24
   characterArt3: 27

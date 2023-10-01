@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "I ain\u2019t got no blanket."
   day: 1
   character: {fileID: 11400000, guid: 7eb73936de06f684ab0e9478d588eb16, type: 2}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 9

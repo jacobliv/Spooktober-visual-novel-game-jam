@@ -18,7 +18,8 @@ MonoBehaviour:
     and they\u2019ll let me in. Best case scenario they can tell me about how I died."
   day: 1
   character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
-  characterArt1: 0
+  unknownCharacter: 0
+  characterArt1: 19
   characterArt2: 33
   characterArt3: 7
   dialogueType: 2

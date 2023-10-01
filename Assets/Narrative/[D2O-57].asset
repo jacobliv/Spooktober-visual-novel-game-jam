@@ -16,6 +16,7 @@ MonoBehaviour:
   line: Mason turns his attention back to me.
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 27
   characterArt3: 26

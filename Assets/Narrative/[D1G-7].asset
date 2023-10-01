@@ -17,6 +17,7 @@ MonoBehaviour:
     Woodsboro Apartments I thought you\u2019d never come back."
   day: 1
   character: {fileID: 11400000, guid: 82056f7d108610e4b97a4e2f4cc9ea53, type: 2}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 20

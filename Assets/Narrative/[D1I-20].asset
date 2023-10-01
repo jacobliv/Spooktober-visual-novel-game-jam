@@ -17,6 +17,7 @@ MonoBehaviour:
     bros. Just remember you owe me."
   day: 1
   character: {fileID: 11400000, guid: 104a517f2b19b3b42aae89a176715b29, type: 2}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 13

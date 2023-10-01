@@ -18,11 +18,12 @@ MonoBehaviour:
     mortis is not a joke, Omar."
   day: 2
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
-  characterArt1: 19
+  unknownCharacter: 0
+  characterArt1: 2
   characterArt2: 19
   characterArt3: 11
-  dialogueType: 0
-  background: 0
+  dialogueType: 2
+  background: 40
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 

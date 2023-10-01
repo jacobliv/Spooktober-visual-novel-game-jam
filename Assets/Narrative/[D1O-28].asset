@@ -19,8 +19,9 @@ MonoBehaviour:
     charming."
   day: 1
   character: {fileID: 0}
-  characterArt1: 31
-  characterArt2: 19
+  unknownCharacter: 0
+  characterArt1: 19
+  characterArt2: 33
   characterArt3: 19
   dialogueType: 1
   background: 36

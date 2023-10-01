@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: '[D1LC-11]'
   m_EditorClassIdentifier: 
   id: '[D1LC-11]'
-  line: I had knitted it myself! Anything I make always has my initials on it somewhere
-    in case I lose it.
+  line: 'I had knitted it myself! Anything I make always has my initials on it somewhere
+    in case I lose it. '
   day: 1
   character: {fileID: 11400000, guid: 7404fbaae69b15a4d9645ff2439c07fd, type: 2}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 22

@@ -17,6 +17,7 @@ MonoBehaviour:
     more. No use curling up into a ball like a baby.</i>
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 19
   characterArt2: 19
   characterArt3: 19

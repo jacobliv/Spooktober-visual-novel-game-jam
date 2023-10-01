@@ -16,6 +16,7 @@ MonoBehaviour:
   line: Edie facepalmed themselves as everything seemed to click in their head.
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 26
   characterArt3: 27

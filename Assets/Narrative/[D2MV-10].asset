@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "The name\u2019s Mason. What were you needing again?"
   day: 2
   character: {fileID: 11400000, guid: 0b524bbdfb06a9645bc1cf616fa42dd8, type: 2}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 26

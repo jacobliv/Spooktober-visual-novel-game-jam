@@ -17,6 +17,7 @@ MonoBehaviour:
     head, but whether he\u2019ll believe me is still a coin toss."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 4
   characterArt2: 19
   characterArt3: 14

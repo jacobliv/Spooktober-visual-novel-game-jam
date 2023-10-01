@@ -17,8 +17,9 @@ MonoBehaviour:
     days off would have done you some extra good.
   day: 1
   character: {fileID: 11400000, guid: 82056f7d108610e4b97a4e2f4cc9ea53, type: 2}
+  unknownCharacter: 0
   characterArt1: 1
-  characterArt2: 19
+  characterArt2: 13
   characterArt3: 21
   dialogueType: 2
   background: 35

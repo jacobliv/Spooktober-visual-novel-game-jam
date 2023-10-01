@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "<i>Can\u2019t resist any door with a doormat as cool as this one.</i>"
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 19

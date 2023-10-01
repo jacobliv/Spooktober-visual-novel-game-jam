@@ -17,6 +17,7 @@ MonoBehaviour:
     my arm but I juke the towering man just in time to make a beeline for the staircase.
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 19

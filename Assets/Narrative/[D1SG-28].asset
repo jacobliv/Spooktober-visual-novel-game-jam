@@ -18,6 +18,7 @@ MonoBehaviour:
     than it already does."
   day: 1
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 8

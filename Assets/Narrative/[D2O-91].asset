@@ -13,17 +13,18 @@ MonoBehaviour:
   m_Name: '[D2O-91]'
   m_EditorClassIdentifier: 
   id: '[D2O-91]'
-  line: As soon as I slipped back into the car, I drove right out of the apartments
-    without even buckling myself up. My vision was blurring, the adrenaline in me
-    was waning, and my body only continued to stiffen and lock me up inside my own
-    decaying skin.
+  line: 'Once back in the car, I drive right out of the apartments without even buckling
+    myself up. My vision is blurring, my adrenaline waning, and my body is stiffening
+    and locking up so much it feels like even a twitch from me will break my skin
+    like a fortune cookie. '
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 19
-  dialogueType: 0
-  background: 0
+  dialogueType: 1
+  background: 40
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
@@ -32,6 +33,6 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     positive: 0
-  sounds: 
+  sounds: 0800000009000000
   music: 0
   ambience: 0

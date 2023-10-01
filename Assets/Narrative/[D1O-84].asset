@@ -19,7 +19,8 @@ MonoBehaviour:
     mood for one."
   day: 1
   character: {fileID: 0}
-  characterArt1: 1
+  unknownCharacter: 0
+  characterArt1: 19
   characterArt2: 30
   characterArt3: 19
   dialogueType: 1

@@ -16,6 +16,7 @@ MonoBehaviour:
   line: Oh my God! Omar!?
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 1
   characterArt1: 19
   characterArt2: 19
   characterArt3: 19

@@ -15,7 +15,8 @@ MonoBehaviour:
   id: '[D2MV-1]'
   line: It was Akilla, Edie.
   day: 2
-  character: {fileID: 11400000, guid: 0b524bbdfb06a9645bc1cf616fa42dd8, type: 2}
+  character: {fileID: 0}
+  unknownCharacter: 1
   characterArt1: 3
   characterArt2: 19
   characterArt3: 27

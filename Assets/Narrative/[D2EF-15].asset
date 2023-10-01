@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "And sometimes they\u2019re not even wrong! She just wants a free pizza."
   day: 2
   character: {fileID: 11400000, guid: d6c1446352bfc4948a7b66fde5c35e7a, type: 2}
+  unknownCharacter: 0
   characterArt1: 6
   characterArt2: 26
   characterArt3: 27

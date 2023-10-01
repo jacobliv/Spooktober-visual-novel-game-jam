@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "She\u2019s on your head, Mar-Mar."
   day: 1
   character: {fileID: 11400000, guid: 104a517f2b19b3b42aae89a176715b29, type: 2}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 15
   characterArt3: 20

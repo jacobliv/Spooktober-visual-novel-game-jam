@@ -17,7 +17,8 @@ MonoBehaviour:
     for anything it's not for pizza anymore. "
   day: 1
   character: {fileID: 0}
-  characterArt1: 4
+  unknownCharacter: 0
+  characterArt1: 19
   characterArt2: 32
   characterArt3: 19
   dialogueType: 1

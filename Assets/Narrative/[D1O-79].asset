@@ -16,6 +16,7 @@ MonoBehaviour:
   line: My eyes shoot up from the cash register as I shove it closed.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 20

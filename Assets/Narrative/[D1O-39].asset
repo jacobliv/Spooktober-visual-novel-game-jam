@@ -17,6 +17,7 @@ MonoBehaviour:
     head against the steering wheel."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 9

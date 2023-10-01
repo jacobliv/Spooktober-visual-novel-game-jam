@@ -16,6 +16,7 @@ MonoBehaviour:
   line: He sighs into a relaxed smirk.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 13

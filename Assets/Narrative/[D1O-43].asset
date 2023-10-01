@@ -19,6 +19,7 @@ MonoBehaviour:
     lot towards my job: The 13th Pizza"
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 19

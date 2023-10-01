@@ -18,11 +18,12 @@ MonoBehaviour:
     be degraded because you delivered the wrong order!"
   day: 2
   character: {fileID: 0}
-  characterArt1: 9
+  unknownCharacter: 1
+  characterArt1: 18
   characterArt2: 19
   characterArt3: 19
   dialogueType: 2
-  background: 36
+  background: 34
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 

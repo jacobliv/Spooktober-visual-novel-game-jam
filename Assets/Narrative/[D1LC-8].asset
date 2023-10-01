@@ -17,6 +17,7 @@ MonoBehaviour:
     I\u2019ve been having a zombie movie marathon for myself before Halloween."
   day: 1
   character: {fileID: 11400000, guid: 7404fbaae69b15a4d9645ff2439c07fd, type: 2}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 22

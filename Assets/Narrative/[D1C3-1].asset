@@ -18,6 +18,7 @@ MonoBehaviour:
     stare at each other as we wear the same smile.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 15

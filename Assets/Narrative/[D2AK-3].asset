@@ -17,11 +17,12 @@ MonoBehaviour:
     already. It\u2019s the least you can do."
   day: 2
   character: {fileID: 0}
-  characterArt1: 6
+  unknownCharacter: 1
+  characterArt1: 17
   characterArt2: 19
   characterArt3: 19
   dialogueType: 2
-  background: 36
+  background: 34
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 

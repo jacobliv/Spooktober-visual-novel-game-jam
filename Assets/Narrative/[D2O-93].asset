@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: '[D2O-93]'
   m_EditorClassIdentifier: 
   id: '[D2O-93]'
-  line: "She appeared and floated beside me in the passenger\u2019s seat. Her initial
-    smile faded into stark horror and then into a motherly annoyance."
+  line: "She appears, floating beside me in the passenger\u2019s seat. Her smile
+    fades into horror at the sight of me, but plummets into motherly annoyance after
+    the initial shock."
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 8
-  dialogueType: 0
-  background: 0
+  dialogueType: 1
+  background: 40
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
@@ -30,6 +32,6 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     positive: 0
-  sounds: 
+  sounds: 00000000
   music: 0
   ambience: 0

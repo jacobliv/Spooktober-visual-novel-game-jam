@@ -16,6 +16,7 @@ MonoBehaviour:
   line: I pull out the pizza from the bag it was nestled in.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 23

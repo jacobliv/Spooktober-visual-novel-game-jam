@@ -17,6 +17,7 @@ MonoBehaviour:
     the dust-covered floor.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 4
   characterArt2: 19
   characterArt3: 14

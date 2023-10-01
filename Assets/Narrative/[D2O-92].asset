@@ -16,11 +16,12 @@ MonoBehaviour:
   line: "Sp-Spooky\u2026 Gri-Grimmother\u2026"
   day: 2
   character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 19
-  dialogueType: 0
-  background: 0
+  dialogueType: 2
+  background: 40
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 

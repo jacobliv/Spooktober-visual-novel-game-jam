@@ -16,6 +16,7 @@ MonoBehaviour:
   line: Oh, I almost forgot about that. Hehe!
   day: 1
   character: {fileID: 11400000, guid: 7404fbaae69b15a4d9645ff2439c07fd, type: 2}
+  unknownCharacter: 0
   characterArt1: 1
   characterArt2: 19
   characterArt3: 22

@@ -19,6 +19,7 @@ MonoBehaviour:
     other, I give the door a few soft knocks.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 5
   characterArt2: 19
   characterArt3: 19

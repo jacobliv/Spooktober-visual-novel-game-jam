@@ -15,7 +15,8 @@ MonoBehaviour:
   id: '[D2EF-1]'
   line: "I\u2019m sorry. I didn\u2019t order any pizza."
   day: 2
-  character: {fileID: 11400000, guid: d6c1446352bfc4948a7b66fde5c35e7a, type: 2}
+  character: {fileID: 0}
+  unknownCharacter: 1
   characterArt1: 0
   characterArt2: 19
   characterArt3: 19

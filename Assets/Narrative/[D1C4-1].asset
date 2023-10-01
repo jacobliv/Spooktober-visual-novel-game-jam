@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "A feminine sing-songy voice comes through the intercom\u2019s static."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 10

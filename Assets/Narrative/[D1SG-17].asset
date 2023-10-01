@@ -16,6 +16,7 @@ MonoBehaviour:
   line: She snaps her finger and my jaw floats up before reattaching to my head.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 3
   characterArt2: 19
   characterArt3: 9

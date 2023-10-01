@@ -18,6 +18,7 @@ MonoBehaviour:
     handshake with a fist bump."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 13

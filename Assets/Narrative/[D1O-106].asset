@@ -16,6 +16,7 @@ MonoBehaviour:
   line: No answer. I shift uncomfortably.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 3
   characterArt2: 19
   characterArt3: 8

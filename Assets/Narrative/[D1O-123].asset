@@ -16,6 +16,7 @@ MonoBehaviour:
   line: 'I nodded along as my eyes looked down, lingering on the pizza in my hand. '
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 22

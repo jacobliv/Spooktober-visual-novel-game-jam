@@ -18,6 +18,7 @@ MonoBehaviour:
     fear. My body feels as if it is not my own. '
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 3
   characterArt2: 19
   characterArt3: 19

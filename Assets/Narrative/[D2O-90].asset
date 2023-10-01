@@ -14,15 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: '[D2O-90]'
   line: "I ran away as best as I could. Moving felt like moving through butter instead
-    of the fluidity I\u2019d gotten used to. My joints wanted to stay and search
-    for Akilla, but they only moved because my brain was more imposing. At least
-    for the moment."
+    of the fluidity I\u2019d gotten used to. My joints scream to stay and search
+    for Akilla, but they end up going forward because my brain was more imposing.
+    At least for the moment."
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 19
-  dialogueType: 0
+  dialogueType: 1
   background: 36
   next1:
     narrativeItem: {fileID: 0}

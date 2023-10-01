@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "<i>No, no, no\u2026 This is not how this is supposed to go!</i>"
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 19

@@ -16,7 +16,8 @@ MonoBehaviour:
   line: Crap, wait my bad. I was chopping fruits.
   day: 2
   character: {fileID: 11400000, guid: 0b524bbdfb06a9645bc1cf616fa42dd8, type: 2}
-  characterArt1: 25
+  unknownCharacter: 0
+  characterArt1: 0
   characterArt2: 25
   characterArt3: 27
   dialogueType: 2

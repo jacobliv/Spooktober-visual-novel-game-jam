@@ -16,6 +16,7 @@ MonoBehaviour:
   line: Mason leans back inside and I hear the metal clack of a knife hitting a sink.
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 27

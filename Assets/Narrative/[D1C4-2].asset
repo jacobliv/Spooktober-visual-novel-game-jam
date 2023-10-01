@@ -16,6 +16,7 @@ MonoBehaviour:
   line: 'Like gravel sliding down a chalkboard, a voice pushes past the static. '
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 12

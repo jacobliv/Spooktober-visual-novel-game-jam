@@ -16,9 +16,10 @@ MonoBehaviour:
   line: She wiggles her finger and a hand mirror pops into her palm.
   day: 1
   character: {fileID: 0}
-  characterArt1: 3
+  unknownCharacter: 0
+  characterArt1: 19
   characterArt2: 29
-  characterArt3: 7
+  characterArt3: 19
   dialogueType: 1
   background: 36
   next1:

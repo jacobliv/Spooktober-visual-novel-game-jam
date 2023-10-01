@@ -18,6 +18,7 @@ MonoBehaviour:
     aren\u2019t just workers who do whatever we say."
   day: 2
   character: {fileID: 11400000, guid: d6c1446352bfc4948a7b66fde5c35e7a, type: 2}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 28

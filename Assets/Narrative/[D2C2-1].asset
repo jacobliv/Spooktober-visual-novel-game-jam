@@ -16,6 +16,7 @@ MonoBehaviour:
   line: The first door held my attention and received my first knock.
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 19

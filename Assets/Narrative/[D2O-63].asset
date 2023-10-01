@@ -17,6 +17,7 @@ MonoBehaviour:
     groan and slur. I can only stare in horror as a passenger in my own body.
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 19

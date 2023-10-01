@@ -17,6 +17,7 @@ MonoBehaviour:
     I\u2019ll leave the spooky stuff to my Grimmother."
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 19

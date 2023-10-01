@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: '[D2SG-14]'
   m_EditorClassIdentifier: 
   id: '[D2SG-14]'
-  line: "You\u2019re close. Time is almost up for you, your Rigor Mortis has jumped
-    higher in one day than I\u2019ve ever seen in my existence, but you know exactly
-    where the killer is."
+  line: "You\u2019re close to the end, hun. Time is almost up for you, your Rigor
+    Mortis has jumped higher in one day than I\u2019ve ever seen in my existence,
+    but at least you know exactly where the killer is."
   day: 2
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  unknownCharacter: 0
   characterArt1: 19
   characterArt2: 19
   characterArt3: 19
-  dialogueType: 0
-  background: 0
+  dialogueType: 2
+  background: 40
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 

@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "You\u2019re usually a lot quicker when it comes to ragging on Akilla."
   day: 2
   character: {fileID: 11400000, guid: d6c1446352bfc4948a7b66fde5c35e7a, type: 2}
+  unknownCharacter: 0
   characterArt1: 3
   characterArt2: 19
   characterArt3: 26

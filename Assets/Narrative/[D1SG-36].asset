@@ -17,6 +17,7 @@ MonoBehaviour:
     closing the driver\u2019s door."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 3
   characterArt2: 19
   characterArt3: 11

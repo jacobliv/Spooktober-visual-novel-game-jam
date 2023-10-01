@@ -16,6 +16,7 @@ MonoBehaviour:
   line: I whip my head to see a person who looks just as tired as me.
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 26

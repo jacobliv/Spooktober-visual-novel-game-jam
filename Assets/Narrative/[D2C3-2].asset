@@ -22,9 +22,9 @@ MonoBehaviour:
   characterArt2: 19
   characterArt3: 19
   dialogueType: 0
-  background: 37
+  background: 34
   next1:
-    narrativeItem: {fileID: 11400000, guid: 8353e0f1aa576ac42bac3b3194c05c92, type: 2}
+    narrativeItem: {fileID: 0}
     shortenedLine: 
     positive: 0
   next2:

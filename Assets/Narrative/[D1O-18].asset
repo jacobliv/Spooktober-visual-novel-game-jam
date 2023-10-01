@@ -18,6 +18,7 @@ MonoBehaviour:
     before my head could fall onto the ground and looks me dead in the eyes.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 4
   characterArt2: 19
   characterArt3: 12

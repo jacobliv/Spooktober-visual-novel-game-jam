@@ -16,6 +16,7 @@ MonoBehaviour:
   line: "The door is torn to shreds!? Do you think I\u2019m stupid?"
   day: 2
   character: {fileID: 11400000, guid: 1d42a418aa13cff488b2bceac3a05a6e, type: 2}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 19

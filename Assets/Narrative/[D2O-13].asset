@@ -18,6 +18,7 @@ MonoBehaviour:
     to me, she made doing what I had to actually feel worth something.</i>
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 4
   characterArt2: 19
   characterArt3: 19

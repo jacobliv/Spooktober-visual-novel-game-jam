@@ -19,6 +19,7 @@ MonoBehaviour:
     again."
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 19

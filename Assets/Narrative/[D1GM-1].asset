@@ -16,6 +16,7 @@ MonoBehaviour:
   line: What do you want?
   day: 1
   character: {fileID: 11400000, guid: 7eb73936de06f684ab0e9478d588eb16, type: 2}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 9

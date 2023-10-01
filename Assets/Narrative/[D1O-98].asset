@@ -16,6 +16,7 @@ MonoBehaviour:
   line: I huff as I press the down arrow until I make it towards the L names.
   day: 1
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 9

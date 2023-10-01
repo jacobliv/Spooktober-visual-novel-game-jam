@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: '[D2O-95]'
   m_EditorClassIdentifier: 
   id: '[D2O-95]'
-  line: With a wave of her pipe, a smoke cloud swirled around my neck that pushed
-    the stiffness away from my focus but did not really get rid of it entirely. A
-    temporary solution to my growing problems.
+  line: With a wave of her pipe, a smoke ring swirls about the size of a choker around
+    my neck and loosens up my body just enough for me to move without worry. A temporary
+    solution to my growing problems.
   day: 2
   character: {fileID: 0}
+  unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
   characterArt3: 12
-  dialogueType: 0
-  background: 0
+  dialogueType: 1
+  background: 40
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 

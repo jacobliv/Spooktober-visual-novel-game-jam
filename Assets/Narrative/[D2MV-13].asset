@@ -17,6 +17,7 @@ MonoBehaviour:
     going IN on some poor dude outside about some wrong order."
   day: 2
   character: {fileID: 11400000, guid: 0b524bbdfb06a9645bc1cf616fa42dd8, type: 2}
+  unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
   characterArt3: 26

@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: '[D3O-6]'
   m_EditorClassIdentifier: 
   id: '[D3O-6]'
-  line: "Holy crap, there\u2019s barely any time left! "
+  line: I hit the gas as I make my way back to The Woodsboro Apartments.
   day: 3
-  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  character: {fileID: 0}
   unknownCharacter: 0
-  characterArt1: 2
+  characterArt1: 6
   characterArt2: 19
   characterArt3: 12
-  dialogueType: 2
+  dialogueType: 1
   background: 40
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
-  music: 19
+  music: 14
   ambience: 19

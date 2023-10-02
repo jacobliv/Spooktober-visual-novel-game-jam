@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: '[D3O-5]'
   m_EditorClassIdentifier: 
   id: '[D3O-5]'
-  line: I roll my eyes, grab my seatbelt, and check my phone.
+  line: "Holy crap, there\u2019s barely any time left! "
   day: 3
-  character: {fileID: 0}
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
   unknownCharacter: 0
-  characterArt1: 0
+  characterArt1: 2
   characterArt2: 19
-  characterArt3: 9
-  dialogueType: 1
+  characterArt3: 12
+  dialogueType: 2
   background: 40
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
-  music: 19
+  music: 14
   ambience: 19

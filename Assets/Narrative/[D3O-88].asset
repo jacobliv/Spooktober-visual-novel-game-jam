@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D3O-88]'
+  m_EditorClassIdentifier: 
+  id: '[D3O-88]'
+  line: "I try to say something to her, I want to gag from bits of gray matter rolling
+    on my tongue, but I don\u2019t. It\u2019s revoltingly delicious, as it reminds
+    me of the texture of spoiled yogurt sprayed with orange juice and strawberry
+    seeds."
+  day: 3
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 7
+  dialogueType: 0
+  background: 44
+  next1:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 15
+  ambience: 19

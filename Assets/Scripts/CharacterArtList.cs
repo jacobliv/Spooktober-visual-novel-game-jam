@@ -56,5 +56,7 @@ Omar_Neutral,
     Dead_Omar_CG,
     Inside_Car,
     Eat_Brains,
-    OmarMirror_Item
+    OmarMirror_Item,
+    Omar_Cactus,
+    EatBrains_CG
 }

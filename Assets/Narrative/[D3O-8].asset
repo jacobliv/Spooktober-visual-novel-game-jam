@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: '[D3O-8]'
   m_EditorClassIdentifier: 
   id: '[D3O-8]'
-  line: "I\u2019ve got about twelve hours to have a face-to-face with Akilla before
-    my body kicks me out and goes on a zombie-style buffet. I don\u2019t have any
-    time to waste."
+  line: I pull up to the dreaded gate, get out of my car, and start kicking my tires.
   day: 3
   character: {fileID: 0}
   unknownCharacter: 0
@@ -23,15 +21,15 @@ MonoBehaviour:
   characterArt2: 19
   characterArt3: 19
   dialogueType: 1
-  background: 38
+  background: 36
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
-  music: 19
+  music: 14
   ambience: 19

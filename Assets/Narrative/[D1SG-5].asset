@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: '[D1SG-5]'
   m_EditorClassIdentifier: 
   id: '[D1SG-5]'
-  line: "Think of me as a distant auntie. It keeps a few centuries off of me, but
-    call me your Spooky Grimmother. It\u2019s all the same to me."
+  line: "Think of me as your distant auntie. It keeps a few centuries off of me,
+    but call me your Spooky Grimmother. It\u2019s all the same to me."
   day: 1
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
   unknownCharacter: 0
@@ -26,11 +26,11 @@ MonoBehaviour:
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
   music: 13
   ambience: 17

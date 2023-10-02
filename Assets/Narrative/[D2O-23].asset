@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: '[D2O-23]'
   m_EditorClassIdentifier: 
   id: '[D2O-23]'
-  line: The second door just had a welcome mat with an axolotl holding its middle
-    fingers up.
+  line: The second door, <b>Apartment #519</b> just had a welcome mat with an axolotl
+    holding its middle fingers up.
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -26,11 +26,11 @@ MonoBehaviour:
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
   music: 16
   ambience: 19

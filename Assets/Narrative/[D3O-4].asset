@@ -13,24 +13,23 @@ MonoBehaviour:
   m_Name: '[D3O-4]'
   m_EditorClassIdentifier: 
   id: '[D3O-4]'
-  line: "You\u2019re <b>dead</b>. What am I going to do? I couldn\u2019t wake you
-    up even if I tried. You\u2019re losing your grip on your body, Omar!"
+  line: I roll my eyes, grab my seatbelt, and check my phone.
   day: 3
   character: {fileID: 0}
   unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
-  characterArt3: 11
+  characterArt3: 9
   dialogueType: 1
   background: 40
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
   music: 19
   ambience: 19

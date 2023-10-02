@@ -15,21 +15,21 @@ MonoBehaviour:
   id: '[DE-6]'
   line: "I\u2019m sorry kid\u2026"
   day: 0
-  character: {fileID: 0}
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
   unknownCharacter: 0
   characterArt1: 19
   characterArt2: 19
   characterArt3: 8
-  dialogueType: 0
+  dialogueType: 2
   background: 38
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
   music: 19
   ambience: 19

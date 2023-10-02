@@ -13,23 +13,25 @@ MonoBehaviour:
   m_Name: '[D3O-7]'
   m_EditorClassIdentifier: 
   id: '[D3O-7]'
-  line: I hit the gas as I make my way back to The Woodsboro Apartments.
+  line: "I\u2019ve got about twelve hours to have a face-to-face with Akilla before
+    my body kicks me out and goes on a zombie-style buffet. I don\u2019t have any
+    time to waste."
   day: 3
   character: {fileID: 0}
   unknownCharacter: 0
-  characterArt1: 6
+  characterArt1: 19
   characterArt2: 19
-  characterArt3: 12
+  characterArt3: 19
   dialogueType: 1
-  background: 40
+  background: 38
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
-  music: 19
+  music: 14
   ambience: 19

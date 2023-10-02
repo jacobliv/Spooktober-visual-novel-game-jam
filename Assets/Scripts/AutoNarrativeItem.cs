@@ -41,8 +41,8 @@ public class AutoNarrativeItem : MonoBehaviour {
         NarrationItem newNarrationItem = ScriptableObject.CreateInstance<NarrationItem>();
         newNarrationItem.name = string.Format(id,num);
         // Set default properties here if needed
-
-    
+        
+        
         AssetDatabase.CreateAsset(newNarrationItem, "Assets/Narrative/" + newNarrationItem.name + ".asset");
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
@@ -92,18 +92,18 @@ public class AutoNarrativeItem : MonoBehaviour {
                 }
                 else if (fields[3].Equals("")){
                     // instance.character.character = CharacterEnum.None;
-
+    
                 }
                 else {
                     instance.character = characterList.characters.Find(c=> {
                         return c.character.Equals((CharacterEnum)Enum.Parse(typeof(CharacterEnum), fields[3]));
                     });
                 }
-
+    
                 instance.characterArt1 = Art.NA;
                 instance.characterArt2 = Art.NA;
                 instance.characterArt3 = Art.NA;
-
+    
                 if (fields.Length>4 && !fields[4].Equals("N/A") && fields[4].Trim() !="") {
                     instance.characterArt1 = (Art)Enum.Parse(typeof(Art), fields[4]);
                 }
@@ -127,7 +127,7 @@ public class AutoNarrativeItem : MonoBehaviour {
                 else {
                     instance.music = Sounds.None;
                 }
-
+    
                 instance.sounds = new List<Sounds>();
                 if (fields.Length>14 && fields[14] != "" && fields[14] != "N/A") {
                     instance.sounds.Add((Sounds)Enum.Parse(typeof(Sounds), fields[14]));
@@ -141,14 +141,14 @@ public class AutoNarrativeItem : MonoBehaviour {
                 if (fields.Length>17 && fields[17] != "" && fields[17] != "N/A") {
                     instance.sounds.Add((Sounds)Enum.Parse(typeof(Sounds), fields[17]));
                 }
-
+    
                 if (fields.Length > 18 && fields[18] != "") {
                     instance.ambience = (Sounds)Enum.Parse(typeof(Sounds), fields[18]);
-
+    
                 }else {
                     instance.ambience = Sounds.None;
                 }
-
+    
                 
                 _narrationItems[fields[0]] = instance;
                 AssetDatabase.CreateAsset(instance, "Assets/Narrative/" + instance.id + ".asset");
@@ -165,12 +165,12 @@ public class AutoNarrativeItem : MonoBehaviour {
                 continue;
             }
             string[] fields = line.Split('\t');
-
+    
             NarrationItem narrationItem = _narrationItems[fields[0]];
             string firstChoice = fields.Length > 10 ? fields[10] : "";
             if (fields.Length>9 && _narrationItems.ContainsKey(fields[9])) {
                 narrationItem.next1 = new NextNarrative(_narrationItems[fields[9]],firstChoice);
-
+    
             }
             if (fields.Length>11 && fields[11] != "" &&_narrationItems.ContainsKey(fields[11]) ) {
                 narrationItem.next2 = new NextNarrative(_narrationItems[fields[11]],fields[12]);

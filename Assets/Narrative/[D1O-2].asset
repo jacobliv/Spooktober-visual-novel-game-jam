@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: '[D1O-2]'
   m_EditorClassIdentifier: 
   id: '[D1O-2]'
-  line: <i>Little did I know, death would be delivered to</i> <b>ME</b> <i> in the
-    most tomatoey way possible.</i>
+  line: <i> The pay's good! What could go wrong Omar? </i>
   day: 1
   character: {fileID: 0}
   unknownCharacter: 0
@@ -26,11 +25,11 @@ MonoBehaviour:
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
   music: 19
   ambience: 17

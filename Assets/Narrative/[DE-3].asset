@@ -21,16 +21,16 @@ MonoBehaviour:
   characterArt1: 19
   characterArt2: 19
   characterArt3: 19
-  dialogueType: 0
+  dialogueType: 2
   background: 38
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
   music: 19
   ambience: 19

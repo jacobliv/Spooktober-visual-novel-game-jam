@@ -2375,7 +2375,7 @@ PrefabInstance:
     - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
       propertyPath: deadEnd
       value: 
-      objectReference: {fileID: 11400000, guid: b6c9c166a2fe91a4dbd4faea1202857e, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
       propertyPath: phoneUI
       value: 
@@ -2845,7 +2845,7 @@ MonoBehaviour:
   offset: 1
   sounds: []
   characterList: {fileID: 11400000, guid: ffc7001e163c24d40801d692d2b642c9, type: 2}
-  csvFile: {fileID: 4900000, guid: 7082a2d75f006584592a36970462a4a2, type: 3}
+  csvFile: {fileID: 4900000, guid: e5a23c894b656ae4e8285019bcd17c6f, type: 3}
 --- !u!82 &226036100
 AudioSource:
   m_ObjectHideFlags: 0

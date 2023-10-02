@@ -72,7 +72,7 @@ public class NextNarrative {
     [SerializeField, Tooltip("The shortened line if needed to be displayed for a choice. Can be empty")]
     public string shortenedLine;
 
-    public int positive;
+    public int value;
 }
 
 public enum Day {

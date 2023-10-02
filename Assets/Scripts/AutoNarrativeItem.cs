@@ -174,8 +174,16 @@ public class AutoNarrativeItem : MonoBehaviour {
             }
             if (fields.Length>11 && fields[11] != "" &&_narrationItems.ContainsKey(fields[11]) ) {
                 narrationItem.next2 = new NextNarrative(_narrationItems[fields[11]],fields[12]);
-
+                switch (narrationItem.day) {
+                    case Day.One:
+                        break;
+                    case Day.Two:
+                        break;
+                    case Day.Three:
+                        break;
+                }
             }
+            
         } 
         
     }

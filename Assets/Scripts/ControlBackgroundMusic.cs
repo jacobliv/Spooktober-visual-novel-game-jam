@@ -4,11 +4,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ControlBackgroundMusic : MonoBehaviour {
-    public AudioSource musicSource;
-    public AudioSource ambientSource;
+    public static ControlBackgroundMusic instance;
+    public        AudioSource            musicSource;
+    public        AudioSource            ambientSource;
 
     public List<Sound> ambientSounds;
     public List<Sound> music;
+
+    private void Awake() {
+        if (instance == null) {
+            instance = this;
+        }
+    }
 
     public void ChangeSong(Sounds song) {
         if(song.Equals(Sounds.None)) {

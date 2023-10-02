@@ -17,11 +17,10 @@ public class NarrativeHistory : MonoBehaviour {
         linearHistory.Add(currentNarrativeItem);
 
         if(currentNarrativeItem.next2 == null) return;
-        positiveActions+=next.positive;
         choices += 1;
         // TODO ADD BACK IN
         // Character character = currentNarrativeItem.character;
-        positiveValue[next.narrativeItem.id] = next.positive;
+        positiveValue[next.narrativeItem.id] = next.value;
         // TODO ADD BACK IN
         // narrativeHistory[character!=null ?character.name: "Narrator"]=new CharacterHistory().AddHistory(next.shortenedLine);
 

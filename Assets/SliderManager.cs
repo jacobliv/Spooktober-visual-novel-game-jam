@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SliderManager : MonoBehaviour {
@@ -11,7 +8,9 @@ public class SliderManager : MonoBehaviour {
     public  RectTransform line;
     [Range(0,1f)]
     public  float         value;
-    private float         oldValue;
+    private float oldValue;
+    public float   currentVal;
+    public  int   totalValue = 26;
     private void OnValidate() {
         if (Mathf.Abs(value - oldValue) > .05f) {
             oldValue = value;
@@ -19,8 +18,9 @@ public class SliderManager : MonoBehaviour {
         }
     }
 
-    public void IncrementBar(float val) {
-        value += val;
+    public void IncrementBar(int val) {
+        currentVal += val;
+        value = currentVal/totalValue;
         UpdateSize();
     }
     private void UpdateSize() {

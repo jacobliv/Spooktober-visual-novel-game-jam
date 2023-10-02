@@ -24,13 +24,13 @@ MonoBehaviour:
   dialogueType: 0
   background: 38
   next1:
-    narrativeItem: {fileID: 0}
+    narrativeItem: {fileID: 11400000, guid: c564e3a2d90789142a0c28ccfced8cd6, type: 2}
     shortenedLine: 
-    positive: 0
+    value: 27
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
-    positive: 0
+    value: 0
   sounds: 
   music: 19
   ambience: 17

@@ -16,16 +16,18 @@ public class NarrativeManager : MonoBehaviour {
     [Header("General")]
     [SerializeField] public GameObject rigorMortisCanvas;
 
-    public  Image         background; 
-    public Image                    characterImage;
-    public GameObject               characterCanvas;
-    public GameObject               mainBackgroundCanvas;
-    public List<GameObject>         otherCanvases;
-    public NarrationItem            startingNarrativeItem;
-    public NarrationItem            currentNarrativeItem;
-    public GameObject               creditsCanvas;
-    public CharacterArtList         characterArtList;
-    public CharacterList            characterList;
+    public NarrationItem    deadEnd;
+    public SliderManager    rigorMortisSlider;
+    public Image            background; 
+    public Image            characterImage;
+    public GameObject       characterCanvas;
+    public GameObject       mainBackgroundCanvas;
+    public List<GameObject> otherCanvases;
+    public NarrationItem    startingNarrativeItem;
+    public NarrationItem    currentNarrativeItem;
+    public GameObject       creditsCanvas;
+    public CharacterArtList characterArtList;
+    public CharacterList    characterList;
     #endregion
 
     #region Background
@@ -46,8 +48,10 @@ public class NarrativeManager : MonoBehaviour {
     
     #region Multi Choice Dialogue
 
-    [Header("Multiple Choice Dialogue")]
-
+    [Header("Multiple Choice Dialogue")] 
+    public TextMeshProUGUI first;
+    public TextMeshProUGUI second;
+    public GameObject      multipleChoiceCanvas;
     #endregion
 
     #region Characters
@@ -76,7 +80,13 @@ public class NarrativeManager : MonoBehaviour {
             return;
         }
         dialogueUI.ui.SetActive(true);
-   
+        if(option == 0) {
+            rigorMortisSlider.IncrementBar(currentNarrativeItem.next1.value);
+        }
+        else if(option==1){
+            rigorMortisSlider.IncrementBar(currentNarrativeItem.next2.value);
+
+        }
 
         MoveNarrativeForward(option);
         
@@ -86,24 +96,35 @@ public class NarrativeManager : MonoBehaviour {
 
     private void MoveNarrativeForward(int option) {
         if (option == -1) return;
-        if ((option==1 && currentNarrativeItem.next2==null) || currentNarrativeItem.next1.narrativeItem == null) {
+        if ((option==1 && currentNarrativeItem.next2.narrativeItem==null) || currentNarrativeItem.next1.narrativeItem == null) {
             Debug.LogWarning($"Current narrative doesn't have a next at index {option}");
         }
-
-        NextNarrative next = option == 0 ? currentNarrativeItem.next1 : currentNarrativeItem.next2;
-        SaveChoice(next);
         historyManager.Add(currentNarrativeItem.name,(currentNarrativeItem.character !=null?currentNarrativeItem.character.name:
                                currentNarrativeItem.unknownCharacter?"???":""),currentNarrativeItem.line);
-        currentNarrativeItem = next.narrativeItem;
+        if (rigorMortisSlider.currentVal >= rigorMortisSlider.totalValue) {
+            currentNarrativeItem = deadEnd;
+
+        }
+        else {
+            NextNarrative next = option == 0 ? currentNarrativeItem.next1 : currentNarrativeItem.next2;
+            SaveChoice(next);
+            currentNarrativeItem = next.narrativeItem;
+
+        }
+        
+        
     }
     
     private void SaveChoice(NextNarrative next) {
         _narrativeHistory.AddNarrativeHistory(currentNarrativeItem,next);
     }
 
+    public void CloseMulti() {
+        multipleChoiceCanvas.SetActive(false);
+    }
     public void GoBack() {
         if( _narrativeHistory.positiveValue.ContainsKey(currentNarrativeItem.name)) {
-            _narrativeHistory.positiveActions -= _narrativeHistory.positiveValue[currentNarrativeItem.name];
+            rigorMortisSlider.IncrementBar(-_narrativeHistory.positiveValue[currentNarrativeItem.name]);
             _narrativeHistory.choices--;
         }
         currentNarrativeItem = _narrativeHistory.linearHistory[^1];
@@ -153,8 +174,8 @@ public class NarrativeManager : MonoBehaviour {
         SetupCharacter();
 
         _sfxCoroutine=StartCoroutine(PlaySFXAudioClips());
-        controlBackgroundMusic.ChangeSong(currentNarrativeItem.music);
-        controlBackgroundMusic.ChangeAmbient(currentNarrativeItem.ambience);
+        ControlBackgroundMusic.instance.ChangeSong(currentNarrativeItem.music);
+        ControlBackgroundMusic.instance.ChangeAmbient(currentNarrativeItem.ambience);
 
     }
 
@@ -174,10 +195,10 @@ public class NarrativeManager : MonoBehaviour {
 
         // FIXME Look into this a bit more
         if (currentNarrativeItem.next2.narrativeItem != null) {
-            dialogueUI.multiDialogueChoicePanel.SetActive(true);
-            dialogueUI.dialogueNavigationButtonPanel.SetActive(false);
-            dialogueUI.multiDialogueChoice1.text = currentNarrativeItem.next1.shortenedLine;
-            dialogueUI.multiDialogueChoice2.text = currentNarrativeItem.next2.shortenedLine;
+            multipleChoiceCanvas.SetActive(true);
+            first.text = currentNarrativeItem.next1.shortenedLine;
+            second.text = currentNarrativeItem.next2.shortenedLine;
+            
         } 
 
     }
@@ -197,7 +218,7 @@ public class NarrativeManager : MonoBehaviour {
     }
 
     private void SetSpokenTextDefaults() {
-        dialogueUI.multiDialogueChoicePanel.SetActive(false);
+        multipleChoiceCanvas.SetActive(false);
         dialogueUI.dialogueNavigationButtonPanel.SetActive(true);
         dialogueUI.nextButton.transform.gameObject.SetActive(true);
         dialogueUI.lineText.fontStyle = FontStyles.Normal;

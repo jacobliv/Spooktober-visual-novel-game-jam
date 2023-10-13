@@ -24,11 +24,11 @@ MonoBehaviour:
   background: 34
   next1:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Knock Calmly.
     value: 0
   next2:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Kick it back down!
     value: 0
   sounds: 
   music: 14

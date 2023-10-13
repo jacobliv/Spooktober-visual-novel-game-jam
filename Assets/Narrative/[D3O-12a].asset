@@ -24,11 +24,11 @@ MonoBehaviour:
   background: 36
   next1:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Call Leah
     value: 0
   next2:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Screw the Gate!
     value: 0
   sounds: 
   music: 14

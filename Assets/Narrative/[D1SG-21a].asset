@@ -24,11 +24,11 @@ MonoBehaviour:
   background: 36
   next1:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: I'm stuck like this?
     value: 0
   next2:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Bring me back to life all the way!
     value: 0
   sounds: 
   music: 16

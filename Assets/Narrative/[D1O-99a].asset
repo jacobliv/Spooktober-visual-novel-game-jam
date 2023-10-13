@@ -24,11 +24,11 @@ MonoBehaviour:
   background: 36
   next1:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: L. Coner
     value: 0
   next2:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: L. Cloverfield
     value: 0
   sounds: 
   music: 16

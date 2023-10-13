@@ -24,11 +24,11 @@ MonoBehaviour:
   background: 36
   next1:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Drive through gate
     value: 0
   next2:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Climb over the gate
     value: 0
   sounds: 
   music: 14

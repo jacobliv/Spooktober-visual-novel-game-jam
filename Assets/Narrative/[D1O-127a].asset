@@ -24,11 +24,11 @@ MonoBehaviour:
   background: 34
   next1:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Do you like pizza?
     value: 0
   next2:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: I gotta go!
     value: 0
   sounds: 
   music: 16

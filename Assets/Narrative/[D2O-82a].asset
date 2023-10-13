@@ -24,11 +24,11 @@ MonoBehaviour:
   background: 34
   next1:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Forget the leg!
     value: 0
   next2:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Put it back on.
     value: 0
   sounds: 
   music: 19

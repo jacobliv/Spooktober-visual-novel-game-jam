@@ -24,11 +24,11 @@ MonoBehaviour:
   background: 36
   next1:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: 'SCREAM! '
     value: 0
   next2:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: "How\u2019d you get here?"
     value: 0
   sounds: 
   music: 13

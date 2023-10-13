@@ -22,7 +22,7 @@ MonoBehaviour:
   characterArt2: 19
   characterArt3: 19
   dialogueType: 0
-  background: 40
+  background: 38
   next1:
     narrativeItem: {fileID: 0}
     shortenedLine: 

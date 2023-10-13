@@ -23,7 +23,7 @@ MonoBehaviour:
   dialogueType: 2
   background: 36
   next1:
-    narrativeItem: {fileID: 0}
+    narrativeItem: {fileID: 11400000, guid: c970f3e51dd25164a863c163830bcfe2, type: 2}
     shortenedLine: 
     value: 0
   next2:

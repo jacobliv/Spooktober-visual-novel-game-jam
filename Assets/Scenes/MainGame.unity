@@ -2837,15 +2837,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 499bd2a2e07ad3e4fa15eac1754679b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: TDP2-{0}
-  number: 8
-  day: 1
-  character: {fileID: 11400000, guid: c6f0923116ed25a4db895fc2abf6fc6d, type: 2}
-  phone: 0
-  offset: 1
-  sounds: []
   characterList: {fileID: 11400000, guid: ffc7001e163c24d40801d692d2b642c9, type: 2}
-  csvFile: {fileID: 4900000, guid: e5a23c894b656ae4e8285019bcd17c6f, type: 3}
+  csvFile: {fileID: 4900000, guid: 44cec959895183246844c4d366734dbb, type: 3}
 --- !u!82 &226036100
 AudioSource:
   m_ObjectHideFlags: 0
@@ -24296,6 +24289,10 @@ PrefabInstance:
       propertyPath: bracingForImpact
       value: 
       objectReference: {fileID: 8300000, guid: c40361620f7b9eb4a8cb040451c796b7, type: 3}
+    - target: {fileID: 5499931872729587269, guid: d5570edf0b5a86d4484f52ca2f48c455, type: 3}
+      propertyPath: transitionDuration
+      value: 0.63
+      objectReference: {fileID: 0}
     - target: {fileID: 5499931872729587269, guid: d5570edf0b5a86d4484f52ca2f48c455, type: 3}
       propertyPath: music.Array.data[0].sound
       value: 13

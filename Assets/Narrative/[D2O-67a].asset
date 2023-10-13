@@ -24,11 +24,11 @@ MonoBehaviour:
   background: 37
   next1:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Try to Explain
     value: 0
   next2:
     narrativeItem: {fileID: 0}
-    shortenedLine: 
+    shortenedLine: Run!
     value: 0
   sounds: 
   music: 19

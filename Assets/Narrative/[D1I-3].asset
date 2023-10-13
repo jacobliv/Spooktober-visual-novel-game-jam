@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D1I-3]'
+  m_EditorClassIdentifier: 
+  id: '[D1I-3]'
+  line: "Where have you been?! You don\u2019t call in sick to the boss, you don\u2019t
+    even send a text to me, and then you make me look like an asshole for calling
+    your phone five times everyday when even your parents didn\u2019t know where
+    you are!"
+  day: 1
+  character: {fileID: 11400000, guid: 104a517f2b19b3b42aae89a176715b29, type: 2}
+  unknownCharacter: 0
+  characterArt1: 4
+  characterArt2: 19
+  characterArt3: 14
+  dialogueType: 2
+  background: 35
+  next1:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 16
+  ambience: 18

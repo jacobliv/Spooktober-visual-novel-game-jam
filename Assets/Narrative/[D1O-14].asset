@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D1O-14]'
+  m_EditorClassIdentifier: 
+  id: '[D1O-14]'
+  line: "This time I didn't scream. I stare into the mirror and trace the shape of
+    my cheeks. With one of my nails, I scratch at my face to see if I could feel
+    anything. There wasn\u2019t even an ache."
+  day: 1
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 19
+  characterArt2: 42
+  characterArt3: 19
+  dialogueType: 1
+  background: 36
+  next1:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 16
+  ambience: 17

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D2O-66]'
+  m_EditorClassIdentifier: 
+  id: '[D2O-66]'
+  line: The sound of doors opening in the hallway snaps me back as I feel sensation
+    come back to my body.
+  day: 2
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 3
+  characterArt2: 19
+  characterArt3: 19
+  dialogueType: 1
+  background: 37
+  next1:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 19
+  ambience: 19

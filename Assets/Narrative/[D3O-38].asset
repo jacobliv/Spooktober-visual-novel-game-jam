@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D3O-38]'
+  m_EditorClassIdentifier: 
+  id: '[D3O-38]'
+  line: I grab onto a section of the door frame and crush it without even breaking
+    eye contact with her. My teeth grind themselves into fangs and somewhere in the
+    decaying brain matter I have left I feel the urge to do the same thing to her
+    skull, but I try my best to push it down.
+  day: 3
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 18
+  dialogueType: 1
+  background: 34
+  next1:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 14
+  ambience: 19

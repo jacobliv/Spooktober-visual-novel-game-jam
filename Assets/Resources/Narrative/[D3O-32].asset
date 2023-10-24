@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D3O-32]'
+  m_EditorClassIdentifier: 
+  id: '[D3O-32]'
+  line: "She stares past me blankly, not even acting like she\u2019s trying to remember."
+  day: 3
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 16
+  dialogueType: 1
+  background: 34
+  next1:
+    narrativeItem: {fileID: 11400000, guid: 2b54f71a2aed99b48b788ce684052e53, type: 2}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 14
+  ambience: 19

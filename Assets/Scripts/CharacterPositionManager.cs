@@ -63,17 +63,14 @@ public class CharacterPositionManager : MonoBehaviour {
     public void SetChild( CharacterArtList characterArtList, Art characterArt, Transform parent) {
         GameObject o = new GameObject(characterArt.ToString());
         RectTransform rectTransform = o.AddComponent<RectTransform>();
-        if (characterArt.ToString().Contains("SG_")) {
-            rectTransform.sizeDelta = new Vector2(1200,1080);
-        }
-        else {
-            rectTransform.sizeDelta = new Vector2(840,1080);
-        }
-            
+        ArtValue artValue = characterArtList.characterArt.Find(a=>a.art.Equals(characterArt));
+        float scaleFactor = 1080 / artValue.sprite.bounds.size.y;
+        rectTransform.sizeDelta = new Vector2(artValue.sprite.bounds.size.x * scaleFactor, 1080);
+
+
         
         rectTransform.SetParent(parent, false);
         Image imageComponent = o.AddComponent<Image>();
-        ArtValue artValue = characterArtList.characterArt.Find(a=>a.art.Equals(characterArt));
         if (artValue != null) {
             imageComponent.sprite = artValue.sprite;
         }

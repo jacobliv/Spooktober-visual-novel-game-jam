@@ -14,7 +14,7 @@ public class ArtValue {
 }
 
 public enum Art{
-Omar_Neutral,
+    Omar_Neutral,
     Omar_Happy,
     Omar_Shocked,
     Omar_Confused,

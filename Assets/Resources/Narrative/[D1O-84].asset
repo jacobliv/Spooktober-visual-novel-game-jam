@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D1O-84]'
+  m_EditorClassIdentifier: 
+  id: '[D1O-84]'
+  line: "I had told Iggy that I\u2019d be taking a break at my usual spot before
+    I left, and, as usual, he handed me a 10-inch slasher special pizza. They\u2019re
+    sweet. It\u2019s usually a pizza I\u2019d get to eat on break if I was in the
+    mood for one."
+  day: 1
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 19
+  characterArt2: 30
+  characterArt3: 19
+  dialogueType: 1
+  background: 40
+  next1:
+    narrativeItem: {fileID: 11400000, guid: 3a473f17638cd8d4babe22b861c52727, type: 2}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 16
+  ambience: 17

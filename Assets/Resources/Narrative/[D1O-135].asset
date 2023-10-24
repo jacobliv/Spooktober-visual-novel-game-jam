@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D1O-135]'
+  m_EditorClassIdentifier: 
+  id: '[D1O-135]'
+  line: "I was in the car and driving out of Woodsboro before I knew it. One day
+    down, two more to go, and I\u2019m right on track to finding my killer! I\u2019d
+    give myself a high-five if they weren\u2019t on the steering wheel."
+  day: 1
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 19
+  dialogueType: 1
+  background: 40
+  next1:
+    narrativeItem: {fileID: 11400000, guid: a69dd852b34e3c547b6ef4d04b7b717e, type: 2}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 08000000
+  music: 16
+  ambience: 17

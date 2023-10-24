@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D2O-14a]'
+  m_EditorClassIdentifier: 
+  id: '[D2O-14a]'
+  line: <i>I wish I felt the same about these damn stairs. Besides just the physical
+    work, memories of my past crept back into my head like a couple of slugs. Flashes
+    of my feet running down these same stairs sped past my focus along with a pair
+    of distorted voices that felt familiar.</i>
+  day: 2
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 19
+  dialogueType: 0
+  background: 36
+  next1:
+    narrativeItem: {fileID: 11400000, guid: 19a0613fe12b8674f8664dd59ba7defb, type: 2}
+    shortenedLine: Focus on the Voices
+    value: 0
+  next2:
+    narrativeItem: {fileID: 11400000, guid: 3c76f7f2729af024289b8fbc9d22a0d7, type: 2}
+    shortenedLine: Ignore the Voices
+    value: 0
+  sounds: 
+  music: 16
+  ambience: 19

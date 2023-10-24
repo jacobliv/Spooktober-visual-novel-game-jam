@@ -1,7 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,35 +18,27 @@ public class NarrativeManager : MonoBehaviour {
     #region General
     [Header("General")]
     [SerializeField] public GameObject rigorMortisCanvas;
+    public NarrationItem deadEnd;
+    public SliderManager rigorMortisSlider;
+    public Image         characterImage;
+    public string        startingNarrative;
+    public NarrationItem currentNarrativeItem;
+    public GameObject    creditsCanvas;
 
-    public NarrationItem    deadEnd;
-    public SliderManager    rigorMortisSlider;
-    public Image            background; 
-    public Image            characterImage;
-    public GameObject       characterCanvas;
-    public GameObject       mainBackgroundCanvas;
-    public List<GameObject> otherCanvases;
-    public NarrationItem    startingNarrativeItem;
-    public NarrationItem    currentNarrativeItem;
-    public GameObject       creditsCanvas;
-    public CharacterArtList characterArtList;
-    public CharacterList    characterList;
     #endregion
 
     #region Background
 
     [Header("Background")] 
     public GameObject currentBackground;
-    public List<BackgroundArtValue> backgroundArt;
+    public BackgroundManager        backgroundManager;
 
     #endregion
     #region Audio
     [Header("Audio")]
-    public  AudioSource audioSource;
+    public  AudioSource             audioSource;
     private Coroutine              _sfxCoroutine;
     public  SoundList              soundList;
-    public  ControlBackgroundMusic controlBackgroundMusic;
-
     #endregion
     
     #region Multi Choice Dialogue
@@ -53,24 +48,78 @@ public class NarrativeManager : MonoBehaviour {
     public TextMeshProUGUI second;
     public GameObject      multipleChoiceCanvas;
     #endregion
-
-    #region Characters
-
-    [Header("Characters")]
-    public Character mainCharacter;
-    public List<Character> characters;
-    #endregion
-
+    
     [Header("History")] public AddAndRemoveHistory historyManager;
     private                    NarrativeHistory    _narrativeHistory;
 
+    private Dictionary<string, int[]> values = new Dictionary<string, int[]> {
+        // 2,5
+        {"[D2O-14a]", new []{2,5}},
+        {"[D2O-24a]", new []{2,2}},
+        {"[D2O-67a]", new []{5,3}},
+        {"[D2O-82a]", new []{5,3}},
+        //2,8
+        {"[D3O-12a]", new []{2,0}},
+        {"[D3C1-2a]", new []{8,3}},
+        {"[D3O-25a]",new []{2,8}},
+    };
+// Normal all the way : 2, 2, 3, 3, 2, 2 = 14
+// Bad all the way: 5, 2, 5, 5
+    /*
+     [D2O-14]
+ Focus on the Voices - Normal 2
+ Ignore the Voices  - Bigger 5
+
+[D2O-24]
+ Apartment #518 - Normal 2
+ Apartment #519 - Normal 2
+
+[D2O-67]
+Try to Explain - Larger 5
+RUN. - More than Normal (Less than 1st option) 3
+
+[D2O-82]
+Forget the leg! - Larger 5
+Put it back on. - More than normal (Less than 1st Option) 3
+
+[D3O-12]
+Call Leah - Normal 2
+Screw the Gate! - No Change 0
+
+[D3C1-2]
+Drive through the gate. - Larger Amount 8
+Climb over the gate. -  More than normal (Slightly less than the other) 3
+
+[D3O-25a]
+Knock Calmly - Normal 2
+Kick It Back Down! - Larger 8
+
+[D3O-79b]
+Make it Stop - No change
+Step Back -  No change*/
+    
     private void Start() {
         _narrativeHistory = GetComponent<NarrativeHistory>();
         _narrativeHistory.Reset();
-        currentNarrativeItem = startingNarrativeItem;
+        currentNarrativeItem = FindStartNarrative();
         PrepareNarrativeArea();
 
         RunNarrativeItem();
+    }
+
+    private NarrationItem FindStartNarrative() {
+        NarrationItem narrationItem= Resources.Load("Narrative/"+startingNarrative) as NarrationItem;
+
+        // string assetPath = AssetDatabase.FindAssets($"t:NarrationItem {startingNarrative} dir:Narrative")
+        //     .Select(AssetDatabase.GUIDToAssetPath)
+        //     .FirstOrDefault();
+        //
+        // if (string.IsNullOrEmpty(assetPath)) {
+        //     throw new FileNotFoundException($"Couldn't find the narrative item {startingNarrative}");
+        // }
+
+        return narrationItem;
+    
     }
 
     public void AdvanceNarrative(int option = 0) {
@@ -80,13 +129,14 @@ public class NarrativeManager : MonoBehaviour {
             return;
         }
         dialogueUI.ui.SetActive(true);
-        if(option == 0) {
-            rigorMortisSlider.IncrementBar(currentNarrativeItem.next1.value);
-        }
-        else if(option==1){
-            rigorMortisSlider.IncrementBar(currentNarrativeItem.next2.value);
+        if (currentNarrativeItem.next2.narrativeItem != null && values.ContainsKey(currentNarrativeItem.id)) {
+            int value = values[currentNarrativeItem.id][option];
+            rigorMortisSlider.IncrementBar(value);
+            
 
+            
         }
+        
 
         MoveNarrativeForward(option);
         
@@ -140,7 +190,7 @@ public class NarrativeManager : MonoBehaviour {
         characterImage.sprite = null;
         characterImage.color=Color.clear;
         if(currentBackground!=null) {
-            currentBackground.SetActive(false);
+            // currentBackground.GetComponent<FadeInAndOutBackground>().FadeOut();
         }
 
         SetSpokenTextDefaults();
@@ -166,8 +216,15 @@ public class NarrativeManager : MonoBehaviour {
         } else if (!dialogueUI.backButton.gameObject.activeSelf) {
             dialogueUI.backButton.gameObject.SetActive(true);
         }
-        currentBackground = backgroundArt.Find(ba=>ba.art.Equals(currentNarrativeItem.background)).gameObject;
-        currentBackground.SetActive(true);
+
+        // if (currentBackground != null) {
+        //     currentBackground.GetComponent<FadeInAndOutBackground>().FadeOut();
+        //
+        // }
+
+        backgroundManager.Manage(currentNarrativeItem);
+        // currentBackground = backgroundArt.Find(ba=>ba.art.Equals(currentNarrativeItem.background)).gameObject;
+        // currentBackground.GetComponent<FadeInAndOutBackground>().FadeIn();
         UpdateOnScreenCharacters();
         // update text area
         UpdateSpokenText(); 
@@ -183,11 +240,12 @@ public class NarrativeManager : MonoBehaviour {
         // update whoever is showing on screen
         // update whoever is active in current background/scene for shading
         // update character expressions
-        if (currentBackground.TryGetComponent(typeof(CharacterPositionManager), out var positionManager)) {
-            ((CharacterPositionManager)positionManager).ManagePositions(currentNarrativeItem, characterArtList);
-            currentBackground.GetComponent<ActiveCharacterShading>().MakeActive(currentNarrativeItem);
-
-        }
+        // backgroundManager.ManageCharacters(currentNarrativeItem,characterArtList);
+        // if (currentBackground.TryGetComponent(typeof(CharacterPositionManager), out var positionManager)) {
+        //     ((CharacterPositionManager)positionManager).ManagePositions(currentNarrativeItem, characterArtList);
+        //     currentBackground.GetComponent<ActiveCharacterShading>().MakeActive(currentNarrativeItem);
+        //
+        // }
     }
 
     private void UpdateSpokenText() {

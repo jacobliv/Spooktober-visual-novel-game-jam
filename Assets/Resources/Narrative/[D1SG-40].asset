@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D1SG-40]'
+  m_EditorClassIdentifier: 
+  id: '[D1SG-40]'
+  line: In other words, hun, your body has a mind of its own now. If you over-exert
+    it by running a marathon, trying to lift up a car, or anything else along those
+    lines then your body is going to call it quits and kick out your soul.
+  day: 1
+  character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
+  unknownCharacter: 0
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 9
+  dialogueType: 2
+  background: 36
+  next1:
+    narrativeItem: {fileID: 11400000, guid: 2d4fcd3e388c21341aaa5cc301560686, type: 2}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 16
+  ambience: 17

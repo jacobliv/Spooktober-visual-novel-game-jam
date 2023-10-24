@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D3O-107]'
+  m_EditorClassIdentifier: 
+  id: '[D3O-107]'
+  line: I stumble through the doors of The 13th Pizza and plop into a chair. I see
+    Iggy and Ms. Gin out of the corners of my ears. Their voices are melding together
+    with the humming of the A/C overhead, but two sounds break through it all.
+  day: 3
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 19
+  dialogueType: 1
+  background: 35
+  next1:
+    narrativeItem: {fileID: 11400000, guid: 707d23ffe4dc180469b36d949a803c23, type: 2}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 16
+  ambience: 19

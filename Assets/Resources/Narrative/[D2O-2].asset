@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D2O-2]'
+  m_EditorClassIdentifier: 
+  id: '[D2O-2]'
+  line: "Quit smoking so close to me. I don\u2019t like the smell of whatever it
+    is you\u2019ve got in that pipe, and I\u2019d rather the customers not have their
+    pizza smell like smoke."
+  day: 2
+  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  unknownCharacter: 0
+  characterArt1: 6
+  characterArt2: 19
+  characterArt3: 7
+  dialogueType: 2
+  background: 40
+  next1:
+    narrativeItem: {fileID: 11400000, guid: 3901818ce41e9ad4d822784977d15637, type: 2}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 16
+  ambience: 17

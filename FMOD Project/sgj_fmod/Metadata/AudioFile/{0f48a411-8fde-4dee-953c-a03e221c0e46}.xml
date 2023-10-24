@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0f48a411-8fde-4dee-953c-a03e221c0e46}">
+		<property name="assetPath">
+			<value>SFX/Nightime_Ambience_NoCrickets.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>93.83183673469388</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{16df44e8-2b57-42c1-bdfd-5bf282541b9b}</destination>
+		</relationship>
+	</object>
+</objects>

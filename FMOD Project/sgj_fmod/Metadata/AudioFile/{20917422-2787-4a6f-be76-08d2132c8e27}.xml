@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{20917422-2787-4a6f-be76-08d2132c8e27}">
+		<property name="assetPath">
+			<value>SFX/car_parking.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.5568253968253964</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{16df44e8-2b57-42c1-bdfd-5bf282541b9b}</destination>
+		</relationship>
+	</object>
+</objects>

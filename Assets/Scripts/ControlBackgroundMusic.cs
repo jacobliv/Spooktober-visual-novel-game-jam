@@ -81,7 +81,7 @@ public class ControlBackgroundMusic : MonoBehaviour {
 
         while (elapsedTime < transitionDuration) {
             elapsedTime = Time.time - startTime;
-            Debug.Log(musicSource.volume);
+            // Debug.Log(musicSource.volume);
 
             musicSource.volume = Mathf.Lerp(targetVolume, musicSource.volume, elapsedTime / transitionDuration);
             yield return null;

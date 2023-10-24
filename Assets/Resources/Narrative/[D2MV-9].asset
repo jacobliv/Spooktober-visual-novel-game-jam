@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D2MV-9]'
+  m_EditorClassIdentifier: 
+  id: '[D2MV-9]'
+  line: Oh crap. Hold on.
+  day: 2
+  character: {fileID: 11400000, guid: 0b524bbdfb06a9645bc1cf616fa42dd8, type: 2}
+  unknownCharacter: 0
+  characterArt1: 2
+  characterArt2: 19
+  characterArt3: 25
+  dialogueType: 2
+  background: 34
+  next1:
+    narrativeItem: {fileID: 11400000, guid: e45844f5422a2f544be730f9d01cc1a1, type: 2}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 16
+  ambience: 19

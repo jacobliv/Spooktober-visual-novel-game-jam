@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D3O-106]'
+  m_EditorClassIdentifier: 
+  id: '[D3O-106]'
+  line: I could still hear her voice while I was driving out of Woodsboro Apartments.
+    I hoped that it would be the last time with a little bit of luck and a lot of
+    me begging Iggy to not have me deliver pizzas to her apartment anymore.
+  day: 3
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 0
+  characterArt2: 19
+  characterArt3: 19
+  dialogueType: 0
+  background: 40
+  next1:
+    narrativeItem: {fileID: 11400000, guid: f538fee9ca754b74483d9de895d8ed3a, type: 2}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 
+  music: 19
+  ambience: 19

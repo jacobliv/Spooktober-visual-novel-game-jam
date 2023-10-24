@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AutoNarrativeItem : MonoBehaviour {
 
@@ -41,7 +43,6 @@ public class AutoNarrativeItem : MonoBehaviour {
     
     
     public void LoadDataFromCSV() {
-        
         if (csvFile == null) {
             Debug.LogError("CSV file reference missing!");
             return;
@@ -141,7 +142,6 @@ public class AutoNarrativeItem : MonoBehaviour {
                 
                 _narrationItems[fields[0]] = instance;
                 
-                EditorUtility.SetDirty(instance);
             }
             catch (Exception e) {
                 Debug.Log($"Failed on {line}");
@@ -178,6 +178,7 @@ public class AutoNarrativeItem : MonoBehaviour {
         }
         foreach (NarrationItem narrationItem in _narrationItems.Values) {
             AssetDatabase.CreateAsset(narrationItem, "Assets/Narrative/" + narrationItem.id + ".asset");
+            EditorUtility.SetDirty(narrationItem);
 
         }
 

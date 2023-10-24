@@ -36,7 +36,7 @@ public class ActiveCharacterShading : MonoBehaviour {
             if (!IsCurrentCharacter(narrationItem,threeLeft.transform)) {
                 Darken(threeLeft.transform, shadeColor);
             }
-            if (!IsCurrentCharacter(narrationItem,threeCenter.transform)) {
+            if (!IsCurrentCharacter(narrationItem,threeCenter.transform) && !IsItem(narrationItem.characterArt2)) {
                 Darken(threeCenter.transform, shadeColor);
             }
             if (!IsCurrentCharacter(narrationItem,threeRight.transform)) {
@@ -66,6 +66,11 @@ public class ActiveCharacterShading : MonoBehaviour {
                 Darken(twoRight.transform, shadeColor);
             }
         }
+        
+        // [D2AK-1]
+        // [D2AK-2]
+        // [D2AK-3]
+        // [D2AK-4]
         if(narrationItem.id.Equals("[D2AK-1]")  ||
            narrationItem.id.Equals("[D2AK-2]") ||
            narrationItem.id.Equals("[D2AK-3]") ||
@@ -73,6 +78,17 @@ public class ActiveCharacterShading : MonoBehaviour {
             Darken(oneCenter.transform,extraDark);
 
         }
+    }
+
+    private bool IsItem(Art narrationItemCharacterArt2) {
+        return narrationItemCharacterArt2.Equals(Art.Mirror_Item) ||
+               narrationItemCharacterArt2.Equals(Art.OmarMirror_Item) ||
+               narrationItemCharacterArt2.Equals(Art.Omar_Cactus) ||
+               narrationItemCharacterArt2.Equals(Art.ClosedPizza_Item) ||
+               narrationItemCharacterArt2.Equals(Art.UnfoldedBlanket_Item) ||
+               narrationItemCharacterArt2.Equals(Art.FoldedBlanket_Item) ||
+               narrationItemCharacterArt2.Equals(Art.OpenPizza_Item); 
+
     }
 
     private bool IsCurrentCharacter(NarrationItem narrationItem, Transform parent) {

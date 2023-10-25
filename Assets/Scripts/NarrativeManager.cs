@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using FMODUnity;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
@@ -37,8 +38,9 @@ public class NarrativeManager : MonoBehaviour {
     #region Audio
     [Header("Audio")]
     public  AudioSource             audioSource;
-    private Coroutine              _sfxCoroutine;
-    public  SoundList              soundList;
+    private Coroutine          _sfxCoroutine;
+    public  SoundList          soundList;
+    public  StudioEventEmitter fmodEmitter;
     #endregion
     
     #region Multi Choice Dialogue
@@ -103,7 +105,7 @@ Step Back -  No change*/
         _narrativeHistory.Reset();
         currentNarrativeItem = FindStartNarrative();
         PrepareNarrativeArea();
-
+    
         RunNarrativeItem();
     }
 
@@ -284,10 +286,15 @@ Step Back -  No change*/
 
     private IEnumerator PlaySFXAudioClips() {
         foreach (Sounds clip in currentNarrativeItem.sounds) {
-            Sound sound = soundList.sounds.Find(s=>s.sound.Equals(clip));
+            Sound sound = soundList.sounds.Find(s => s.sound.Equals(clip));
+            
             if(sound == null) continue;
-            audioSource.clip = sound.audioClip;
-            audioSource.Play();
+            // audioSource.clip = sound.audioClip;
+            // audioSource.Play();
+            EventReference eventReference = EventReference.Find($"event:/SFX/{clip.ToString().ToLower()}");
+            
+            fmodEmitter.EventReference = eventReference;
+            fmodEmitter.Play();
             yield return new WaitWhile(() => audioSource.isPlaying);
         }
     }

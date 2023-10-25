@@ -2349,6 +2349,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 981997698}
     - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
+      propertyPath: fmodEmitter
+      value: 
+      objectReference: {fileID: 226036101}
+    - target: {fileID: 8461664531745674582, guid: b3f2fafd97d3e624a9cca63d774fd284, type: 3}
       propertyPath: textBoxArea
       value: 
       objectReference: {fileID: 961799613023397154}
@@ -2867,6 +2871,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &226036101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226036090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -691876196
+      Data2: 1299324464
+      Data3: -647987300
+      Data4: 2099889165
+    Path: event:/SFX/car_crash
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &232026713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9129,7 +9164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4603059188928825129, guid: 6fbf7180bda313745bef4e5e1eb524d9, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.01
+      value: 0.010009766
       objectReference: {fileID: 0}
     - target: {fileID: 4603059188928825129, guid: 6fbf7180bda313745bef4e5e1eb524d9, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -11650,7 +11685,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260295923}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 9049626097200910955, guid: 85ad29b86df40a847825968cbfd5daa2, type: 2}
   m_audioClip: {fileID: 0}
@@ -11746,7 +11781,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260295923}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!114 &1260295934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11754,7 +11789,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260295923}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 

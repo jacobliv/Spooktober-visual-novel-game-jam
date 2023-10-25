@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d660e242497d48bc6388b7e902f10, type: 3}
+  m_Name: '[D2O-13]'
+  m_EditorClassIdentifier: 
+  id: '[D2O-13]'
+  line: <i>And just like that, she was gone. Even though she pulled at my nerves,
+    I already missed her. As the only person who really understood what was happening
+    to me, she made doing what I had to actually feel worth something.</i>
+  day: 2
+  character: {fileID: 0}
+  unknownCharacter: 0
+  characterArt1: 4
+  characterArt2: 19
+  characterArt3: 19
+  dialogueType: 0
+  background: 40
+  next1:
+    narrativeItem: {fileID: 11400000, guid: 6044a95bbf91cbe43b35157d098a6fca, type: 2}
+    shortenedLine: 
+    value: 0
+  next2:
+    narrativeItem: {fileID: 0}
+    shortenedLine: 
+    value: 0
+  sounds: 00000000
+  music: 16
+  ambience: 19

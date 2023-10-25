@@ -1,25 +1,16 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEngine;
-using static System.Globalization.CultureInfo;
+using UnityEngine.SceneManagement;
 
 public class AutoNarrativeItem : MonoBehaviour {
 
-    public  string                            id;
-    public  int                               number;
-    public  Day                               day;
-    public  Character                         character;
-    public  bool                              phone;
-    public  int                               offset;
-    public  List<Character>                   characters;
-    public  List<AudioClip>                   sounds;
-    public  List<Sprite>                      characterArt;
     private Dictionary<string, NarrationItem> _narrationItems = new Dictionary<string, NarrationItem>();
-
+    public CharacterList characterList;
+    
+    
     [Header("CSV File")]
     public TextAsset csvFile; // Reference to your CSV file in the Unity project.
     // private void OnValidate() {
@@ -34,123 +25,166 @@ public class AutoNarrativeItem : MonoBehaviour {
         //     CreateNarrationItem(i+offset);
         // }
         Debug.Log("Loading");
-        // LoadDataFromCSV();
+        LoadDataFromCSV();
     }
     //
-    // private void CreateNarrationItem(int num) {
-    //     NarrationItem newNarrationItem = ScriptableObject.CreateInstance<NarrationItem>();
-    //     newNarrationItem.name = string.Format(id,num);
-    //     newNarrationItem.character = character;
-    //     // Set default properties here if needed
-    //     newNarrationItem.day = day;
-    //     newNarrationItem.phone = phone;
-    //
-    //     AssetDatabase.CreateAsset(newNarrationItem, "Assets/Narrative/" + newNarrationItem.name + ".asset");
-    //     AssetDatabase.SaveAssets();
-    //     AssetDatabase.Refresh();
-    // }
-    //
-    //
-    //
-    //
-    // public void LoadDataFromCSV() {
-    //     if (csvFile == null) {
-    //         Debug.LogError("CSV file reference missing!");
-    //         return;
-    //     }
-    //
-    //     string[] lines = csvFile.text.Split('\n');
-    //
-    //     int startIndex = 0;
-    //
-    //
-    //     for (int i = 0; i < lines.Length; i++) {
-    //         string line = lines[i].Trim();
-    //         if (string.IsNullOrEmpty(line)) {
-    //             continue;
-    //         }
-    //
-    //         string[] fields = line.Split(',');
-    //         
-    //         NarrationItem instance = ScriptableObject.CreateInstance<NarrationItem>();
-    //         Debug.Log(String.Join(",", fields.ToList()));
-    //         instance.phone = bool.Parse(fields[3]);
-    //
-    //         instance.shopSelection = bool.Parse(fields[4]);
-    //         instance.internalThought = bool.Parse(fields[5]);
-    //         instance.physicalInteraction = bool.Parse(fields[6]);
-    //         var nextSounds = fields[7].Split("-");
-    //         string one = nextSounds[0];
-    //         if (!one.Equals("")) {
-    //             instance.sounds = new List<AudioClip>() { sounds.First((a) => a.name.Equals(one)) };
-    //
-    //         }
-    //         if (nextSounds.Length> 1) {
-    //             instance.sounds.Add(sounds.First((a) => a.name.Equals(nextSounds[1])));
-    //         }
-    //         instance.day =Day.Two;
-    //         if (fields[8] != "" && fields[8]!="None") {
-    //             Character c = characters.Find((c) => c.name == fields[8]);
-    //             if (c == null) {
-    //                 Debug.Log("Unable to find " + fields[8]);
-    //             }
-    //
-    //             instance.character = c;
-    //         }
-    //
-    //         CharacterEnum d = CharacterEnum.None;
-    //         string fieldValue = fields[9].Trim();
-    //         Debug.Log($"--{fieldValue}--");
-    //
-    //         if (!string.IsNullOrEmpty(fieldValue))
-    //         {
-    //             if (Enum.TryParse(fieldValue, true, out d))
-    //             {
-    //                 // Parsing successful, d now contains the corresponding enum value.
-    //                 Debug.Log("Enum value: " + d);
-    //             }
-    //             else
-    //             {
-    //                 // Parsing failed. The input string doesn't match any enum value.
-    //                 Debug.Log("Invalid character name: " + fieldValue);
-    //             }
-    //         }
-    //         else
-    //         {
-    //             d = CharacterEnum.None;
-    //         }
-    //         instance.characterArt = d;
-    //         List<string> lastNStrings = fields.ToList().GetRange(10,fields.Length -10);
-    //
-    //         // Join the last n strings using String.Joins
-    //         string result = String.Join("", lastNStrings);
-    //         instance.line = result.Replace("\"","");
-    //         Debug.Log("Adding "+fields[0] + "---");
-    //         _narrationItems[fields[0]] = instance;
-    //         AssetDatabase.CreateAsset(instance, "Assets/Narrative/Generated4/" + fields[0] + ".asset");
-    //     }
-    //     
-    //     for (int i = 0; i < lines.Length; i++) {
-    //         string line = lines[i].Trim();
-    //         if (string.IsNullOrEmpty(line)) {
-    //             continue;
-    //         }
-    //
-    //         string[] fields = line.Split(',');
-    //         NarrationItem narrationItem = _narrationItems[fields[0]];
-    //         narrationItem.next = new List<NextNarrative>();
-    //         var nexts = fields[1].Split("][");
-    //         string one = nexts[0];
-    //         if (!one.Equals("")) {
-    //             one = one.Contains("]") ? one : one + "]";
-    //             narrationItem.next.Add(new NextNarrative(false,"","",_narrationItems[one],""));
-    //
-    //         }
-    //         if (nexts.Length> 1) {
-    //             narrationItem.next.Add(new NextNarrative(false,"","",_narrationItems["["+nexts[1]],""));
-    //         }
-    //     } 
+    private void CreateNarrationItem(int num) {
+        // NarrationItem newNarrationItem = ScriptableObject.CreateInstance<NarrationItem>();
+        // newNarrationItem.name = string.Format(id,num);
+        // // Set default properties here if needed
+        //
+        //
+        // AssetDatabase.CreateAsset(newNarrationItem, "Assets/Narrative/" + newNarrationItem.name + ".asset");
+        // AssetDatabase.SaveAssets();
+        // AssetDatabase.Refresh();
+    }
+    
+    
+    
+    
+    public void LoadDataFromCSV() {
+        if (csvFile == null) {
+            Debug.LogError("CSV file reference missing!");
+            return;
+        }
         
-    // }
+        string[] lines = csvFile.text.Split('\n');
+        
+        int startIndex = 0;
+        
+        
+        for (int i = 1; i < lines.Length; i++) {
+            string line = lines[i].Trim();
+            if (string.IsNullOrEmpty(line)) {
+                continue;
+            }
+            
+            string[] fields = line.Split("\t");
+            try {
+                if(fields.Length<1) continue;
+                NarrationItem instance = ScriptableObject.CreateInstance<NarrationItem>();
+                // Debug.Log(String.Join(",", fields.ToList()));
+                instance.id = fields[0];
+                instance.line = fields[1];
+                switch (fields[2]) {
+                    case "Day 1":
+                        instance.day = Day.One;
+                        break;
+                    case "Day 2":
+                        instance.day = Day.Two;
+                        break;
+                    case "Day 3":
+                        instance.day = Day.Three;
+                        break;
+                }
+                if (fields[3].Equals("???")) {
+                    instance.unknownCharacter = true ;
+                }
+                else if (fields[3].Equals("")){
+                    // instance.character.character = CharacterEnum.None;
+        
+                }
+                else {
+                    instance.character = characterList.characters.Find(c=> {
+                        return c.character.Equals((CharacterEnum)Enum.Parse(typeof(CharacterEnum), fields[3]));
+                    });
+                }
+        
+                instance.characterArt1 = Art.NA;
+                instance.characterArt2 = Art.NA;
+                instance.characterArt3 = Art.NA;
+        
+                if (fields.Length>4 && !fields[4].Equals("N/A") && fields[4].Trim() !="") {
+                    instance.characterArt1 = (Art)Enum.Parse(typeof(Art), fields[4]);
+                }
+                if (fields.Length>5 && !fields[5].Equals("N/A") && fields[5].Trim() !="") {
+                    instance.characterArt2 = (Art)Enum.Parse(typeof(Art), fields[5]);
+                }
+                if (fields.Length>6 && !fields[6].Equals("N/A") && fields[6].Trim() !="" ) {
+                    instance.characterArt3 = (Art)Enum.Parse(typeof(Art), fields[6]);
+                }
+                
+                
+                if(fields.Length>7 && fields[7] != "" ) {
+                    instance.dialogueType = (DialogueType)Enum.Parse(typeof(DialogueType), fields[7]);
+                }            
+                if(fields.Length>8 && fields[8] != "") {
+                    instance.background = (Art)Enum.Parse(typeof(Art), fields[8]);
+                }            
+                if(fields.Length>13 && !fields[13].Equals("")) {
+                    instance.music = (Sounds)Enum.Parse(typeof(Sounds), fields[13]);
+                }
+                else {
+                    instance.music = Sounds.None;
+                }
+        
+                instance.sounds = new List<Sounds>();
+                if (fields.Length>14 && fields[14] != "" && fields[14] != "N/A") {
+                    instance.sounds.Add((Sounds)Enum.Parse(typeof(Sounds), fields[14]));
+                }
+                if (fields.Length>15 && fields[15] != "" && fields[15] != "N/A") {
+                    instance.sounds.Add((Sounds)Enum.Parse(typeof(Sounds), fields[15]));
+                }
+                if (fields.Length>16 && fields[16] != "" && fields[16] != "N/A") {
+                    instance.sounds.Add((Sounds)Enum.Parse(typeof(Sounds), fields[16]));
+                }
+                if (fields.Length>17 && fields[17] != "" && fields[17] != "N/A") {
+                    instance.sounds.Add((Sounds)Enum.Parse(typeof(Sounds), fields[17]));
+                }
+        
+                if (fields.Length > 18 && fields[18] != "") {
+                    instance.ambience = (Sounds)Enum.Parse(typeof(Sounds), fields[18]);
+        
+                }else {
+                    instance.ambience = Sounds.None;
+                }
+        
+                
+                _narrationItems[fields[0]] = instance;
+                
+            }
+            catch (Exception e) {
+                Debug.Log($"Failed on {line}");
+                Debug.LogWarning(e);
+            }
+        }
+        //
+        for (int i = 1; i < lines.Length; i++) {
+            string line = lines[i].Trim();
+            if (string.IsNullOrEmpty(line)) {
+                continue;
+            }
+            string[] fields = line.Split('\t');
+        
+            NarrationItem narrationItem = _narrationItems[fields[0]];
+            string firstChoice = fields.Length > 10 ? fields[10] : "";
+            if (fields.Length>9 && _narrationItems.ContainsKey(fields[9])) {
+                narrationItem.next1 = new NextNarrative(_narrationItems[fields[9]],firstChoice);
+        
+            }
+            if (fields.Length>11 && fields[11] != "" &&_narrationItems.ContainsKey(fields[11]) ) {
+                narrationItem.next2 = new NextNarrative(_narrationItems[fields[11]],fields[12]);
+                switch (narrationItem.day) {
+                    case Day.One:
+                        break;
+                    case Day.Two:
+                        break;
+                    case Day.Three:
+                        break;
+                }
+            }
+
+            
+        }
+        foreach (NarrationItem narrationItem in _narrationItems.Values) {
+            AssetDatabase.CreateAsset(narrationItem, "Assets/Narrative/" + narrationItem.id + ".asset");
+            EditorUtility.SetDirty(narrationItem);
+
+        }
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+    }
     // [D2D-1]	[ROD2-1]		FALSE	FALSE	TRUE				I jab my fingers against the screen of my phone the little avatar hops up and down in an effort to dodge the man-eating kale. 
 }

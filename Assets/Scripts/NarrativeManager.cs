@@ -287,15 +287,12 @@ Step Back -  No change*/
     private IEnumerator PlaySFXAudioClips() {
         foreach (Sounds clip in currentNarrativeItem.sounds) {
             Sound sound = soundList.sounds.Find(s => s.sound.Equals(clip));
-            
             if(sound == null) continue;
-            // audioSource.clip = sound.audioClip;
-            // audioSource.Play();
             EventReference eventReference = EventReference.Find($"event:/SFX/{clip.ToString().ToLower()}");
             
             fmodEmitter.EventReference = eventReference;
             fmodEmitter.Play();
-            yield return new WaitWhile(() => audioSource.isPlaying);
+            yield return null;
         }
     }
 

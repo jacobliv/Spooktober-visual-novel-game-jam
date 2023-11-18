@@ -13,4 +13,5 @@ public class SoundList : ScriptableObject {
 public class Sound {
     [SerializeField] public Sounds    sound;
     [SerializeField] public AudioClip audioClip;
+    [SerializeField] public string    eventValue;
 }

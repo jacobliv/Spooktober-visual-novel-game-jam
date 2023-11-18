@@ -1,7 +1,10 @@
 # JetBrains Rider
 .idea/
 *.sln.iml
-
+# FMOD
+fmodstudioapi*/bin/
+fmodstudioapi*/lib/
+fmodstudioapi*/examples/
 # Visual Studio Code
 .vscode/
 .settings/

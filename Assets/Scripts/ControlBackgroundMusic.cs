@@ -1,119 +1,81 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using FMOD.Studio;
+using FMODUnity;
 using UnityEngine;
+using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 public class ControlBackgroundMusic : MonoBehaviour {
-    public static ControlBackgroundMusic instance;
-    public        AudioSource            musicSource;
-    public        AudioSource            ambientSource;
-
-    public  List<Sound> ambientSounds;
-    public  List<Sound> music;
-    private float       currentVolume;
-    private float       targetVolume;
-    public  float       transitionDuration = 2.0f; // Editable transition duration in seconds
+    public static  ControlBackgroundMusic instance;
+    public         List<Sound>            music;
+    public         List<Sound>            ambienceSounds;
+    private        float                  currentVolume;
+    private        float                  targetVolume;
+    private static EventInstance          music_control;
+    private static EventInstance          ambience_control;
+    private        string                 musicEvent;
+    private        string                 ambienceEvent;
 
     private void Awake() {
         if (instance == null) {
             instance = this;
         }
 
-        currentVolume = musicSource.volume;
+        // currentVolume = musicSource.volume;
     }
 
     public void ChangeSong(Sounds song) {
         if(song.Equals(Sounds.None)) {
-            StartCoroutine(FadeOutMusic());
-            musicSource.clip = null;
+            StopSound(ref music_control,ref musicEvent);
             return;
         }
         Sound sound = music.Find(m=>m.sound.Equals(song));
-        if( sound == null) return;
-        if (musicSource.clip == null || (musicSource.clip != null && !musicSource.clip.name.Equals(sound.audioClip.name))) {
-            StartCoroutine(CrossfadeMusic(sound.audioClip));
-            // ChangeSound(sound.audioClip,musicSource);
-
+        if (sound == null) {
+            StopSound(ref music_control,ref musicEvent);
+            return;
         }
+        PlaySound(sound,ref music_control, ref musicEvent);
     }
     
     public void ChangeAmbient(Sounds ambience) {
         if(ambience.Equals(Sounds.None)) {
-            ambientSource.Stop();
+            StopSound(ref ambience_control, ref ambienceEvent);
             return;
         }
-        Sound ambienceSound = ambientSounds.Find(m=>m.sound.Equals(ambience));
-        if(ambienceSound == null ||(ambientSource.clip!=null && ambientSource.clip.name.Equals(ambienceSound.audioClip.name))) return;
-        ChangeSound(ambienceSound.audioClip,ambientSource);
-    }
-    
-    public void ChangeSound(AudioClip song,AudioSource source) {
-        source.Stop();
-        source.clip = song;
-        source.Play();
-    }
-    
-    private IEnumerator CrossfadeMusic(AudioClip newTrack) {
-        targetVolume = 0.0f;
-
-        // Fade out the current music
-        float startVolume = musicSource.volume;
-        float startTime = Time.time;
-        float elapsedTime = 0;
-
-        while (elapsedTime < transitionDuration) {
-            elapsedTime = Time.time - startTime;
-            musicSource.volume = Mathf.Lerp(startVolume, targetVolume, elapsedTime / transitionDuration);
-            yield return null;
+        Sound sound = ambienceSounds.Find(m=>m.sound.Equals(ambience));
+        if (sound == null) {
+            StopSound(ref ambience_control, ref ambienceEvent);
+            return;
         }
+        PlaySound(sound,ref ambience_control,ref ambienceEvent);
+    }
 
-        musicSource.volume = targetVolume;
-        musicSource.Stop();
+    public void StopSound(ref EventInstance inst, ref string soundEvent) {
+        Debug.Log($"Stopping {soundEvent}");
+        inst.stop(STOP_MODE.ALLOWFADEOUT);
+        soundEvent = "";
 
-        // Change to the new music track
-        musicSource.clip = newTrack;
-        musicSource.Play();
-
-        // Fade in the new music
-        targetVolume = currentVolume;
-        startTime = Time.time;
-        elapsedTime = 0;
-
-        while (elapsedTime < transitionDuration) {
-            elapsedTime = Time.time - startTime;
-            // Debug.Log(musicSource.volume);
-
-            musicSource.volume = Mathf.Lerp(targetVolume, musicSource.volume, elapsedTime / transitionDuration);
-            yield return null;
+    }
+    // TODO Going back doesnt re
+    public void PlaySound(Sound sound, ref EventInstance inst, ref string soundEvent) {
+        if (soundEvent!=null && soundEvent.Equals(sound.eventValue)) {
+            return;
         }
+        
+        EventReference eventReference = EventReference.Find(sound.eventValue);
+        if (!eventReference.Equals(null)) {
+            Debug.Log("About to play: " + eventReference.Path);
+            inst.stop(STOP_MODE.ALLOWFADEOUT);
+            inst = RuntimeManager.CreateInstance(eventReference.Path);
+            inst.start();
+            inst.release();
+            soundEvent = eventReference.Path;
 
-        musicSource.volume = currentVolume;
+        } else {
+            Debug.LogError("Event reference not found for path: " + sound.eventValue);
+        }
     }
     
-    private IEnumerator FadeOutMusic()
-    {
-        targetVolume = 0.0f;
     
-        float startVolume = musicSource.volume;
-        float startTime = Time.time;
-        float elapsedTime = 0;
-
-        while (elapsedTime < transitionDuration) {
-            elapsedTime = Time.time - startTime;
-            musicSource.volume = Mathf.Lerp(startVolume, targetVolume, elapsedTime / transitionDuration);
-            yield return null;
-        }
-
-        musicSource.volume = targetVolume;
-        musicSource.Stop();
-    }
-    
-}
-
-
-public enum Songs{
-    SupernovaAlt,
-    Supernova,
-    BracingForImpact
-
 }

@@ -177,7 +177,7 @@ public class AutoNarrativeItem : MonoBehaviour {
             
         }
         foreach (NarrationItem narrationItem in _narrationItems.Values) {
-            AssetDatabase.CreateAsset(narrationItem, "Assets/Narrative/" + narrationItem.id + ".asset");
+            AssetDatabase.CreateAsset(narrationItem, "Assets/Resources/Narrative/" + narrationItem.id + ".asset");
             EditorUtility.SetDirty(narrationItem);
 
         }

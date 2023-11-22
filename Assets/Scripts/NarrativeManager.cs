@@ -3,11 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using FMOD.Studio;
 using FMODUnity;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+using STOP_MODE = FMODUnity.STOP_MODE;
 
 public class NarrativeManager : MonoBehaviour {
     #region Dialogue
@@ -38,9 +40,11 @@ public class NarrativeManager : MonoBehaviour {
     #region Audio
     [Header("Audio")]
     public  AudioSource             audioSource;
-    private Coroutine          _sfxCoroutine;
-    public  SoundList          soundList;
-    public  StudioEventEmitter fmodEmitter;
+    private        Coroutine          _sfxCoroutine;
+    public         SoundList          soundList;
+    public         StudioEventEmitter fmodEmitter;
+    private static EventInstance      sfx_control;
+
     #endregion
     
     #region Multi Choice Dialogue
@@ -270,7 +274,9 @@ Step Back -  No change*/
         // if (currentNarrativeItem.dialogueType.Equals(DialogueType.Physical)) {
         //     dialogueUI.lineText.fontStyle = FontStyles.Bold;
         // }
-        dialogueUI.lineText.text = currentNarrativeItem.line;
+        if(currentNarrativeItem.next1.narrativeItem!=null && currentNarrativeItem.next2.narrativeItem==null) {
+            dialogueUI.lineText.text = currentNarrativeItem.line;
+        }   
         dialogueUI.animateIn.AnimateText();
         dialogueUI.characterName.text = currentNarrativeItem.character != null
             ? $"{currentNarrativeItem.character.name}"
@@ -290,8 +296,15 @@ Step Back -  No change*/
             if(sound == null) continue;
             EventReference eventReference = EventReference.Find($"event:/SFX/{clip.ToString().ToLower()}");
             
-            fmodEmitter.EventReference = eventReference;
-            fmodEmitter.Play();
+
+
+            sfx_control.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            sfx_control = RuntimeManager.CreateInstance(eventReference.Path);
+            sfx_control.start();
+            sfx_control.release();
+            
+            
+            
             yield return null;
         }
     }

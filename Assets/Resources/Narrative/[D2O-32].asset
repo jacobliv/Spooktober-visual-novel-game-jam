@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: '[D2O-32]'
   m_EditorClassIdentifier: 
   id: '[D2O-32]'
-  line: Both Edie and I turned our attention to Apartment #519. A tall and looming
+  line: Both Edie and I turn our attention to <b>Apartment #519</b>. A tall and looming
     figure leans against the doorframe brandishing a knife with-- is that blood?
   day: 2
   character: {fileID: 0}

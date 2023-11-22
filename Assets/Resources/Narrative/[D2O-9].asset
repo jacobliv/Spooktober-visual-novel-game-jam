@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: '[D2O-9]'
   m_EditorClassIdentifier: 
   id: '[D2O-9]'
-  line: "Hell no. That would take half of my break and wouldn\u2019t leave me any
-    time for questions. I need to pick two doors and get whoever is in them to talk
-    me through what they remember that night."
+  line: "Hell no. I wouldn\u2019t have any time for questions. I need to pick two
+    doors and get whoever is in them to talk me through what they remember that night."
   day: 2
   character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
   unknownCharacter: 0

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: '[D2SG-7]'
   m_EditorClassIdentifier: 
   id: '[D2SG-7]'
-  line: Besides if you want a tip, I suggest you fix your neck before you talk to
-    anyone outside this car.
+  line: But what I do know is that you should probably fix your neck. Your veins
+    are bulging.
   day: 2
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
   unknownCharacter: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: '[D2O-5]'
   m_EditorClassIdentifier: 
   id: '[D2O-5]'
-  line: My head turns to glare at her.
+  line: I glare at her.
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0

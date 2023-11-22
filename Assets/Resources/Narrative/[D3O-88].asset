@@ -20,9 +20,9 @@ MonoBehaviour:
   day: 3
   character: {fileID: 0}
   unknownCharacter: 0
-  characterArt1: 2
+  characterArt1: 19
   characterArt2: 19
-  characterArt3: 7
+  characterArt3: 19
   dialogueType: 0
   background: 44
   next1:

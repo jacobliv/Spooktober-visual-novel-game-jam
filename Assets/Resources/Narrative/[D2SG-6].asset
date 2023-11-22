@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: '[D2SG-6]'
   m_EditorClassIdentifier: 
   id: '[D2SG-6]'
-  line: "You know as much as I do, hun. Besides, I\u2019m all spent from bringing
-    you back."
+  line: I know as much as you do, hun.
   day: 2
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
   unknownCharacter: 0

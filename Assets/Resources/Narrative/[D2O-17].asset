@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: '[D2O-17]'
   m_EditorClassIdentifier: 
   id: '[D2O-17]'
-  line: "Whatever that was about wasn\u2019t something I wanted to touch just yet.
-    I\u2019ll leave the spooky stuff to my Grimmother."
+  line: Nope, not touching that right now. I'll leave the spooky stuff to Grimmother.
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0

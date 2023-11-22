@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: '[D2SG-4]'
   m_EditorClassIdentifier: 
   id: '[D2SG-4]'
-  line: "So, you\u2019re just going to use your break and knock on every door up
-    there until the killer comes out?"
+  line: "So, you\u2019re just going to use your break to knock on every door up there
+    until the killer comes out?"
   day: 2
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
   unknownCharacter: 0

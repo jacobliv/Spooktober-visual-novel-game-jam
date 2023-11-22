@@ -13,15 +13,14 @@ MonoBehaviour:
   m_Name: '[D2O-8]'
   m_EditorClassIdentifier: 
   id: '[D2O-8]'
-  line: "<i>I surprised myself with just how fast I\u2019d said her name and even
-    more so that Spooky Grimmother didn\u2019t call me out on it. She just nods her
-    head and looks at the building we\u2019re in front of.</i>"
+  line: <i>I surprise myself with just how fast I say her name and even more so that
+    Spooky Grimmother doesn't call me out on it. She nods and stares ahead.</i>
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
   characterArt1: 2
   characterArt2: 19
-  characterArt3: 7
+  characterArt3: 9
   dialogueType: 0
   background: 40
   next1:

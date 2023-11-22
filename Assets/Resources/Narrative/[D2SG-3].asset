@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: '[D2SG-3]'
   line: "Seems like they can\u2019t get enough of The 13th Pizza. Is the delivery
-    close to that new girl\u2019s place? You two seemed to hit it off. What was her
-    name again?"
+    close to that new girl\u2019s place?"
   day: 2
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
   unknownCharacter: 0

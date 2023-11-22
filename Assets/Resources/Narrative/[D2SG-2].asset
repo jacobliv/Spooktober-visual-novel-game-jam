@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: '[D2SG-2]'
   m_EditorClassIdentifier: 
   id: '[D2SG-2]'
-  line: Clever boy. So what is your plan? Focus really hard on your killer and scare
-    them with your breathing techniques?
+  line: Clever boy. So whats the plan? Focus <i>really</i> hard and scare the big
+    bad killer with your breathing techniques?
   day: 2
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
   unknownCharacter: 0

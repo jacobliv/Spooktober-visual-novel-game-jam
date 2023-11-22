@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: '[D2EF-4]'
   line: "Name\u2019s Edie. Edie Frueger. Sorry if I look like I just crawled out
-    of a coffin, I don\u2019t really get much sleep around here."
+    of a coffin, I don\u2019t really get much sleep these days."
   day: 2
   character: {fileID: 11400000, guid: d6c1446352bfc4948a7b66fde5c35e7a, type: 2}
   unknownCharacter: 0

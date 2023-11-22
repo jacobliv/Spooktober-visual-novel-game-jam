@@ -19,7 +19,7 @@ MonoBehaviour:
   unknownCharacter: 0
   characterArt1: 4
   characterArt2: 19
-  characterArt3: 13
+  characterArt3: 9
   dialogueType: 2
   background: 40
   next1:

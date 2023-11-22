@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: '[D2EF-6]'
   m_EditorClassIdentifier: 
   id: '[D2EF-6]'
-  line: They nodded and scratched their cheek while they looked lost in thought.
+  line: They nod and scratch their cheek seemingly lost in thought.
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0

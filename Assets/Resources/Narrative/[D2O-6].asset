@@ -13,15 +13,14 @@ MonoBehaviour:
   m_Name: '[D2O-6]'
   m_EditorClassIdentifier: 
   id: '[D2O-6]'
-  line: "No\u2026 I\u2019m making the most of another opportunity. I\u2019ve got
-    another delivery in this place."
+  line: Spooky Grimmother chuckles. She takes another hit out of her pipe, unbothered.
   day: 2
-  character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
+  character: {fileID: 0}
   unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
-  characterArt3: 9
-  dialogueType: 2
+  characterArt3: 7
+  dialogueType: 1
   background: 40
   next1:
     narrativeItem: {fileID: 11400000, guid: 2e4e4a45c74546f4eab963ae6f5d6ddd, type: 2}

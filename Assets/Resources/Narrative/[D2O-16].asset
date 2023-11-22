@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: '[D2O-16]'
   m_EditorClassIdentifier: 
   id: '[D2O-16]'
-  line: "Once I had recomposed myself, the discomfort of that woman\u2019s voice
-    has been replaced with a teeth-gritting anger. That was definitely what my killer
-    sounded like and for a split second, I wished I didn\u2019t."
+  line: "Once I recompose myself, teeth-gritting anger replaces the discomfort of
+    that woman\u2019s voice. She's the reason I'm dead."
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0

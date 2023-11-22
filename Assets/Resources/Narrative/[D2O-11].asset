@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: '[D2O-11]'
   m_EditorClassIdentifier: 
   id: '[D2O-11]'
-  line: I tilted my neck and waved in her general, magical direction. A puff of smoke
+  line: I tilt my neck and wave in her general, magical direction. A puff of smoke
     was her initial response as she blew it right above my head.
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
   characterArt1: 0
   characterArt2: 19
-  characterArt3: 0
+  characterArt3: 8
   dialogueType: 1
   background: 40
   next1:

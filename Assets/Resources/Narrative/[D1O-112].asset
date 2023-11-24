@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Also, you can just call me Leah.
   sounds: 
   music: 16
   ambience: 17

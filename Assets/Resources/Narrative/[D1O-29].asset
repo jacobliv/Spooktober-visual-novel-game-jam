@@ -31,6 +31,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "A blanket lies on the ground next to my car. I must\u2019ve thrown
+    it off after I got up. Holding it in my hands, it\u2019s really comfortable.
+    Like, really comfy. On top of the handmade vibe it has going on, it\u2019s honestly
+    super charming."
   sounds: 
   music: 16
   ambience: 17

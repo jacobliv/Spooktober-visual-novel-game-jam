@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: W-Wait. I know this looks bad. I-It fell off the hinges when I knocked!
+    I swear!
   sounds: 
   music: 19
   ambience: 19

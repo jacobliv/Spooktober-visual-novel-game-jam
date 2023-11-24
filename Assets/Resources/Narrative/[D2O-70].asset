@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "The door is torn to shreds!? Do you think I\u2019m stupid?"
   sounds: 
   music: 14
   ambience: 19

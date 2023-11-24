@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: '[D2O-16]'
   m_EditorClassIdentifier: 
   id: '[D2O-16]'
-  line: "Once I recompose myself, teeth-gritting anger replaces the discomfort of
-    that woman\u2019s voice. She's the reason I'm dead."
+  line: "Once I had recomposed myself, the discomfort of that woman\u2019s voice
+    has been replaced with a teeth-gritting anger. That was definitely what my killer
+    sounded like and for a split second, I wished I didn\u2019t."
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -31,6 +32,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Memories of the voice retreated from my mind as I reached the third
+    floor, and I was left shaking my head to try to get the high-pitched screech
+    of that person out of my head. It was a woman definitely and one with a serious
+    attitude.
   sounds: 
   music: 16
   ambience: 19

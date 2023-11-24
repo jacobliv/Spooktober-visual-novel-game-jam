@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Accusations and questions bubble out of the man. I can\u2019t be
+    caught up here."
   sounds: 
   music: 14
   ambience: 19

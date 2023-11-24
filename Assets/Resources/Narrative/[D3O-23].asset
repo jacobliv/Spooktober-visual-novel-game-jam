@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "The clock is ticking. I might as well do what I\u2019ve always
+    done and make the most of it. The car door damn near breaks apart as I slam it
+    and rush up to the gate to scale it."
   sounds: 
   music: 14
   ambience: 19

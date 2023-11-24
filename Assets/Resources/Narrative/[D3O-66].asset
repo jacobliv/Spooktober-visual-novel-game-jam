@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Please\u2026 Just leave me alone\u2026 You\u2019ll never have to
+    see me again and we can just go about living our lives\u2026"
   sounds: 
   music: 14
   ambience: 19

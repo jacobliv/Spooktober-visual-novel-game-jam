@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Quit smoking so close to me. I don\u2019t like the smell of whatever
+    it is you\u2019ve got in that pipe, and I\u2019d rather the customers not have
+    their pizza smell like smoke."
   sounds: 
   music: 16
   ambience: 19

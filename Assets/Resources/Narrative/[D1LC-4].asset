@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Oh, that\u2019s super nice of you! As long as you\u2019re not some
+    murder hobo with a knife I guess I can accept that as you actually wanting to
+    buzz you in."
   sounds: 
   music: 16
   ambience: 17

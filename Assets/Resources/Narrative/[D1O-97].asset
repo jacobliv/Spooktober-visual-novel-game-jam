@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I don\u2019t know, I\u2019d tell you to leave it downstairs if
+    someone tried to do that for me."
   sounds: 
   music: 16
   ambience: 17

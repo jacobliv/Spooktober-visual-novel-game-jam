@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Sir, I\u2019m just trying to return--"
   sounds: 
   music: 16
   ambience: 17

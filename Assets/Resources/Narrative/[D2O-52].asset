@@ -31,6 +31,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: <i>I relax as I watch the man attempt to rub at the cherry stains
+    on his shirt and hands to no avail. He loses all the prior intimidation, as I
+    see him for what he truly is. A gym bro trying his hand at meal-prepping something
+    other than plain chicken.</i>
   sounds: 
   music: 16
   ambience: 19

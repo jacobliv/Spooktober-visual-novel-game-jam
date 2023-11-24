@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I mean, I\u2019m more of a Calzone kind of guy, but sheesh. It\u2019s
+    never that serious. I\u2019m sure the order wasn\u2019t even wrong and she was
+    just looking for an extra discount."
   sounds: 
   music: 16
   ambience: 19

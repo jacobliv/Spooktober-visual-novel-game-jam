@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Er, I understand that. I\u2019m actually following up on an incident
+    that happened about three weeks ago. Would you know anything about that?"
   sounds: 
   music: 16
   ambience: 19

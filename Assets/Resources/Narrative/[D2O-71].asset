@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: My heart drops. The man grabs my shoulder with his phone in his
+    other hand.
   sounds: 
   music: 14
   ambience: 19

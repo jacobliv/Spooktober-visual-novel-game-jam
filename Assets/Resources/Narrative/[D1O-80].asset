@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: My eyes shoot up from the cash register as I shove it closed.
   sounds: 
   music: 16
   ambience: 18

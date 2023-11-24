@@ -33,6 +33,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Even the smell of greasy cheap pizza didn\u2019t stir me. If I
+    had an appetite for anything it's not for pizza anymore. "
   sounds: 
   music: 16
   ambience: 17

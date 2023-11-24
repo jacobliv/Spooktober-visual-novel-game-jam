@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Heh\u2026 Okay. I\u2019m ready."
   sounds: 
   music: 16
   ambience: 19

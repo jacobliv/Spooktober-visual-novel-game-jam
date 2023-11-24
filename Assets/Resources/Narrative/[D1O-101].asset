@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Oh, my blanket! Explains why you were sleeping next to the pizza
+    delivery car.
   sounds: 
   music: 16
   ambience: 17

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: cfb08538222c164459c3b1551f17bdea, type: 2}
     shortenedLine: Tell the Truth
     value: 0
+  narrationText: "Dude, you\u2019re smelling a little ripe. I can give you some of
+    the deodorant in my bag, but I want an answer first. What happened?"
   sounds: 
   music: 16
   ambience: 18

@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "She opens her mouth to answer but stops as if she\u2019s in a freeze
+    frame."
   sounds: 
   music: 13
   ambience: 17

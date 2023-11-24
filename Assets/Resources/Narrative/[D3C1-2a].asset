@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: 02d7fb920f1f3f44dba8599bc49816ae, type: 2}
     shortenedLine: Climb over the gate
     value: 0
+  narrationText: I punch the side of my steering wheel in annoyance. I am NOT dealing
+    with this gate right now.
   sounds: 
   music: 14
   ambience: 19

@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: <i>So, here I am. Inside my car, parked inside The Woodsboro Apartments,
+    and having Spooky Grimmother smoke over my shoulder. My new and perfectly normal
+    life for the next couple of hours.</i>
   sounds: 
   music: 16
   ambience: 17

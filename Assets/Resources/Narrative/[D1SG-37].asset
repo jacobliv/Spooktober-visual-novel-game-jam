@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Or at least it would be if Spooky Grimmother wasn\u2019t stopping
+    me from closing the driver\u2019s door."
   sounds: 
   music: 16
   ambience: 17

@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I want to be <b>Omar.</b>
   sounds: 
   music: 19
   ambience: 19

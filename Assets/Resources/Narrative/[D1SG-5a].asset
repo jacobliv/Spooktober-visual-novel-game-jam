@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: 1e9dcca29ad347d4daa821ba2e24f92c, type: 2}
     shortenedLine: "How\u2019d you get here?"
     value: 0
+  narrationText: "Think of me as your distant auntie. It keeps a few centuries off
+    of me, but call me your Spooky Grimmother. It\u2019s all the same to me."
   sounds: 
   music: 13
   ambience: 17

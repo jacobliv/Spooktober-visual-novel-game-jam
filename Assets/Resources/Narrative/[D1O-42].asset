@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I nod at her and then towards the driver\u2019s door."
   sounds: 
   music: 16
   ambience: 17

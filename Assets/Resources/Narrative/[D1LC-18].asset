@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Thanks for your help, Leah! I\u2019ll talk to you later! Enjoy
+    the pizza! The cheese is also under the sauce!"
   sounds: 
   music: 16
   ambience: 17

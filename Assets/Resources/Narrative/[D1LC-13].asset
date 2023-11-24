@@ -32,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "So why\u2019d you waste your time putting a blanket over a stranger
+    like me?"
   sounds: 
   music: 16
   ambience: 17

@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: '[D2SG-3]'
   line: "Seems like they can\u2019t get enough of The 13th Pizza. Is the delivery
-    close to that new girl\u2019s place?"
+    close to that new girl\u2019s place? You two seemed to hit it off. What was her
+    name again?"
   day: 2
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
   unknownCharacter: 0
@@ -31,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "No\u2026 I\u2019m making the most of another opportunity. I\u2019ve
+    got another delivery in this place."
   sounds: 
   music: 16
   ambience: 19

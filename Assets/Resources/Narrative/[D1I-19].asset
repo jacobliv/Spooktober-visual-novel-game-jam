@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Ugh.
   sounds: 
   music: 16
   ambience: 18

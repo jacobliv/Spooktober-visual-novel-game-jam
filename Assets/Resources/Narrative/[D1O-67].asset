@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I know, I know, I\u2019m pretty awesome. Come on."
   sounds: 
   music: 16
   ambience: 18

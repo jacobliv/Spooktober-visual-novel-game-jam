@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Well, I wouldn\u2019t have brought you back if it was impossible. "
   sounds: 
   music: 16
   ambience: 17

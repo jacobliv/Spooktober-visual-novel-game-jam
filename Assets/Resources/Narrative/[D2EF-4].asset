@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: '[D2EF-4]'
   line: "Name\u2019s Edie. Edie Frueger. Sorry if I look like I just crawled out
-    of a coffin, I don\u2019t really get much sleep these days."
+    of a coffin, I don\u2019t really get much sleep around here."
   day: 2
   character: {fileID: 11400000, guid: d6c1446352bfc4948a7b66fde5c35e7a, type: 2}
   unknownCharacter: 0
@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: A series of clicks and clacks come from the door as latches and
+    locks are undone. When the door finally creaked open, the person standing in
+    the unlit apartment looked more like a zombie than I did.
   sounds: 
   music: 16
   ambience: 19

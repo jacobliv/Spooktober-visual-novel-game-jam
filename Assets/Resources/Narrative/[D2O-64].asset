@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I open my mouth to speak, but my jaw feels tight. It finally opens
+    but I groan and slur. I can only stare in horror as a passenger in my own body.
   sounds: 
   music: 19
   ambience: 19

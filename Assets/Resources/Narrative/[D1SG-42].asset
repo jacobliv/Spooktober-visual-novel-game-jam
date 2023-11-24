@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "W-well what about my soul? If my body goes through rigor mortis
+    2.0 then my soul just gets kicked out and I\u2019ll pass on like you said, right?"
   sounds: 
   music: 16
   ambience: 17

@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Akilla struggles in my grip. My mind feels cloudy. Akilla mutters
+    other words in an attempt to convince me to let go of my vice grip. I tune her
+    out.
   sounds: 
   music: 14
   ambience: 19

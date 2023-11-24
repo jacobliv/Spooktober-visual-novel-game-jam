@@ -32,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Oh man, that was the most noise I\u2019ve heard on this floor in
+    months. "
   sounds: 
   music: 16
   ambience: 19

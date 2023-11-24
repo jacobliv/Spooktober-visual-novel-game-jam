@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "If you haven\u2019t connected the dots yet, you very much did not
+    die from natural causes."
   sounds: 
   music: 16
   ambience: 17

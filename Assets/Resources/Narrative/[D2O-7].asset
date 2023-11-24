@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Seems like they can\u2019t get enough of The 13th Pizza. Is the
+    delivery close to that new girl\u2019s place? You two seemed to hit it off. What
+    was her name again?"
   sounds: 
   music: 16
   ambience: 19

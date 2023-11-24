@@ -33,6 +33,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "The name\u2019s Mason. What were you needing again?"
   sounds: 
   music: 16
   ambience: 19

@@ -19,7 +19,7 @@ MonoBehaviour:
   day: 1
   character: {fileID: 0}
   unknownCharacter: 0
-  characterArt1: 19
+  characterArt1: 2
   characterArt2: 19
   characterArt3: 19
   dialogueType: 1
@@ -32,6 +32,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "My hands had already grabbed onto the railing before my feet could
+    touch the stairs. Bad reviews were something I could deal with, but I wouldn\u2019t
+    live to even <b>SEE</b> Halloween night if Iggy had to deal with me being late
+    again."
   sounds: 08000000
   music: 16
   ambience: 17

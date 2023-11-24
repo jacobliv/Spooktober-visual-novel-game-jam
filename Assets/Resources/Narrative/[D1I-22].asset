@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Alright, where\u2019s our lovely manager?"
   sounds: 
   music: 16
   ambience: 18

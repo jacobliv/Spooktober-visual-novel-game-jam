@@ -32,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "The one day I actually want to see his face and he\u2019s gone.
+    Just my luck\u2026"
   sounds: 0100000004000000
   music: 16
   ambience: 18

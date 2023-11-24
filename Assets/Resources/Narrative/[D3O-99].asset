@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I will not lose myself to this\u2026urge. After all of this I do
+    want one thing to remain the same."
   sounds: 
   music: 19
   ambience: 19

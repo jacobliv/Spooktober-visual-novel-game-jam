@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "The same guy you chased down two flights of stairs while demanding
+    a refund because the pizza didn\u2019t match the advertisements you saw?!"
   sounds: 
   music: 14
   ambience: 19

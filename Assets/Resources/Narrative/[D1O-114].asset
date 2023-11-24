@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "<i>Talk about irony\u2026</i>"
   sounds: 
   music: 16
   ambience: 17

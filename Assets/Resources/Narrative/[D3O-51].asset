@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "What the hell?! Who are you?! Get off of me now, and get out of
+    my apartment!? I\u2019m calling the pol-"
   sounds: 
   music: 14
   ambience: 19

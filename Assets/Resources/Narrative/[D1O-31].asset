@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Ooh! See! It hasn\u2019t even been a full day and you already got
+    your first clue! Good job, hun!"
   sounds: 
   music: 16
   ambience: 17

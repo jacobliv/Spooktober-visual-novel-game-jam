@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "<i>I\u2019M HUNGRY. </i>"
   sounds: 
   music: 14
   ambience: 19

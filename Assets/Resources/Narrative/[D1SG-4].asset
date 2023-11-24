@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Ooky, kooky, and oh so fabulous.
   sounds: 
   music: 13
   ambience: 17

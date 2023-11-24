@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: '[D2O-12]'
   m_EditorClassIdentifier: 
   id: '[D2O-12]'
-  line: As my eyes drift down, I see the skin around my neck straining to stay together
-    and that my chin was resting right behind my right shoulder. I hold my face and
-    twist my neck a hundred-eighty degrees back into it's proper place, stretching
-    a bit to make sure I did it correctly.
+  line: "As my eyes drifted down, the straining of my skin to not tear around my
+    neck was obvious along with the fact that it was twisted a hundred-eighty degrees.
+    I didn\u2019t even flinch as I held my face and righted myself, stretching a
+    bit to make sure I\u2019d gotten it back into place properly."
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -33,6 +33,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Besides if you want a tip, I suggest you fix your neck before you
+    talk to anyone outside this car.
   sounds: 
   music: 16
   ambience: 19

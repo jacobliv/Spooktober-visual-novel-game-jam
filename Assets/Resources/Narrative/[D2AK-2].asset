@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Excuse me?! EXCUSE ME?! Who do you think you\u2019re talking to?!
+    I am not one of your pizza grease-covered coworkers, okay?! I will not allow
+    myself to be degraded because you delivered the wrong order!"
   sounds: 
   music: 16
   ambience: 19

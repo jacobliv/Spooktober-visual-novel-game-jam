@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: '[D2O-37]'
   m_EditorClassIdentifier: 
   id: '[D2O-37]'
-  line: I dig my nails into my palms to keep myself distracted from the slow tug
+  line: I dug my nails into my palms to keep myself distracted from the slow tug
     of my anger. Both Edie and Mason point toward the door directly behind me. I
-    tune out the rest of their conversation as I shuffle towards the door.
+    tuned out the rest of their conversation as I scoped out and shuffled towards
+    the door.
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -32,6 +33,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: And where is she?
   sounds: 
   music: 16
   ambience: 19

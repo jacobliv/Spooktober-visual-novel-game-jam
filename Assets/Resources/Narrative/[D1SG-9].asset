@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "You know, I can\u2019t even remember at this point. I\u2019ve helped
+    pass on so many of the family you\u2019re all starting to blur together."
   sounds: 
   music: 13
   ambience: 17

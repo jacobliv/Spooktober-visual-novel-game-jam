@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Mason leans back inside and I hear the metal clack of a knife hitting
+    a sink.
   sounds: 
   music: 16
   ambience: 19

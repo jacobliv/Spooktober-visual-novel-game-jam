@@ -32,6 +32,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "It\u2019s a lot for me to get into but basically she took something
+    away from me for getting her order wrong. She demanded I give her a refund AND
+    keep the pizza which I obviously couldn\u2019t do so now I <i>JUST</i> want to
+    talk."
   sounds: 
   music: 16
   ambience: 19

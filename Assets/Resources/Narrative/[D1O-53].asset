@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Oh no, I\u2019m good. I\u2019m just trying to piece some things
+    together."
   sounds: 
   music: 16
   ambience: 18

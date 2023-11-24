@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "It\u2019s like when you bite into one right after taking it out
+    the microwave, but then you taste how cold it is in the middle."
   sounds: 
   music: 16
   ambience: 17

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "With my other hand, I pry my right hand off from the railing. I
+    stretch my fingers in an attempt to see how they\u2019re moving. They seem fine."
   sounds: 
   music: 16
   ambience: 19

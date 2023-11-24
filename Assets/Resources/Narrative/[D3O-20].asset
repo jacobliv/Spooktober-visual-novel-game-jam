@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "\u2026Okay. I know we don\u2019t know each other that well, but
+    just be careful. Alright?"
   sounds: 
   music: 16
   ambience: 19

@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: 54f8bc4b8551c2441a5c603b3e73f685, type: 2}
     shortenedLine: Screw the Gate!
     value: 0
+  narrationText: "Okay, chill Omar. Let\u2019s figure this out. Don\u2019t let a
+    dumb gate stop you."
   sounds: 
   music: 14
   ambience: 19

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "You\u2019re <b>dead</b>. What am I going to do? I couldn\u2019t
+    wake you up even if I tried. You\u2019re losing your grip on your body, Omar!"
   sounds: 
   music: 19
   ambience: 19

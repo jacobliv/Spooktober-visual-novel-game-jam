@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: 43cdedde3e416b34ab97f61a05d84d62, type: 2}
     shortenedLine: Bring me back to life all the way!
     value: 0
+  narrationText: The rotting teeth and bones peeking out from your skin are just
+    minor side effects.
   sounds: 
   music: 16
   ambience: 19

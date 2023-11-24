@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: '[D2SG-2]'
   m_EditorClassIdentifier: 
   id: '[D2SG-2]'
-  line: Clever boy. So whats the plan? Focus <i>really</i> hard and scare the big
-    bad killer with your breathing techniques?
+  line: Clever boy. So what is your plan? Focus really hard on your killer and scare
+    them with your breathing techniques?
   day: 2
   character: {fileID: 11400000, guid: 4271ef724573957489e097a31836e37e, type: 2}
   unknownCharacter: 0
@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Besides, It reminds me that I\u2019m still alive and helps me focus.
+    I\u2019m gonna need it to make the most of today. Tomorrow\u2019s my last chance."
   sounds: 
   music: 16
   ambience: 19

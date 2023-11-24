@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: With a wave of her pipe, a smoke ring swirls about the size of a
+    choker around my neck and loosens up my body just enough for me to move without
+    worry. A temporary solution to my growing problems.
   sounds: 
   music: 19
   ambience: 19

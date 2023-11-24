@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "She shakes her head and floats over to me so we\u2019re face to
+    face."
   sounds: 
   music: 16
   ambience: 19

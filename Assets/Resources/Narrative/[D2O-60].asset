@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I dug my nails into my palms to keep myself distracted from the
+    slow tug of my anger. I tuned out the rest of their conversation as I scoped
+    out and shuffled towards the door.
   sounds: 
   music: 16
   ambience: 19

@@ -24,13 +24,15 @@ MonoBehaviour:
   dialogueType: 0
   background: 37
   next1:
-    narrativeItem: {fileID: 0}
+    narrativeItem: {fileID: 11400000, guid: 231d42281a7cf934e98aa4032de370b9, type: 2}
     shortenedLine: 
     value: 0
   next2:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "When her neighbors finally get the courage to look into her apartment,
+    they don\u2019t see Akilla or Omar\u2019s body."
   sounds: 
   music: 15
   ambience: 19

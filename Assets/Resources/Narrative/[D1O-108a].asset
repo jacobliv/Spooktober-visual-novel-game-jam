@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: <i>Hope he gets that social security problem fixed. I pray the other
+    person happened to have left a blanket out in a parking lot somewhere.</i>
   sounds: 
   music: 16
   ambience: 19

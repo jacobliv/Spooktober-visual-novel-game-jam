@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Come to think of it, there was a pretty bad argument between a
+    delivery guy and one of the tenants up there. I didn\u2019t see who since it
+    wasn\u2019t any of my business, you know?"
   sounds: 
   music: 16
   ambience: 17

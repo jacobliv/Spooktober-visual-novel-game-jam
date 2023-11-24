@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: She pants as she scoots away from me, unsure of the sight I am before
+    her.
   sounds: 
   music: 14
   ambience: 19

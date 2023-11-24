@@ -33,6 +33,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I ran away as best as I could. Moving felt like moving through
+    butter instead of the fluidity I\u2019d gotten used to. My joints scream to stay
+    and search for Akilla, but they end up going forward because my brain was more
+    imposing. At least for the moment."
   sounds: 08000000
   music: 19
   ambience: 19

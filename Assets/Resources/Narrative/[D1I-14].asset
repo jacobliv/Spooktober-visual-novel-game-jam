@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "That\u2019s pretty much everything I know. I came back here to
+    see if I could get any clues about what happened to me."
   sounds: 
   music: 16
   ambience: 18

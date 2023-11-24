@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: My eye twitches in its socket as my urge spurs me on again. I feel
+    it from my belly, it wants to overtake me.
   sounds: 
   music: 14
   ambience: 19

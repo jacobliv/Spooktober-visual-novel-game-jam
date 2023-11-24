@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I could still hear her voice while I was driving out of Woodsboro
+    Apartments. I hoped that it would be the last time with a little bit of luck
+    and a lot of me begging Iggy to not have me deliver pizzas to her apartment anymore.
   sounds: 
   music: 16
   ambience: 19

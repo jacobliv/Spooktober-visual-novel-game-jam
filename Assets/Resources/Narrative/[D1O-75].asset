@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Ms. Gin stares into my face the way only a mother could give when
+    she\u2019s looking to see if there is anything wrong with you."
   sounds: 
   music: 16
   ambience: 18

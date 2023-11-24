@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'I open my eyes with a start and scan around the car. '
   sounds: 
   music: 19
   ambience: 19

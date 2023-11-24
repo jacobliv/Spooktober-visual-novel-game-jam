@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: The pizza you threw <b>BROKE MY NECK!</b>
   sounds: 
   music: 14
   ambience: 19

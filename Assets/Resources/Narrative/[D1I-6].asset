@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Duh! Did you lose track of time while you were on your ghost vacation?!
+    You owe me big time! And then you have the audacity to walk in here like a\u2026"
   sounds: 
   music: 16
   ambience: 18

@@ -31,6 +31,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Maybe the initials on the blanket are the same as someone on the
+    registry. If I find the right person then I can just say I\u2019m returning the
+    blanket and they\u2019ll let me in. Best case scenario they can tell me about
+    how I died."
   sounds: 
   music: 16
   ambience: 17

@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "<i> Come on, come on! Just let me know you\u2019re there you pizza
+    throwin\u2019, long neck havin\u2019, turkey headed, lil\u2019 gobble gobble
+    lookin-- </i>"
   sounds: 
-  music: 14
+  music: 16
   ambience: 19

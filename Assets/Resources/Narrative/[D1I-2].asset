@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "A high-pitched voice tinged with voice cracks breaks the humming
+    of the A/C Charles didn\u2019t fix."
   sounds: 
   music: 16
   ambience: 18

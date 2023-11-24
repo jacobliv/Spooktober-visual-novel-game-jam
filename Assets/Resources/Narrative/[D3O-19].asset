@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Leah, please. I\u2019ve been going through absolute hell for the
+    last few days. "
   sounds: 
   music: 16
   ambience: 19

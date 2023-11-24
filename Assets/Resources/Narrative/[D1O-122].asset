@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I\u2019m actually trying to figure that out. The past three weeks
+    have been kind of a blur. I\u2019ve been trying to retrace my steps all day."
   sounds: 
   music: 16
   ambience: 17

@@ -30,6 +30,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Where have you been?! You don\u2019t call in sick to the boss,
+    you don\u2019t even send a text to me, and then you make me look like an asshole
+    for calling your phone five times everyday when even your parents didn\u2019t
+    know where you are!"
   sounds: 
   music: 16
   ambience: 18

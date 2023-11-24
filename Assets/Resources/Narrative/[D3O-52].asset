@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Shut up?! You can\u2019t talk to-"
   sounds: 
   music: 14
   ambience: 19

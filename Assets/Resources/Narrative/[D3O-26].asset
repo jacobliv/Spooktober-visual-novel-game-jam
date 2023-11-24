@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I knock on the door of Akilla\u2019s apartment and tap my foot
+    as I wait."
   sounds: 
   music: 14
   ambience: 19

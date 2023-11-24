@@ -32,6 +32,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "<i>Still ascending the stairs, I zeroed in on the voices and they
+    immediately became clear. There weren\u2019t two voices. Only one and it was
+    like something straight out of a nightmare. A very real nightmare that every
+    retail or food service worker dreads.</i>"
   sounds: 
   music: 16
   ambience: 19

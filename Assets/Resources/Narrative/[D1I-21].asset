@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I tackled him with the tightest hug I could muster until I felt
+    my arm start to pop out of place. Iggy shoved me off so he must not have noticed.
   sounds: 
   music: 16
   ambience: 18

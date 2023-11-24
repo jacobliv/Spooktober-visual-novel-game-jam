@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: '[D2C1-1]'
   m_EditorClassIdentifier: 
   id: '[D2C1-1]'
-  line: "<i>Still ascending the stairs, I zero in on the voices and it starts to
-    clear. They weren\u2019t two voices. Only one, and it was like something straight
-    out of a nightmare. A very real nightmare that every food service worker dreads.</i>"
+  line: "<i>Still ascending the stairs, I zeroed in on the voices and they immediately
+    became clear. There weren\u2019t two voices. Only one and it was like something
+    straight out of a nightmare. A very real nightmare that every retail or food
+    service worker dreads.</i>"
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -32,6 +33,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 
   sounds: 
   music: 16
   ambience: 19

@@ -33,6 +33,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'A 13th Pizza box lies turned over next to my feet. Whoever had
+    ordered it must have wanted a slasher special because of the red sauce. It''s
+    obviously spoiled now. The dent on it looks suspiciously like the back of my
+    head. '
   sounds: 
   music: 16
   ambience: 17

@@ -33,6 +33,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: As her lips touch the space between my eyes, all I can see is a
+    warm, bright light. And then everything goes black.
   sounds: 
   music: 15
   ambience: 19

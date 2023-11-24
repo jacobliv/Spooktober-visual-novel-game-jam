@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "The toppings are not how they looked in the photo I saw! How hard
+    is it to follow directions?! I\u2019m sure you guys don\u2019t cook all those
+    pizzas from memory?! You do? No wonder it\u2019s atrocious."
   sounds: 
   music: 16
   ambience: 19

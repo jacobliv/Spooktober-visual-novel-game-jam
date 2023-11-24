@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "My Spooky Grimmother says that I only have until Halloween night
+    to figure out who killed me or else I\u2019m gonna be stuck as a ghost and my
+    body will start the zombie apocalypse that\u2019s due sometime in the 23rd century."
   sounds: 
   music: 16
   ambience: 18

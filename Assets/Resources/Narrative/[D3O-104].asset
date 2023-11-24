@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Whatever you say, Akilla. I\u2019d say this whole wild goose chase
+    was fun, but you\u2019re the worst person I\u2019ve ever met in both of my lives
+    so I\u2019m just going to leave."
   sounds: 
   music: 19
   ambience: 19

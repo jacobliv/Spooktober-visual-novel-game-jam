@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'My left leg bends and I stumble from the last few steps. A horrific
+    <b>CRACK</b> resounds and I come tumbling down. '
   sounds: 
   music: 14
   ambience: 19

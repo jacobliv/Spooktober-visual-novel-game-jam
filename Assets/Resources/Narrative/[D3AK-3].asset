@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "She stares past me blankly, not even acting like she\u2019s trying
+    to remember."
   sounds: 
   music: 14
   ambience: 19

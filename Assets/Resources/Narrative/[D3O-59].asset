@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "It\u2019s me. You know, the guy you left for dead? Broke my neck
+    with a box of piping hot deep-dish pizza?"
   sounds: 
   music: 14
   ambience: 19

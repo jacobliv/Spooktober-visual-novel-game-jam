@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Let me know soon so I won\u2019t forget. I don\u2019t need you
+    holding this over my head."
   sounds: 
   music: 16
   ambience: 18

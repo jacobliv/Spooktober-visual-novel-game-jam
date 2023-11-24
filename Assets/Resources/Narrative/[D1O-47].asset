@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: As soon as I step through the double doors, a groan slips through
+    my cracked lips and my shoulders slump as if my life had been snatched a second
+    time. Ah, The 13th Pizza never makes me regret staying away.
   sounds: 
   music: 16
   ambience: 18

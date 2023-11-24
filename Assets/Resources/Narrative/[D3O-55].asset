@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Her eyes scanned the room for something she could probably grab
+    or at the least her phone so she could call somebody. It made my congealed blood
+    boil.
   sounds: 
   music: 14
   ambience: 19

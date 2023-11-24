@@ -33,6 +33,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: <b> Oh? JUST OH?!</b>
   sounds: 
   music: 14
   ambience: 19

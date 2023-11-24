@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Three weeks, and the only people that cared enough to even care
+    about me were my best friend, a returning customer, and a complete stranger.
   sounds: 
   music: 14
   ambience: 19

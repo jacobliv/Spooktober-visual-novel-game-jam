@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I could just\u2026"
   sounds: 
   music: 14
   ambience: 19

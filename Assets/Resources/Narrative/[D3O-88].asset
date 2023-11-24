@@ -20,9 +20,9 @@ MonoBehaviour:
   day: 3
   character: {fileID: 0}
   unknownCharacter: 0
-  characterArt1: 19
+  characterArt1: 2
   characterArt2: 19
-  characterArt3: 19
+  characterArt3: 7
   dialogueType: 0
   background: 44
   next1:
@@ -33,6 +33,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Spooky Grimmother, in all of her otherworldly style, floats behind
+    me with her usual smirk. I can only imagine how I look from her perspective.
   sounds: 
   music: 15
   ambience: 19

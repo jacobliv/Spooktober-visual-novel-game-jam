@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I wouldn\u2019t call it a waste at all. I saw somebody who looked
+    cold so I gave them a way to warm up. Who better to give a blanket to than a
+    sleeping homeless guy?"
   sounds: 
   music: 16
   ambience: 17

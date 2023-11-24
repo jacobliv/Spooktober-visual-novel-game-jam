@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "The apartment door swings wide open and I finally put a face to
+    the most memorable voice I\u2019d ever heard. "
   sounds: 
   music: 16
   ambience: 17

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I jump out of my skin and let out a harsh breath through my nose
+    to calm myself down.
   sounds: 
   music: 16
   ambience: 17

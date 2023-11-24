@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "You said I\u2019ve been gone for three weeks right? I don\u2019t
+    remember anything from that time! The last thing I remember is saying goodbye
+    to you and Ms. Gin before I drove off to drop off the deliveries."
   sounds: 
   music: 16
   ambience: 18

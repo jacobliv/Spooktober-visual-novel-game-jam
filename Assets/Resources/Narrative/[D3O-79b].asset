@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: bac0291ec4078194b965c589ea505034, type: 2}
     shortenedLine: Step Back
     value: 0
+  narrationText: "Since coming back to life, me and my body always felt at odds with
+    each other. But now, with Akilla still talking about how she\u2019s the hero
+    and the victim, something clicks."
   sounds: 
   music: 14
   ambience: 19

@@ -31,6 +31,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I can barely get any sleep these days so I\u2019m usually up most
+    nights, but even if I could sleep I don\u2019t even think I\u2019d be able to
+    sleep through the screeching from that night. It sounded like they even chased
+    the guy down the hall."
   sounds: 
   music: 16
   ambience: 19

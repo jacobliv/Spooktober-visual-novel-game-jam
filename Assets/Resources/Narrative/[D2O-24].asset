@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: The second door, <b>Apartment #519</b> just had a welcome mat with
+    an axolotl holding its middle fingers up.
   sounds: 
   music: 16
   ambience: 19

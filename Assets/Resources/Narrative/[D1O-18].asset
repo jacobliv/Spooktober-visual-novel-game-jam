@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "This is it for me? I\u2019m just stuck as a zombie forever?"
   sounds: 
   music: 16
   ambience: 17

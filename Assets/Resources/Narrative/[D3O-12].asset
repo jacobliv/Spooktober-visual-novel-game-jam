@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I give my tires a few more good kicks before I take a deep breath
+    to calm myself down.
   sounds: 
   music: 14
   ambience: 19

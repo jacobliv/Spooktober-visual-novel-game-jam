@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "For a wrong order, I was ripped away from everything. No more late
+    night shifts with Iggy, no more slasher special pizza, I\u2019m never going to
+    go catch that movie with Leah."
   sounds: 
   music: 14
   ambience: 19

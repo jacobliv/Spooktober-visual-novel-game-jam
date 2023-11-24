@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I hear curses from the inside of the apartment. The door swings
+    open, and memories flood back.
   sounds: 
   music: 14
   ambience: 19

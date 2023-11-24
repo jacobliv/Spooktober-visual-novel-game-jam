@@ -31,6 +31,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: My chin follows my eyes as I stare down at my hands. The skin around
+    my skull droops and weighs down my skull. Spooky Grimmother cups my face with
+    her hands before my head could fall onto the ground and looks me dead in the
+    eyes.
   sounds: 
   music: 16
   ambience: 17

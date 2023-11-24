@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Basically, I died and got brought back to life by a spooky, grim
+    godmother I never knew I had. I\u2019m guessing that I died three weeks ago while
+    I was on my shift, but I don\u2019t remember who did it."
   sounds: 
   music: 16
   ambience: 18

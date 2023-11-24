@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "A feminine sing-songy voice comes through the intercom\u2019s static."
   sounds: 
   music: 16
   ambience: 17

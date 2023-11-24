@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I haven\u2019t felt pain since I woke, but this\u2026this <b>HURTS.</b>"
   sounds: 
   music: 14
   ambience: 19

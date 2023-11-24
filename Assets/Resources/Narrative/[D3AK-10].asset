@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I watch the cogs turn in her head. Her nose crinkles as if she
+    just caught a whiff of the worst odor she\u2019s ever come across in her miserable
+    life."
   sounds: 
   music: 14
   ambience: 19

@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Iggy\u2019s eyebrows furrow."
   sounds: 
   music: 16
   ambience: 19

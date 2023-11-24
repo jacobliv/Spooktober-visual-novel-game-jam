@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Sounded like a bat out of hell, I was honestly scared to open the
+    door to even take a look.
   sounds: 
   music: 16
   ambience: 19

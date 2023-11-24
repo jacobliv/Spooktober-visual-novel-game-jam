@@ -19,7 +19,7 @@ MonoBehaviour:
   unknownCharacter: 0
   characterArt1: 4
   characterArt2: 19
-  characterArt3: 9
+  characterArt3: 13
   dialogueType: 2
   background: 40
   next1:
@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "You\u2019re close to the end, hun. Time is almost up for you, your
+    Rigor Mortis has jumped higher in one day than I\u2019ve ever seen in my existence,
+    but at least you know exactly where the killer is."
   sounds: 
   music: 19
   ambience: 19

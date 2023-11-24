@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: 618cbcab991ab954c8aaaa57415c5796, type: 2}
     shortenedLine: Put it back on.
     value: 0
+  narrationText: I stand and come crashing back down, I whip my head to see it broke
+    off from my knee. The footsteps grow louder.
   sounds: 
   music: 14
   ambience: 19

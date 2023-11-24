@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I open the pizza box to get a good whiff of the saucy goodness
+    I\u2019m usually happy to breathe in."
   sounds: 
   music: 16
   ambience: 17

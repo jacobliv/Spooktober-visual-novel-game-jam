@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: <i>Left, right, left, right--</i>
   sounds: 
   music: 14
   ambience: 19

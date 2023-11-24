@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Well, you could start by looking down.
   sounds: 
   music: 16
   ambience: 17

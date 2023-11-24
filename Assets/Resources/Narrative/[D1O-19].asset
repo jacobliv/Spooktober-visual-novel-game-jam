@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: An incomplete revival is the best I can do.
   sounds: 
   music: 16
   ambience: 17

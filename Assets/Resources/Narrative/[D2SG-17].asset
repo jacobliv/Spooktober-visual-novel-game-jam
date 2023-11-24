@@ -19,7 +19,7 @@ MonoBehaviour:
   unknownCharacter: 0
   characterArt1: 19
   characterArt2: 19
-  characterArt3: 19
+  characterArt3: 9
   dialogueType: 2
   background: 38
   next1:
@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: <i>For the first time since this waking nightmare had started my
+    eyes got heavy and, after that first yawn, I fell into the best sleep of my life.</i>
   sounds: 
   music: 19
   ambience: 19

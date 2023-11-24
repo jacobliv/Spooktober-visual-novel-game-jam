@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I hope so dear. You look a few steps from death still! Maybe another
+    few days off would have done you some extra good.
   sounds: 
   music: 16
   ambience: 18

@@ -33,6 +33,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Don\u2019t get smart with me, boy. Now go on and find the unlucky
+    punk who gets to have a zombie chasing them down."
   sounds: 
   music: 16
   ambience: 17

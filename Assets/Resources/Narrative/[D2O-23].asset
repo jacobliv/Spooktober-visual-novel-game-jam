@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "The first door, <b>Apartment #518</b>, doesn\u2019t have anything
+    too special about it. A pretty generic welcome mat, a fake potted plant, and
+    a skeletal wreath hanging from the door, most likely only there for the holidays."
   sounds: 
   music: 16
   ambience: 19

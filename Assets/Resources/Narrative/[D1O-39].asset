@@ -31,6 +31,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "So be careful these next three days. If you push your body too
+    hard then you won\u2019t even make it to Halloween. Without your soul, your body
+    is going to start hunting for brains and the zombie apocalypse isn\u2019t scheduled
+    for another century."
   sounds: 
   music: 16
   ambience: 17

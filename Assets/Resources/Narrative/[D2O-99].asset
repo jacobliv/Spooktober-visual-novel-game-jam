@@ -22,7 +22,7 @@ MonoBehaviour:
   unknownCharacter: 0
   characterArt1: 3
   characterArt2: 19
-  characterArt3: 19
+  characterArt3: 18
   dialogueType: 0
   background: 40
   next1:
@@ -33,6 +33,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Just\u2026take some time to relax at least."
   sounds: 
   music: 19
   ambience: 19

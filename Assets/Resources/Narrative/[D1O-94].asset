@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I\u2019m sorry, next time I\u2019ll make sure I poof in a glorious
+    display of hellfire and the screams of the damned."
   sounds: 
   music: 16
   ambience: 17

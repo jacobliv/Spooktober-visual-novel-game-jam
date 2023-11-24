@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "No, don\u2019t take it now! You already delivered it. Just give
+    me a refund already. It\u2019s the least you can do."
   sounds: 
   music: 16
   ambience: 19

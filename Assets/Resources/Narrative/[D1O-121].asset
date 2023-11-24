@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Oh! I\u2019m sorry I didn\u2019t mean-- it\u2019s just I don\u2019t
+    know many people who just decide to fall asleep next to their car. What were
+    you doing asleep anyway?"
   sounds: 
   music: 16
   ambience: 17

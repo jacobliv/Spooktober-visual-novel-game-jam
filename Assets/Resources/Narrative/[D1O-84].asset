@@ -33,6 +33,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: The next few hours had me looking at the rest of my day as a stopwatch,
+    and I was counting down the minutes until I could take my break and head over
+    to Woodsboro Apartments.
   sounds: 
   music: 16
   ambience: 17

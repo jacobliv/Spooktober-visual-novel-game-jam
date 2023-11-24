@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: ad39886679a69cf428668ec01ff806d5, type: 2}
     shortenedLine: Apartment #519
     value: 0
+  narrationText: <i>Classy.</i>
   sounds: 
   music: 16
   ambience: 19

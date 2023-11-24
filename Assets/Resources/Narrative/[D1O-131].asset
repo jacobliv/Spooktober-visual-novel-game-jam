@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Without a second thought, I shove the pizza box into Leah\u2019s
+    hands and dashed to the stairs."
   sounds: 
   music: 16
   ambience: 17

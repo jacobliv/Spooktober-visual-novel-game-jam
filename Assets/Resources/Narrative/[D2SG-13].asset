@@ -32,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I found out who the killer was. I busted down her door but she
+    wasn\u2019t home. I\u2019m\u2026 I\u2019m not sure I\u2019m all the way here."
   sounds: 
   music: 19
   ambience: 19

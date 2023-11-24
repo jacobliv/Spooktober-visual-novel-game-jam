@@ -32,6 +32,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Good? What\u2019s good? You\u2019re not making any sense? Talking
+    about something is good? The only thing good is how you\u2019re still going to
+    give me a refund! Talking about something good\u2026 You should be talking about
+    the greater good!"
   sounds: 
   music: 19
   ambience: 19

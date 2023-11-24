@@ -30,6 +30,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'Once back in the car, I drive right out of the apartments without
+    even buckling myself up. My vision is blurring, my adrenaline waning, and my
+    body is stiffening and locking up so much it feels like even a twitch from me
+    will break my skin like a fortune cookie. '
   sounds: 
   music: 19
   ambience: 19

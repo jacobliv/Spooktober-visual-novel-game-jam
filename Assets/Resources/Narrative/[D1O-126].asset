@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'From my pocket, the stopwatch on my phone plays the opening notes
+    of Danse Macabre. '
   sounds: 
   music: 16
   ambience: 17

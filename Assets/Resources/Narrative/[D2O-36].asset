@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "And sometimes they\u2019re not even wrong! She just wants a free
+    pizza."
   sounds: 
   music: 16
   ambience: 19

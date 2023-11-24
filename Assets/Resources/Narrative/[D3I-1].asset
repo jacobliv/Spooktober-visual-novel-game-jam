@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: For one last time, Spooky Grimmother blows a puff of skulled shaped
+    smoke into my face and the world around me fades like wind dispersing a fog.
   sounds: 
   music: 16
   ambience: 19

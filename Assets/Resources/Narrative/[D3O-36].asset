@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "That is untrue! I\u2019ve had several orders that looked exactly
+    like they did in the pictures, and I had every right to seek out the refund I
+    rightfully deserved!"
   sounds: 
   music: 14
   ambience: 19

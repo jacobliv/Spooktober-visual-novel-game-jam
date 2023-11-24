@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Sp-Spooky\u2026 Gri-Grimmother\u2026"
   sounds: 00000000
   music: 19
   ambience: 19

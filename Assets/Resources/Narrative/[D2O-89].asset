@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I throw myself up and make way for the door.
   sounds: 
   music: 14
   ambience: 19

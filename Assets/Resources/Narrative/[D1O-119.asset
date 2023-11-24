@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: With the little time I do have on my hands, I like to make the most
+    of it.
   sounds: 
   music: 16
   ambience: 17

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: '[D2O-13]'
   m_EditorClassIdentifier: 
   id: '[D2O-13]'
-  line: <i>And just like that, she's gone. Even when she pulls at my nerves, I already
-    miss her. I have to admit its nice to have someone who is in your corner during
-    what is quite literally the worst week of your life.</i>
+  line: <i>And just like that, she was gone. Even though she pulled at my nerves,
+    I already missed her. As the only person who really understood what was happening
+    to me, she made doing what I had to actually feel worth something.</i>
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -32,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Now go on out there and do some detective work. I\u2019m rooting
+    for ya!"
   sounds: 00000000
   music: 16
   ambience: 19

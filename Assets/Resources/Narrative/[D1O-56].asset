@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Our laughs fill the restaurant as we make our way behind the register.
   sounds: 
   music: 16
   ambience: 18

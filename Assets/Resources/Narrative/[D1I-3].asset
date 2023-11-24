@@ -33,6 +33,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Before I can whip my head towards the counter, a pair of arms wrap
+    tightly around my shoulders and pull me into a bear hug. My arms nearly pop out
+    of their sockets along with my eyes before Iggy, my shift partner, lets me go
+    and punches my chest.
   sounds: 
   music: 16
   ambience: 18

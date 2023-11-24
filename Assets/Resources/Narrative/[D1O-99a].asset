@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: 535c7dcec9b8b824fbe483b1972a1520, type: 2}
     shortenedLine: L. Cloverfield
     value: 0
+  narrationText: "Only two L.C.\u2019s? L. Coner and L. Cloverfield. I\u2019ll have
+    to make a guess here."
   sounds: 
   music: 16
   ambience: 17

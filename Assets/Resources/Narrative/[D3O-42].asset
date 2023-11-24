@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I tried contacting your manager but that young lady, Iggyanda or
+    whatever, said that they were out. I\u2019ve been a customer for <b>NINETEEN</b>
+    years and I expected better customer service."
   sounds: 
   music: 14
   ambience: 19

@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "A kind-hearted old lady with a smile on her face and quarters jingling
+    in her pocket walks up to the counter. I\u2019m already smiling before I realize
+    who it is."
   sounds: 
   music: 16
   ambience: 18

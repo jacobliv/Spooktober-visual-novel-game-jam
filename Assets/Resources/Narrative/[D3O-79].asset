@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Drool pools down from my face. Akilla\u2019s so loud."
   sounds: 
   music: 14
   ambience: 19

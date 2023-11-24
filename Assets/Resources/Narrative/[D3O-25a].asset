@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: 51dad225d9b2f3542b5bccd9b3f9f60e, type: 2}
     shortenedLine: Kick it back down!
     value: 0
+  narrationText: "I stomp down the hallway and find my way to Akilla\u2019s door.
+    She already seems to have her door back on the hinges."
   sounds: 
   music: 14
   ambience: 19

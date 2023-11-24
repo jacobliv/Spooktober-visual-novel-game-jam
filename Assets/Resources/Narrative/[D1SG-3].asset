@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Hellooooooo darling~!
   sounds: 
   music: 13
   ambience: 17

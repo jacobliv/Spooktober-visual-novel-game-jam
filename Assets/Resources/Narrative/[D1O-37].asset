@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Well look at you go, Sherlock.
   sounds: 
   music: 16
   ambience: 17

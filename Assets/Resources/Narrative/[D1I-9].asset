@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I\u2019m not dodging, I\u2019m not dodging. I\u2019m still trying
+    to figure out what happened to me. The last few weeks are kind of a blur, and
+    definitely not in a fun way."
   sounds: 
   music: 16
   ambience: 18

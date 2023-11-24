@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: And then I hear it. The twisting of the top lock and the slight
+    jiggle of a handle. My foot rises off the ground and smashes into the door before
+    she could open it.
   sounds: 
   music: 14
   ambience: 19

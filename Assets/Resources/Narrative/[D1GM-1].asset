@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'Like gravel sliding down a chalkboard, a voice pushes past the
+    static. '
   sounds: 
   music: 16
   ambience: 17

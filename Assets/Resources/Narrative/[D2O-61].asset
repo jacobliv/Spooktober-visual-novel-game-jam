@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Gotchu, bitch.
   sounds: 
   music: 19
   ambience: 19

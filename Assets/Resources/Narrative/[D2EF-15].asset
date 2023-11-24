@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "She\u2019s a real piece of work. I had my headphones in as soon
+    as I heard her starting to raise her voice. Not the first time she\u2019s gotten
+    pissy about a wrong order."
   sounds: 
   music: 16
   ambience: 19

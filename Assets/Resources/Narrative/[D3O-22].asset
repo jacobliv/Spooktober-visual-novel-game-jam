@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Many things happen at once. My airbag goes off as shattered glass
+    send a thousand cuts along my clothes and skin. An eye pops out, but I push it
+    back in just as quickly. I've never been more happy to be dead already.
   sounds: 
   music: 14
   ambience: 19

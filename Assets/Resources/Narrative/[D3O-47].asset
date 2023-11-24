@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I press my ear against the door as quietly as I can. And now I
+    wait. This woman had me running all through these hallways and I\u2019m not going
+    to kick down her door again if she isn\u2019t there."
   sounds: 
-  music: 14
+  music: 16
   ambience: 19

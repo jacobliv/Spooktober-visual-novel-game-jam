@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: 57fa1856665d6954e9bd60290aacce74, type: 2}
     shortenedLine: I gotta go!
     value: 0
+  narrationText: <i>An idea pops into my head. I feel as if I have to thank her for
+    her help in some way.</i>
   sounds: 
   music: 16
   ambience: 17

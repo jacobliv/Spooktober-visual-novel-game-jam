@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: '[D2EF-6]'
   m_EditorClassIdentifier: 
   id: '[D2EF-6]'
-  line: They nod and scratch their cheek seemingly lost in thought.
+  line: They nodded and scratched their cheek while they looked lost in thought.
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Could I just stick to calling you Edie? I\u2019m Omar by the way."
   sounds: 
   music: 16
   ambience: 19

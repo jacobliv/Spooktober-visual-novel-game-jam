@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "The man\u2019s eyes widen as he catches my rather alarmed expression."
   sounds: 
   music: 16
   ambience: 19

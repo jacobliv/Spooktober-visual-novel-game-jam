@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: '[D2O-25]'
   m_EditorClassIdentifier: 
   id: '[D2O-25]'
-  line: "Uh, hello? My name\u2019s Omar and I deliver pizzas from The 13th Pizza. "
+  line: "Oh! uh, my name\u2019s Omar and I deliver pizzas from The 13th Pizza. "
   day: 2
   character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
   unknownCharacter: 0
@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: The first door held my attention and received my first knock.
   sounds: 
   music: 16
   ambience: 19

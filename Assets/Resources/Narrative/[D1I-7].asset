@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'He sniffs the air and twitches his nose to hold back his disgust. '
   sounds: 
   music: 16
   ambience: 18

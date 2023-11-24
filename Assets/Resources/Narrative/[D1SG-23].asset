@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "H-Hey! Don\u2019t act like that. Zombification isn\u2019t all bad.
+    Most people don\u2019t get the chance to find out who whacked them, but you do!"
   sounds: 
   music: 16
   ambience: 17

@@ -32,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Mason points to a door across from him. Edie seems equally annoyed
+    by the memory.
   sounds: 
   music: 16
   ambience: 19

@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: The Woodsboro Apartments? The place where security never sleeps?
   sounds: 
   music: 16
   ambience: 18

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: '[D2O-4]'
   m_EditorClassIdentifier: 
   id: '[D2O-4]'
-  line: Besides, it's comforting, okay? It helps me focus, and I need a clear head
-    today. Tomorrow is all I have left.
+  line: "Besides, It reminds me that I\u2019m still alive and helps me focus. I\u2019m
+    gonna need it to make the most of today. Tomorrow\u2019s my last chance."
   day: 2
   character: {fileID: 11400000, guid: 69bdde9541f1f8844a4ad6fac19e5b93, type: 2}
   unknownCharacter: 0
@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I don\u2019t need to breathe anymore, but other people still do!"
   sounds: 
   music: 16
   ambience: 19

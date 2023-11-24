@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I haul myself up and grab for my leg discarded on the step and jam
+    it back into place. It does exactly what I expect it to as I feel I am able to
+    move it again.
   sounds: 
   music: 14
   ambience: 19

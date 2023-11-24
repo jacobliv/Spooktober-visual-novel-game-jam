@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "This time I didn't scream. I stare into the mirror and trace the
+    shape of my cheeks. With one of my nails, I scratch at my face to see if I could
+    feel anything. There wasn\u2019t even an ache."
   sounds: 
   music: 16
   ambience: 17

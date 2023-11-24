@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'I tighten my seatbelt, grit my teeth, and slam my foot on the gas. '
   sounds: 02000000
   music: 14
   ambience: 19

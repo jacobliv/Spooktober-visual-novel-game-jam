@@ -32,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I forget her name so I won\u2019t have to remember all the shit
+    she\u2019s pulled."
   sounds: 
   music: 16
   ambience: 19

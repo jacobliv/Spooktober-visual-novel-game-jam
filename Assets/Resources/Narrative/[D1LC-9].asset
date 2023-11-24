@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Oh, that\u2019s really neat. What\u2019s your favorite zombie movie?"
   sounds: 
   music: 16
   ambience: 17

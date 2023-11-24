@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "All that time and all that effort just to let it all go. It doesn\u2019t
+    make sense, but at the same time I don\u2019t feel any regret. I do my best to
+    make a smile."
   sounds: 
   music: 19
   ambience: 19

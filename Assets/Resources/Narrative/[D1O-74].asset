@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Thanks for the concern, ma\u2019am. Trust me, I\u2019ll be fine!"
   sounds: 
   music: 16
   ambience: 18

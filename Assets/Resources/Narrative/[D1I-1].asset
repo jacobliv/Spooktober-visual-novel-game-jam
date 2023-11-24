@@ -31,6 +31,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "This grease trap is the infamous 13th attempt at a pizzeria by
+    the owner, Charles Ray Lee. The guy had bad luck with running food establishments,
+    but he wouldn\u2019t let his pie-filled dream die. A real shame for everyone
+    he hired."
   sounds: 
   music: 16
   ambience: 18

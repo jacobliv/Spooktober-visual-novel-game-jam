@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: '[D2O-18]'
   m_EditorClassIdentifier: 
   id: '[D2O-18]'
-  line: I move away from the railing before something jerks me back. Looking down,
-    I see my hand still gripping onto the metal. My grip on it doesn't get any weaker
-    as I try to pry it off.
+  line: "I step away from the railing and I roughly stop in my tracks. I look down
+    and notice my hand is still gripping the railing. I move my hand, but my grip
+    doesn\u2019t lessen."
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -32,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Whatever that was about wasn\u2019t something I wanted to touch
+    just yet. I\u2019ll leave the spooky stuff to my Grimmother."
   sounds: 
   music: 16
   ambience: 19

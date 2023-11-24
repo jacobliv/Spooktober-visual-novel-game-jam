@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "She\u2019s on your head, Mar-Mar."
   sounds: 
   music: 16
   ambience: 18

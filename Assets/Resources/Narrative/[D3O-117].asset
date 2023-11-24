@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Iggy stares, and Ms. Gin looks around to no avail.
   sounds: 
   music: 16
   ambience: 19

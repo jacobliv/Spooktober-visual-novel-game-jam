@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: '[D2O-15]'
   m_EditorClassIdentifier: 
   id: '[D2O-15]'
-  line: Memories of the voice retreats from my mind as I reach the third floor. I
-    shake my head to try to get the shrill shrieking out. Whoever's voice that is
-    has some serious attitude.
+  line: Memories of the voice retreated from my mind as I reached the third floor,
+    and I was left shaking my head to try to get the high-pitched screech of that
+    person out of my head. It was a woman definitely and one with a serious attitude.
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: HOW DARE YOU?!
   sounds: 
   music: 16
   ambience: 19

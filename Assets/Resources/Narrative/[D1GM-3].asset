@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Well, sir, I have a blanket here that has the initials L.C. on
+    it and I\u2019m just trying to return it."
   sounds: 
   music: 16
   ambience: 17

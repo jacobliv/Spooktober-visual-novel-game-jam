@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Everyone knows the actual food doesn\u2019t look like the advertisements! "
   sounds: 
   music: 14
   ambience: 19

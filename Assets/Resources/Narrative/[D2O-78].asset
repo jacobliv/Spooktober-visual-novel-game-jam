@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I will my body to move, my body feels like cinderblocks tied to
+    my feet. Left, right, left, right. I repeat it over and over as if it is a mantra
+    in attempt to convince my body to keep moving.
   sounds: 
   music: 14
   ambience: 19

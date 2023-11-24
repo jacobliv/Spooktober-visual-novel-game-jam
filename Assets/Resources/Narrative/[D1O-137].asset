@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: <i>I ended up sleeping in my car last night and just drove back
+    to work as soon as I woke up. Figured it was better to not explain my new living
+    situation to my parents and tell them about Spooky Grimmother.</i>
   sounds: 
   music: 16
   ambience: 17

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "You can tell how far along you are by how hard it\u2019ll be for
+    you to move. It\u2019s your body\u2019s way of telling you to ease up."
   sounds: 
   music: 16
   ambience: 17

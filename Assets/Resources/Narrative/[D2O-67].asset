@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: The sound of doors opening in the hallway snaps me back as I feel
+    sensation come back to my body.
   sounds: 
   music: 19
   ambience: 19

@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I\u2019m ignoring you now."
   sounds: 
   music: 16
   ambience: 17

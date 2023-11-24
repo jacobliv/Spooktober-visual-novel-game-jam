@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "That\u2019s some hangover, man. If you drank as much as I thought,
+    I\u2019m surprised you\u2019re still standing. Did something happen with your
+    parents? You need to crash with me again?"
   sounds: 
   music: 16
   ambience: 18

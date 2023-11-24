@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "You really have the <b>AUDACITY</b>, the <b>GALL</b>, the <b>ABSOLUTE
+    NERVE</b> to ask me to forgive you after <b>YOU DON\u2019T EVEN REMEMBER MY NAME!</b>"
   sounds: 
   music: 14
   ambience: 19

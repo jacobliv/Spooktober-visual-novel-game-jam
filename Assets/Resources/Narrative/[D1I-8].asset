@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I missed you too, Ig. Really appreciate the warm welcome.
   sounds: 
   music: 16
   ambience: 18

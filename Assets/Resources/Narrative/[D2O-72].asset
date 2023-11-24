@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "<i>No, no, no\u2026 This is not how this is supposed to go!</i>"
   sounds: 
   music: 14
   ambience: 19

@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "<i>Iggy seemed more at ease since I was back to take some of the
+    workload off of him. I didn\u2019t have the heart to tell him that after tomorrow
+    he probably wouldn\u2019t see me again.</i>"
   sounds: 
   music: 16
   ambience: 17

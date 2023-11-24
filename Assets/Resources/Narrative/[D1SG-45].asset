@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "You gonna let me go now, or is there more to tell about this seemingly
+    shit second chance at life you\u2019ve given me?"
   sounds: 
   music: 16
   ambience: 17

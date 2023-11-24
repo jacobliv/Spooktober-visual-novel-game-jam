@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "You\u2019re totally fine uh\u2026 Sorry, I\u2019m not really sure
+    to say ma\u2019am or sir. What\u2019s your preference?"
   sounds: 
   music: 16
   ambience: 19

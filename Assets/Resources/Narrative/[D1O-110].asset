@@ -30,6 +30,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: After the intercom buzzes, the gears in the gate whirl, and eventually
+    open enough for me to pass through, I end up finding her apartment once I scale
+    the stairs to the second floor. With my pizza in one hand and the blanket in
+    the other, I give the door a few soft knocks.
   sounds: 
   music: 16
   ambience: 17

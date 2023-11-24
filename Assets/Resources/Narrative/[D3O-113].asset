@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I chuckle until my eyes get heavy. I\u2019m not sure if it\u2019s
+    exhaustion or happiness, and I\u2019m pretty sure neither is Spooky Grimmother."
   sounds: 
   music: 16
   ambience: 19

@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I get comfortable by leaning against the doorframe as Leah reaches
+    behind her door to show me more things she\u2019s made by hand. Gloves, sweaters,
+    and even some skull caps come and go from view before she shrugs."
   sounds: 
   music: 16
   ambience: 17

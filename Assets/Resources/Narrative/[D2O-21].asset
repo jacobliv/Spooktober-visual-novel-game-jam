@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: '[D2O-21]'
   m_EditorClassIdentifier: 
   id: '[D2O-21]'
-  line: "After a few more strides toward the doors, probably right above Leah\u2019s,
-    I look at the two doors in front of me. "
+  line: "After a few more strides toward the doors, which I guessed were right above
+    Leah\u2019s, I looked at the two doors in front of me."
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Gotta be nerves\u2026"
   sounds: 
   music: 16
   ambience: 19

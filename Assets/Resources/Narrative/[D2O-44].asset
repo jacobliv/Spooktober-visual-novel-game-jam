@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I didn\u2019t order anything. I told Kyle to stop sending pizzas
+    to my door as a prank--"
   sounds: 
   music: 16
   ambience: 19

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I don\u2019t know if I believe you, but I\u2019ll play along cuz
+    we\u2019re bros. Just remember you owe me."
   sounds: 
   music: 16
   ambience: 18

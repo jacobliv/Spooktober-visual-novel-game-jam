@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: She pinches my cheeks and something that looks like dust clings
+    to her fingertips. She cringes at the sight and dusts her hand on her dress.
   sounds: 
   music: 13
   ambience: 17

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Sorry, hun. I\u2019ve spent too much time in the Underworld. I
+    haven\u2019t had a case like yours in ages."
   sounds: 
   music: 13
   ambience: 17

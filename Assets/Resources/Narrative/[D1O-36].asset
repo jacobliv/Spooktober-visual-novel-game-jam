@@ -33,6 +33,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Have a little more faith, Spooky G. It wouldn\u2019t make sense
+    for me to spend all day knocking on apartment doors and asking people if they
+    killed me. I gotta work smarter, not harder."
   sounds: 
   music: 16
   ambience: 17

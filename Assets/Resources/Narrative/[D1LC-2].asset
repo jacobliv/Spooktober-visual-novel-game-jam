@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Uh, hi! I\u2019m Omar. I\u2019m with The 13th Pizza. I think I
+    have your blanket. It\u2019s blue and it has your initials on it."
   sounds: 
   music: 16
   ambience: 17

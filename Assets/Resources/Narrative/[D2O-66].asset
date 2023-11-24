@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'My feet, now moving less organized, led me into the apartment as
+    my nose sniffed the air for the scent of the iron within a beating heart. I only
+    feel fear. My body feels as if it is not my own. '
   sounds: 
   music: 19
   ambience: 19

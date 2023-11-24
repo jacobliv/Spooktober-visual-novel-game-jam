@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Well if that isn\u2019t a stressful situation then I don\u2019t
+    know what is. At least you know who she is, but don\u2019t be so reckless next
+    time. Rigor mortis is not a joke, Omar."
   sounds: 
   music: 19
   ambience: 19

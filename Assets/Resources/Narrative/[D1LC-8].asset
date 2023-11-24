@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Pleasure to finally meet you. Er, sorry if I\u2019m interrupting
+    your evening."
   sounds: 
   music: 16
   ambience: 17

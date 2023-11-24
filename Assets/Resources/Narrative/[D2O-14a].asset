@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: '[D2O-14a]'
   line: <i>I wish I felt the same about these damn stairs. Besides just the physical
-    work, memories of my past creep back into my head like a couple of slugs. Flashes
+    work, memories of my past crept back into my head like a couple of slugs. Flashes
     of my feet running down these same stairs sped past my focus along with a pair
-    of distorted voices that feel familiar.</i>
+    of distorted voices that felt familiar.</i>
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -33,6 +33,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: 3c76f7f2729af024289b8fbc9d22a0d7, type: 2}
     shortenedLine: Ignore the Voices
     value: 0
+  narrationText: <i>I wish I felt the same about these damn stairs. Besides just
+    the physical work, memories of my past crept back into my head like a couple
+    of slugs. Flashes of my feet running down these same stairs sped past my focus
+    along with a pair of distorted voices that felt familiar.</i>
   sounds: 
   music: 16
   ambience: 19

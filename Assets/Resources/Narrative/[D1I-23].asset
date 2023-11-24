@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Sorry, Omar. I just feel like something is different about you.
+    Are you doing something different with your hair?
   sounds: 
   music: 16
   ambience: 18

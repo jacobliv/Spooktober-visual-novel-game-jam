@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "<i>Can\u2019t resist any door with a doormat as cool as this one.</i>"
   sounds: 
   music: 16
   ambience: 19

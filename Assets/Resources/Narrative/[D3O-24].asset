@@ -31,6 +31,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: My legs have a mind of its own as I jump high enough to grab the
+    top of the gate and haul myself over. The leg of my pants gets caught in the
+    spikes at the top but I ignore it. It shreds my pants up but not enough for me
+    to care.
   sounds: 
   music: 14
   ambience: 19

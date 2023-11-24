@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Both Edie and I turned our attention to Apartment #519. A tall and
+    looming figure leans against the doorframe brandishing a knife with-- is that
+    blood?
   sounds: 
   music: 16
   ambience: 19

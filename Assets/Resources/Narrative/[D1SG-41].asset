@@ -33,6 +33,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: In other words, hun, your body has a mind of its own now. If you
+    over-exert it by running a marathon, trying to lift up a car, or anything else
+    along those lines then your body is going to call it quits and kick out your
+    soul.
   sounds: 
   music: 16
   ambience: 17

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'I push myself up from the ground in an attempt to hop away with
+    my leg discarded on the step. '
   sounds: 00000000
   music: 14
   ambience: 19

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I put my hand over my heart to catch my breath but all I feel is
+    cold. No pulse. I couldn\u2019t even feel my lungs expand. I wasn\u2019t breathing."
   sounds: 
   music: 16
   ambience: 17

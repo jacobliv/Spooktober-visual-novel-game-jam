@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Hey Leah, it\u2019s Omar. Could you let me in?"
   sounds: 
   music: 16
   ambience: 19

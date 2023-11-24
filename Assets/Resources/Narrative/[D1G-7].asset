@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Just as I slide her over an empty small cup the eighty-five cents
+    in her pocket are already on the counter.
   sounds: 
   music: 16
   ambience: 18

@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I\u2019m trying to remember\u2026"
   sounds: 
   music: 16
   ambience: 19

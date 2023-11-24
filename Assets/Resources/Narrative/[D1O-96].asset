@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Alright, Ms. Gin said this was the last place I was heading to
+    make a delivery. I\u2019m betting the killer lives in this apartment complex.
+    Since I only have this blanket, I might as well make it worth it."
   sounds: 
   music: 16
   ambience: 17

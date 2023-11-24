@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: '[D2C2-1]'
   m_EditorClassIdentifier: 
   id: '[D2C2-1]'
-  line: Despite the plain appearance, I decide to give the first door a knock. Shuffling
-    comes from inside then silence.
+  line: The first door held my attention and received my first knock.
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -31,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 
   sounds: 
   music: 16
   ambience: 19

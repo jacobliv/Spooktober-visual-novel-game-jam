@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Obviously you can\u2019t just keep eating it if it\u2019s still
+    a little frozen, so you just throw them back into the--"
   sounds: 
   music: 16
   ambience: 17

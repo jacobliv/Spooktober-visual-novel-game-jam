@@ -32,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Everyone\u2019s heard about it. I figured it might\u2019ve been
+    you, but what made you think it was okay to kick down that lady's door, dude?"
   sounds: 
   music: 16
   ambience: 19

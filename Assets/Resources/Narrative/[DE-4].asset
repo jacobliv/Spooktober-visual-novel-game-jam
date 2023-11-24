@@ -33,6 +33,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "You\u2019re about halfway between a regular human and a brain-crazed
+    cannibalistic corpse, and the only thing keeping you from going full zombie is
+    your body."
   sounds: 
   music: 19
   ambience: 19

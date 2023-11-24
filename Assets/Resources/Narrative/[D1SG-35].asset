@@ -30,6 +30,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I figure my manager must keep receipts of any orders made online
+    just in case we get complaints or mess up the pizzas. If I can compare the day
+    I was killed with the last order I delivered then I\u2019ll also have the address
+    of the person who killed me."
   sounds: 
   music: 16
   ambience: 17

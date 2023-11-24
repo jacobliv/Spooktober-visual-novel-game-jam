@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I was just killed and left for dead covered in pizza sauce, and
+    she gets to keep on living, happily, getting her refunds, never tipping.
   sounds: 
   music: 14
   ambience: 19

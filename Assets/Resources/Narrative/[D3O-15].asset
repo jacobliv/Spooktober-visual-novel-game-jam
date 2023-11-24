@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I sucked in my teeth and looked away from the intercom.
   sounds: 
   music: 16
   ambience: 19

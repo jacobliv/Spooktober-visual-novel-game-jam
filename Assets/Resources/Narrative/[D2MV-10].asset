@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: He steps back inside. The clack of metal against metal rings out
+    as if he'd placed something down.
   sounds: 
   music: 16
   ambience: 19

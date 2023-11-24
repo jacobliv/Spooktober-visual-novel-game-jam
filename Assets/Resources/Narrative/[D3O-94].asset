@@ -31,6 +31,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: A few hours later, as the tenants of the Woodsboro Apartment rise
+    from their beds and open their doors to go out into the world, the few who call
+    Akilla a neighbor see her door creaking as the morning breeze travels into her
+    apartment and carries the scent of blood into the noses of everyone nearby.
   sounds: 
   music: 15
   ambience: 19

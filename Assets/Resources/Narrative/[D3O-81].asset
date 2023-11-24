@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Y-you fell on purpose. I know you did! You must have done it so
+    you could get out of giving me my refund. I\u2019ve never seen anyone so committed
+    to getting out of their responsibilities, but I hold everyone accountable, buddy!"
   sounds: 
   music: 14
   ambience: 19

@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Three weeks?! I\u2019ve been gone for three weeks?!"
   sounds: 
   music: 16
   ambience: 18

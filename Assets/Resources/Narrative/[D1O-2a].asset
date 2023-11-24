@@ -31,6 +31,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: <i> The pay's good! What could go wrong Omar? </i>
   sounds: 
   music: 19
   ambience: 17

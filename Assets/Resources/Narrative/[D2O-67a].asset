@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 11400000, guid: ae791d5f346825043a3c5df48c7e2093, type: 2}
     shortenedLine: Run!
     value: 0
+  narrationText: "What\u2019s going on in here!?"
   sounds: 
   music: 19
   ambience: 19

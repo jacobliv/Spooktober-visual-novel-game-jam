@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "My fingers glided over the intercom registry until I reached Leah\u2019s
+    name. One click and buzz later, her voice comes through."
   sounds: 
   music: 16
   ambience: 19

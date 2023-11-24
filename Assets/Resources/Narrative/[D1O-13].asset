@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "She holds it up to where I can see it. Something that could\u2019ve
+    been me stares back from the mirror, startling me, and makes me trip over my
+    own feet to get away from it."
   sounds: 
   music: 16
   ambience: 17

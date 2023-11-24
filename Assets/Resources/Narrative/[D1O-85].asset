@@ -31,6 +31,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I had told Iggy that I\u2019d be taking a break at my usual spot
+    before I left, and, as usual, he handed me a 10-inch slasher special pizza. They\u2019re
+    sweet. It\u2019s usually a pizza I\u2019d get to eat on break if I was in the
+    mood for one."
   sounds: 
   music: 16
   ambience: 17

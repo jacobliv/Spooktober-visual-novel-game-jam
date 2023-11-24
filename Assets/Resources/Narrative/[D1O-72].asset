@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I chuckle awkwardly. It doesn\u2019t seem like a good idea to tell
+    her I\u2019ve just been dead for three weeks."
   sounds: 
   music: 16
   ambience: 18

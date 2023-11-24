@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Well, I was planning to order pizza anyway, but I\u2019m not sure
+    if that\u2019s a good idea. The apartment watch is saying that we shouldn\u2019t
+    be letting in any more pizza delivery guys after what happened last night."
   sounds: 
   music: 16
   ambience: 19

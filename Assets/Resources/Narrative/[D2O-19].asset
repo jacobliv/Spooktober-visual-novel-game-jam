@@ -31,6 +31,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I step away from the railing and I roughly stop in my tracks. I
+    look down and notice my hand is still gripping the railing. I move my hand, but
+    my grip doesn\u2019t lessen."
   sounds: 
   music: 16
   ambience: 19

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Spooky Grimmother lounges in my passenger seat as she puffs out
+    skull-shaped smoke.
   sounds: 
   music: 19
   ambience: 19

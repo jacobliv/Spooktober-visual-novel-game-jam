@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: Is it so hard for you to tell me the truth?!
   sounds: 
   music: 16
   ambience: 18

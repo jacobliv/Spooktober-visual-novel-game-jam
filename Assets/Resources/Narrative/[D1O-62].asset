@@ -32,6 +32,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Iggy, please. You\u2019ve got to believe me."
   sounds: 
   music: 16
   ambience: 18

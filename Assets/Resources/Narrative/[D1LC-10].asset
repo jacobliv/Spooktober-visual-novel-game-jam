@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: We stand there for a moment, smiling in the silence of a first impression,
+    before I break it like an idiot by shoving her blanket towards her.
   sounds: 
   music: 16
   ambience: 17

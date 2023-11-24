@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I reach into the backseat and grab the mystery blanket I woke up
+    with. Somehow it still feels rather cozy.
   sounds: 
   music: 16
   ambience: 17

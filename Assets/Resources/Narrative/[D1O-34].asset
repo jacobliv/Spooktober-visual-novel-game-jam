@@ -30,6 +30,10 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "A smile bursts onto my face when I see the keys are still in the
+    ignition. Resting the blanket on the passenger seat, I turn the keys until the
+    engine roars to life and then settles into it\u2019s usual sputtering while it's
+    parked."
   sounds: 
   music: 16
   ambience: 17

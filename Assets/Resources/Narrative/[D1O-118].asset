@@ -32,6 +32,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I had knitted it myself! Anything I make always has my initials
+    on it somewhere in case I lose it.
   sounds: 
   music: 16
   ambience: 17

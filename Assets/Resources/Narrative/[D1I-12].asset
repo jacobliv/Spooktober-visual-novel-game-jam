@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Don\u2019t even worry about it. When you didn\u2019t show up for
+    your shift, I volunteered to cover for you until you came back before Charles
+    could even write up the new schedule."
   sounds: 
   music: 16
   ambience: 18

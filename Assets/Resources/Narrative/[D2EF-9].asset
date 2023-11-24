@@ -32,6 +32,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "There was definitely a little scuffle that happened across the
+    hall a while ago. We love The 13th Pizza on this floor, but some of us forget
+    that you guys aren\u2019t just workers who do whatever we say."
   sounds: 
   music: 16
   ambience: 19

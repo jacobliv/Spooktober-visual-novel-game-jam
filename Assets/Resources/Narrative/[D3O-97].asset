@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "<i> I can\u2019t do this.  </i>"
   sounds: 
   music: 19
   ambience: 19

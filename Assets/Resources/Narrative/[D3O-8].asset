@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I\u2019ve got about twelve hours to have a face off with Akilla
+    before my body kicks me out and goes on a zombie-style buffet. I don\u2019t have
+    any time to waste."
   sounds: 
   music: 14
   ambience: 19

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: 'I know every little delivery guy I meet, and none of them looked
+    anything like you. '
   sounds: 
   music: 14
   ambience: 19

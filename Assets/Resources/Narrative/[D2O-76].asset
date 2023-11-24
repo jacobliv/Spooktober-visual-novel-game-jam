@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: I push past the man, every single undead atom in my body screams
+    in unison.
   sounds: 
   music: 14
   ambience: 19

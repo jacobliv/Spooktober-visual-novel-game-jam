@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: '[D2O-35]'
   m_EditorClassIdentifier: 
   id: '[D2O-35]'
-  line: Edie facepalms as their face brightens from realization.
+  line: Edie facepalmed themselves as everything seemed to click in their head.
   day: 2
   character: {fileID: 0}
   unknownCharacter: 0
@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I couldn\u2019t help but be a lil\u2019 nosy. Akilla was the one
+    making a scene on the floor those few weeks back."
   sounds: 
   music: 16
   ambience: 19

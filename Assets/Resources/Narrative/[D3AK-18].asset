@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: My own voice causes me to pause. I feel my body trembling in anticipation,
+    anticipation I fear to place.
   sounds: 
   music: 14
   ambience: 19

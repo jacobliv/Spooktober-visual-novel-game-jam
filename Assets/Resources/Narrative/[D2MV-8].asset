@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: The door clicks and opens and a looming figure steps out from the
+    apartment, he looks down at me brandishing a knife covered in a red blood-like
+    substance.
   sounds: 
   music: 16
   ambience: 19

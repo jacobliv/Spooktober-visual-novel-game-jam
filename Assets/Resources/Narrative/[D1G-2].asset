@@ -30,6 +30,7 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Ms. Gin! How\u2019s my favorite customer?"
   sounds: 
   music: 16
   ambience: 18

@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "Towards the bottom of the blanket, I run my fingers over an embroidered
+    \u201CL.C\u201D."
   sounds: 
   music: 16
   ambience: 17

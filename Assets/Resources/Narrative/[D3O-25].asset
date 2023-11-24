@@ -31,6 +31,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I land on the ground and my knees tense up, I am reminded of Spooky
+    Grimmother\u2019s words, but I give them a wack to snap myself out of it."
   sounds: 
   music: 14
   ambience: 19

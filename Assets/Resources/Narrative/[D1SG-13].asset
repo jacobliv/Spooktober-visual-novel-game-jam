@@ -30,6 +30,8 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: "I\u2019m guessing you don\u2019t recognize the smell of decay on
+    yourself either, huh?"
   sounds: 00000000
   music: 16
   ambience: 17

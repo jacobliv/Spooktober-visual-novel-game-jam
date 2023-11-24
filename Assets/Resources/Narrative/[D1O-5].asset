@@ -30,6 +30,9 @@ MonoBehaviour:
     narrativeItem: {fileID: 0}
     shortenedLine: 
     value: 0
+  narrationText: <i>I don't think I've ever had a headache this bad before. It feels
+    like my brain was tossed into a blender with one too many nails and dumped back
+    into my head after a good five-minute shake.</i>
   sounds: 
   music: 19
   ambience: 17

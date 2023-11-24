@@ -63,14 +63,14 @@ public class ControlBackgroundMusic : MonoBehaviour {
             return;
         }
         
-        EventReference eventReference = EventReference.Find(sound.eventValue);
+        EventReference eventReference = FMODUnity.RuntimeManager.PathToEventReference(sound.eventValue);
         if (!eventReference.Equals(null)) {
-            Debug.Log("About to play: " + eventReference.Path);
+            Debug.Log("About to play: " + sound.eventValue);
             inst.stop(STOP_MODE.ALLOWFADEOUT);
-            inst = RuntimeManager.CreateInstance(eventReference.Path);
+            inst = RuntimeManager.CreateInstance(sound.eventValue);
             inst.start();
             inst.release();
-            soundEvent = eventReference.Path;
+            soundEvent = sound.eventValue;
 
         } else {
             Debug.LogError("Event reference not found for path: " + sound.eventValue);

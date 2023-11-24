@@ -26,6 +26,8 @@ public class NarrationItem : ScriptableObject {
     
     [Tooltip("Next Narrative item 2 - for use for multiple choices")]
     public NextNarrative next2;
+    [Tooltip("Only used when multiple choice is visible")]
+    public string narrationText;
     [Tooltip("Sounds that play in order from the beginning of the narration")]
     public List<Sounds> sounds;
     public Sounds music;

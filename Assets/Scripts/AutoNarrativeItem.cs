@@ -8,7 +8,8 @@ using UnityEngine.SceneManagement;
 public class AutoNarrativeItem : MonoBehaviour {
 
     private Dictionary<string, NarrationItem> _narrationItems = new Dictionary<string, NarrationItem>();
-    public CharacterList characterList;
+    private Dictionary<string, string>        nexts           = new();
+    public  CharacterList                     characterList;
     
     
     [Header("CSV File")]
@@ -164,17 +165,15 @@ public class AutoNarrativeItem : MonoBehaviour {
             }
             if (fields.Length>11 && fields[11] != "" &&_narrationItems.ContainsKey(fields[11]) ) {
                 narrationItem.next2 = new NextNarrative(_narrationItems[fields[11]],fields[12]);
-                switch (narrationItem.day) {
-                    case Day.One:
-                        break;
-                    case Day.Two:
-                        break;
-                    case Day.Three:
-                        break;
-                }
+            }
+            if(narrationItem.next2==null && !nexts.ContainsKey(narrationItem.id) && narrationItem.next1 !=null) {
+                nexts.Add(narrationItem.id,narrationItem.next1.narrativeItem.id);
             }
 
             
+        }
+        foreach (var (current, next) in nexts) {
+            _narrationItems[next].narrationText = _narrationItems[current].line;
         }
         foreach (NarrationItem narrationItem in _narrationItems.Values) {
             AssetDatabase.CreateAsset(narrationItem, "Assets/Resources/Narrative/" + narrationItem.id + ".asset");

@@ -276,7 +276,10 @@ Step Back -  No change*/
         // }
         if(currentNarrativeItem.next1.narrativeItem!=null && currentNarrativeItem.next2.narrativeItem==null) {
             dialogueUI.lineText.text = currentNarrativeItem.line;
-        }   
+        }else if (currentNarrativeItem.next1.narrativeItem != null &&
+                  currentNarrativeItem.next2.narrativeItem != null) {
+            dialogueUI.lineText.text = currentNarrativeItem.narrationText;
+        }
         dialogueUI.animateIn.AnimateText();
         dialogueUI.characterName.text = currentNarrativeItem.character != null
             ? $"{currentNarrativeItem.character.name}"
@@ -294,12 +297,12 @@ Step Back -  No change*/
         foreach (Sounds clip in currentNarrativeItem.sounds) {
             Sound sound = soundList.sounds.Find(s => s.sound.Equals(clip));
             if(sound == null) continue;
-            EventReference eventReference = EventReference.Find($"event:/SFX/{clip.ToString().ToLower()}");
+            // EventReference eventReference = FMODUnity.RuntimeManager.PathToEventReference($"event:/SFX/{clip.ToString().ToLower()}");
             
 
 
             sfx_control.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-            sfx_control = RuntimeManager.CreateInstance(eventReference.Path);
+            sfx_control = RuntimeManager.CreateInstance($"event:/SFX/{clip.ToString().ToLower()}");
             sfx_control.start();
             sfx_control.release();
             

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
 using System.IO;
 using System.Linq;
 using FMOD.Studio;
@@ -21,13 +22,13 @@ public class NarrativeManager : MonoBehaviour {
     #region General
     [Header("General")]
     [SerializeField] public GameObject rigorMortisCanvas;
-    public NarrationItem deadEnd;
-    public SliderManager rigorMortisSlider;
-    public Image         characterImage;
-    public string        startingNarrative;
-    public NarrationItem currentNarrativeItem;
-    public GameObject    creditsCanvas;
-
+    public        NarrationItem    deadEnd;
+    public        SliderManager    rigorMortisSlider;
+    public        Image            characterImage;
+    public        string           startingNarrative;
+    public        NarrationItem    currentNarrativeItem;
+    public        GameObject       creditsCanvas;
+    public static NarrativeManager Instance;
     #endregion
 
     #region Background
@@ -105,6 +106,7 @@ Make it Stop - No change
 Step Back -  No change*/
     
     private void Start() {
+        Instance = this;
         _narrativeHistory = GetComponent<NarrativeHistory>();
         _narrativeHistory.Reset();
         currentNarrativeItem = FindStartNarrative();
@@ -157,6 +159,12 @@ Step Back -  No change*/
         }
         historyManager.Add(currentNarrativeItem.name,(currentNarrativeItem.character !=null?currentNarrativeItem.character.name:
                                currentNarrativeItem.unknownCharacter?"???":""),currentNarrativeItem.line);
+        if (currentNarrativeItem.next1.narrativeItem != null && currentNarrativeItem.next2.narrativeItem != null) {
+            historyManager.Add(currentNarrativeItem.name,
+                               "Choice",
+                               option == 0 ? currentNarrativeItem.next1.shortenedLine : currentNarrativeItem.next2.shortenedLine);
+        }
+
         if (rigorMortisSlider.currentVal >= rigorMortisSlider.totalValue) {
             currentNarrativeItem = deadEnd;
 
@@ -239,7 +247,6 @@ Step Back -  No change*/
         _sfxCoroutine=StartCoroutine(PlaySFXAudioClips());
         ControlBackgroundMusic.instance.ChangeSong(currentNarrativeItem.music);
         ControlBackgroundMusic.instance.ChangeAmbient(currentNarrativeItem.ambience);
-
     }
 
     private void UpdateOnScreenCharacters() {
@@ -331,5 +338,7 @@ Step Back -  No change*/
     }
 
 
-
+    public SaveData GetSaveData() {
+        return new SaveData(currentNarrativeItem, _narrativeHistory.linearHistory, (int)rigorMortisSlider.currentVal);
+    }
 }

@@ -58,5 +58,7 @@ public enum Art{
     Eat_Brains,
     OmarMirror_Item,
     Omar_Cactus,
-    EatBrains_CG
+    EatBrains_CG,
+    Apartment_Stairs,
+    Intercom_Buzzer
 }

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5499931872729587268}
   - component: {fileID: 5499931872729587269}
   - component: {fileID: 8517198470109281039}
+  - component: {fileID: 5499931871845054490}
+  - component: {fileID: 5499931871845054494}
   m_Layer: 0
   m_Name: BackgroundMusic
   m_TagString: Untagged
@@ -46,19 +48,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music:
-  - sound: 11
-    audioClip: {fileID: 8300000, guid: c202d9cca7c5b104ba5fe097760ea163, type: 3}
-    eventValue: 
-  - sound: 12
-    audioClip: {fileID: 8300000, guid: 1b99a0ee83264ba418373e640b250a7e, type: 3}
-    eventValue: 
   - sound: 13
-    audioClip: {fileID: 8300000, guid: 5974fffb561a2254d95fdbf4e468d18b, type: 3}
-    eventValue: 
+    audioClip: {fileID: 8300000, guid: c202d9cca7c5b104ba5fe097760ea163, type: 3}
+    eventValue: event:/Music/music_zpfoureyed120bpm
   - sound: 14
+    audioClip: {fileID: 8300000, guid: 1b99a0ee83264ba418373e640b250a7e, type: 3}
+    eventValue: event:/Music/music_zpstress116bpm
+  - sound: 15
+    audioClip: {fileID: 8300000, guid: 5974fffb561a2254d95fdbf4e468d18b, type: 3}
+    eventValue: event:/Music/music_zpoutofthedark120bpm
+  - sound: 16
     audioClip: {fileID: 8300000, guid: 500a0aaf103dd75438d2b5ab96b20a87, type: 3}
-    eventValue: 
-  ambienceSounds: []
+    eventValue: event:/Music/music_zpbase91bpm
+  ambienceSounds:
+  - sound: 17
+    audioClip: {fileID: 0}
+    eventValue: event:/SFX/nighttime_ambience_nocrickets
 --- !u!114 &8517198470109281039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,3 +76,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cfccbd66579dbd499baab6c3c531aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5499931871845054490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5499931872729587271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1359185009
+      Data2: 1208173667
+      Data3: 261569172
+      Data4: 1783885558
+    Path: event:/Music/music_zpstress116bpm
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &5499931871845054494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5499931872729587271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1180045557
+      Data2: 1249276167
+      Data3: 873095072
+      Data4: -1020596353
+    Path: event:/SFX/nighttime_ambience_nocrickets
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

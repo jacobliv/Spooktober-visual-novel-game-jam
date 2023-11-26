@@ -22,3 +22,4 @@ public class AddAndRemoveHistory : MonoBehaviour {
         Destroy(historyItem);
     }
 }
+

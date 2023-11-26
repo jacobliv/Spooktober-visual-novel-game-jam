@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class AutoScrollToBottom : MonoBehaviour
-{
-    public void Scroll() {
-        // Canvas.ForceUpdateCanvases();
-        //
-        // item.GetComponent<VerticalLayoutGroup>().CalculateLayoutInputVertical() ;
-        // item.GetComponent<ContentSizeFitter>().SetLayoutVertical() ;
-        //
-        // scrollRect.content.GetComponent<VerticalLayoutGroup>().CalculateLayoutInputVertical() ;
-        // scrollRect.content.GetComponent<ContentSizeFitter>().SetLayoutVertical() ;
-        //
-        // scrollRect.verticalNormalizedPosition = 0 ;
+public class AutoScrollToBottom : MonoBehaviour {
+    public ScrollRect scrollRect;
+    public void ScrollToBottom() {
+        StartCoroutine(Scroll());
+    }
+
+    public IEnumerator Scroll() {
+        yield return new WaitForSeconds(.25f);
+        scrollRect.normalizedPosition = new Vector2(0, 0);
+
     }
 }

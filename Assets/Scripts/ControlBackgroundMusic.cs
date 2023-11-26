@@ -25,6 +25,12 @@ public class ControlBackgroundMusic : MonoBehaviour {
         // currentVolume = musicSource.volume;
     }
 
+    private void Start() {
+        Sound sound = music.Find(m=>m.sound.Equals(Sounds.Default_Track));
+
+        PlaySound(sound,ref music_control, ref musicEvent);
+    }
+
     public void ChangeSong(Sounds song) {
         if(song.Equals(Sounds.None)) {
             StopSound(ref music_control,ref musicEvent);
